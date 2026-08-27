@@ -1,4 +1,4 @@
-Form1 = 50, 50, 978, 454, Z, 25, 25, 948, 429, C
-Funciones_API = 0, 0, 0, 0, C
-clsEnum = 0, 0, 0, 0, C
-ScrolldataGrid = 0, 0, 0, 0, C
+Form1 = 56, 49, 1437, 618, C, 26, 26, 1407, 595, C
+Funciones_API = 104, 104, 1578, 612, C
+clsEnum = 104, 104, 1461, 673, C
+Init = 182, 182, 1468, 751, C

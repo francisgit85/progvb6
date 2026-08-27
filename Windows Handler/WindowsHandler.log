@@ -1,0 +1,1495 @@
+2026-06-08 08:51:19 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 08:51:19 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 08:51:19 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 08:51:20 | EjecutarAccion | hwndVentana=2228878, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 08:51:21 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 08:51:21 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 08:51:21 | EjecutarSecuencia_Fin
+2026-06-08 08:51:49 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 08:51:49 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 08:51:49 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 08:51:49 | EjecutarAccion | hwndVentana=2359950, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 08:51:51 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 08:51:51 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 08:51:51 | EjecutarSecuencia_Fin
+2026-06-08 08:55:23 | Form_Load
+2026-06-08 08:55:23 | InicializarArray
+2026-06-08 08:55:23 | ConfigurarFlexGrid
+2026-06-08 08:55:23 | CargarRecientes
+2026-06-08 08:55:23 | AjustarColumnas
+2026-06-08 08:55:26 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:55:26 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:55:26 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:55:26 | CargarEventosDesdeArray | m_Count=4
+2026-06-08 08:55:26 | AjustarColumnas
+2026-06-08 08:55:26 | CargarConfiguracionProyecto
+2026-06-08 08:55:26 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 08:55:26 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 08:55:27 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 08:55:27 | EjecutarAccion | hwndVentana=1378096, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 08:55:28 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 08:55:28 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 08:55:28 | EjecutarSecuencia_Fin
+2026-06-08 08:55:37 | Form_Unload | Cancel=0
+2026-06-08 08:56:33 | Form_Load
+2026-06-08 08:56:33 | InicializarArray
+2026-06-08 08:56:33 | ConfigurarFlexGrid
+2026-06-08 08:56:33 | CargarRecientes
+2026-06-08 08:56:33 | AjustarColumnas
+2026-06-08 08:56:35 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:56:35 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:56:35 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:56:35 | CargarEventosDesdeArray | m_Count=4
+2026-06-08 08:56:35 | AjustarColumnas
+2026-06-08 08:56:35 | CargarConfiguracionProyecto
+2026-06-08 08:56:36 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 08:56:36 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 08:56:36 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 08:56:36 | EjecutarAccion | hwndVentana=2623306, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 08:56:38 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 08:56:38 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 08:56:38 | EjecutarSecuencia_Fin
+2026-06-08 08:56:42 | Form_Unload | Cancel=0
+2026-06-08 08:58:44 | Form_Load
+2026-06-08 08:58:44 | InicializarArray
+2026-06-08 08:58:44 | ConfigurarFlexGrid
+2026-06-08 08:58:44 | CargarRecientes
+2026-06-08 08:58:44 | AjustarColumnas
+2026-06-08 08:58:46 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:58:46 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:58:46 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:58:46 | CargarEventosDesdeArray | m_Count=4
+2026-06-08 08:58:46 | AjustarColumnas
+2026-06-08 08:58:46 | CargarConfiguracionProyecto
+2026-06-08 08:58:47 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 08:58:47 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 08:58:47 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 08:58:47 | EjecutarAccion | hwndVentana=2885284, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 08:58:49 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 08:58:49 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 08:58:49 | EjecutarSecuencia_Fin
+2026-06-08 08:58:56 | Form_Unload | Cancel=0
+2026-06-08 08:59:25 | Form_Load
+2026-06-08 08:59:25 | InicializarArray
+2026-06-08 08:59:25 | ConfigurarFlexGrid
+2026-06-08 08:59:25 | CargarRecientes
+2026-06-08 08:59:25 | AjustarColumnas
+2026-06-08 08:59:27 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:59:27 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:59:27 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 08:59:27 | CargarEventosDesdeArray | m_Count=4
+2026-06-08 08:59:27 | AjustarColumnas
+2026-06-08 08:59:27 | CargarConfiguracionProyecto
+2026-06-08 08:59:28 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 08:59:28 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 08:59:28 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 08:59:28 | EjecutarAccion | hwndVentana=2819704, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 08:59:30 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 08:59:30 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 08:59:30 | EjecutarSecuencia_Fin
+2026-06-08 08:59:38 | Form_Unload | Cancel=0
+2026-06-08 09:00:52 | Form_Load
+2026-06-08 09:00:52 | InicializarArray
+2026-06-08 09:00:52 | ConfigurarFlexGrid
+2026-06-08 09:00:52 | CargarRecientes
+2026-06-08 09:00:52 | AjustarColumnas
+2026-06-08 09:00:54 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-08 09:00:54 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-08 09:00:54 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-08 09:00:54 | CargarEventosDesdeArray | m_Count=5
+2026-06-08 09:00:54 | AjustarColumnas
+2026-06-08 09:00:54 | CargarConfiguracionProyecto
+2026-06-08 09:00:56 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:00:56 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:00:56 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:00:56 | CargarEventosDesdeArray | m_Count=4
+2026-06-08 09:00:56 | AjustarColumnas
+2026-06-08 09:00:56 | CargarConfiguracionProyecto
+2026-06-08 09:00:58 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 09:00:58 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 09:00:58 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 09:00:58 | EjecutarAccion | hwndVentana=1116104, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 09:01:00 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 09:01:00 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 09:01:00 | EjecutarSecuencia_Fin
+2026-06-08 09:01:08 | Form_Unload | Cancel=0
+2026-06-08 09:01:14 | Form_Load
+2026-06-08 09:01:15 | InicializarArray
+2026-06-08 09:01:15 | ConfigurarFlexGrid
+2026-06-08 09:01:15 | CargarRecientes
+2026-06-08 09:01:15 | AjustarColumnas
+2026-06-08 09:01:16 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:01:17 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:01:17 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:01:17 | CargarEventosDesdeArray | m_Count=4
+2026-06-08 09:01:17 | AjustarColumnas
+2026-06-08 09:01:17 | CargarConfiguracionProyecto
+2026-06-08 09:01:18 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 09:01:18 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 09:01:18 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 09:01:18 | EjecutarAccion | hwndVentana=2033208, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 09:01:20 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 09:01:20 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 09:01:20 | EjecutarSecuencia_Fin
+2026-06-08 09:03:50 | Form_Load
+2026-06-08 09:03:50 | InicializarArray
+2026-06-08 09:03:50 | ConfigurarFlexGrid
+2026-06-08 09:03:50 | CargarRecientes
+2026-06-08 09:03:50 | AjustarColumnas
+2026-06-08 09:03:53 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:03:53 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:03:53 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:03:53 | CargarEventosDesdeArray | m_Count=4
+2026-06-08 09:03:53 | AjustarColumnas
+2026-06-08 09:03:53 | CargarConfiguracionProyecto
+2026-06-08 09:03:54 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 09:03:54 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 09:04:01 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 09:04:06 | EjecutarAccion | hwndVentana=1900632, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 09:04:07 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 09:04:07 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 09:04:07 | EjecutarSecuencia_Fin
+2026-06-08 09:04:20 | Form_Unload | Cancel=0
+2026-06-08 09:05:56 | Form_Load
+2026-06-08 09:05:56 | InicializarArray
+2026-06-08 09:05:56 | ConfigurarFlexGrid
+2026-06-08 09:05:56 | CargarRecientes
+2026-06-08 09:05:56 | AjustarColumnas
+2026-06-08 09:05:57 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:05:57 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:05:58 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:05:58 | CargarEventosDesdeArray | m_Count=4
+2026-06-08 09:05:58 | AjustarColumnas
+2026-06-08 09:05:58 | CargarConfiguracionProyecto
+2026-06-08 09:06:01 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 09:06:01 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 09:06:05 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 09:06:05 | EjecutarAccion | hwndVentana=2031704, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 09:06:06 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 09:06:06 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=7
+2026-06-08 09:06:06 | EjecutarAccion | hwndVentana=2031704, Texto=, ModoEnvioTexto=0
+2026-06-08 09:06:06 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 09:06:06 | EjecutarSecuencia_Fin
+2026-06-08 09:06:11 | Form_Unload | Cancel=0
+2026-06-08 09:06:27 | Form_Load
+2026-06-08 09:06:27 | InicializarArray
+2026-06-08 09:06:27 | ConfigurarFlexGrid
+2026-06-08 09:06:27 | CargarRecientes
+2026-06-08 09:06:27 | AjustarColumnas
+2026-06-08 09:06:29 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:06:29 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:06:29 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:06:29 | CargarEventosDesdeArray | m_Count=4
+2026-06-08 09:06:29 | AjustarColumnas
+2026-06-08 09:06:29 | CargarConfiguracionProyecto
+2026-06-08 09:06:30 | EjecutarSecuencia_Inicio | TotalEventos=4
+2026-06-08 09:06:30 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-08 09:06:30 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\cmd.exe, Parametros=
+2026-06-08 09:06:30 | EjecutarAccion | hwndVentana=3606106, Texto=dir *.* "hola", ModoEnvioTexto=1
+2026-06-08 09:06:32 | EjecutarSecuencia_SkipEvento | Evento=2
+2026-06-08 09:06:32 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=7
+2026-06-08 09:06:32 | EjecutarAccion | hwndVentana=3606106, Texto=, ModoEnvioTexto=0
+2026-06-08 09:06:32 | EjecutarSecuencia_SkipEvento | Evento=4
+2026-06-08 09:06:32 | EjecutarSecuencia_Fin
+2026-06-08 09:06:37 | Form_Unload | Cancel=0
+2026-06-08 09:08:52 | Form_Load
+2026-06-08 09:08:52 | InicializarArray
+2026-06-08 09:08:52 | ConfigurarFlexGrid
+2026-06-08 09:08:53 | CargarRecientes
+2026-06-08 09:08:53 | AjustarColumnas
+2026-06-08 09:08:55 | Form_Unload | Cancel=0
+2026-06-08 09:09:05 | Form_Load
+2026-06-08 09:09:05 | InicializarArray
+2026-06-08 09:09:05 | ConfigurarFlexGrid
+2026-06-08 09:09:05 | CargarRecientes
+2026-06-08 09:09:05 | AjustarColumnas
+2026-06-08 09:09:08 | Form_Unload | Cancel=0
+2026-06-08 09:10:01 | Form_Load
+2026-06-08 09:10:01 | InicializarArray
+2026-06-08 09:10:01 | ConfigurarFlexGrid
+2026-06-08 09:10:01 | CargarRecientes
+2026-06-08 09:10:01 | AjustarColumnas
+2026-06-08 09:10:04 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-08 09:10:04 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-08 09:10:04 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-08 09:10:04 | CargarEventosDesdeArray | m_Count=5
+2026-06-08 09:10:04 | AjustarColumnas
+2026-06-08 09:10:04 | CargarConfiguracionProyecto
+2026-06-08 09:10:08 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-08 09:10:08 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-08 09:10:08 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-08 09:10:08 | EjecutarAccion | hwndVentana=2294754, Texto=, ModoEnvioTexto=0
+2026-06-08 09:10:08 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-08 09:10:08 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-08 09:10:09 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-08 09:10:09 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-08 09:10:09 | EjecutarAccion | hwndVentana=2294754, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=1
+2026-06-08 09:10:14 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-08 09:10:14 | EjecutarAccion | hwndVentana=2294754, Texto=, ModoEnvioTexto=0
+2026-06-08 09:10:14 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-08 09:10:14 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-08 09:10:14 | EjecutarAccion | hwndVentana=2294754, Texto=(), ModoEnvioTexto=2
+2026-06-08 09:10:14 | EjecutarSecuencia_Fin
+2026-06-08 09:10:21 | DgEventos_Click | Row=3
+2026-06-08 09:10:21 | MostrarEvento | fila=3
+2026-06-08 09:10:21 | txtTexto_Change | Texto=Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-06-08 09:10:21 | txtCx_Change | Valor=0
+2026-06-08 09:10:22 | TxtCy_Change | Valor=0
+2026-06-08 09:10:22 | OptTexto_Click
+2026-06-08 09:10:22 | ActualizarEvento | nuevoEvento=5
+2026-06-08 09:10:22 | optPulsarTecla_Click
+2026-06-08 09:10:22 | txtIntervaloTecla_Change | Valor=50
+2026-06-08 09:10:26 | Form_Unload | Cancel=0
+2026-06-08 09:11:38 | Form_Load
+2026-06-08 09:11:38 | InicializarArray
+2026-06-08 09:11:38 | ConfigurarFlexGrid
+2026-06-08 09:11:38 | CargarRecientes
+2026-06-08 09:11:38 | AjustarColumnas
+2026-06-08 09:11:40 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:11:40 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:11:40 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-08 09:11:40 | CargarEventosDesdeArray | m_Count=4
+2026-06-08 09:11:40 | AjustarColumnas
+2026-06-08 09:11:40 | CargarConfiguracionProyecto
+2026-06-08 09:11:41 | DgEventos_Click | Row=2
+2026-06-08 09:11:41 | MostrarEvento | fila=2
+2026-06-08 09:11:41 | txtCx_Change | Valor=0
+2026-06-08 09:11:41 | TxtCy_Change | Valor=0
+2026-06-08 09:11:41 | OptTiempoEspera_Click
+2026-06-08 09:11:41 | ActualizarEvento | nuevoEvento=8
+2026-06-08 09:11:41 | txtTiempoEspera_Change | Valor=1
+2026-06-08 09:11:43 | txtEditor_LostFocus
+2026-06-08 09:11:43 | DgEventos_Click | Row=2
+2026-06-08 09:11:43 | MostrarEvento | fila=2
+2026-06-08 09:11:43 | txtTiempoEspera_Change | Valor=3
+2026-06-08 09:11:43 | DgEventos_Click | Row=3
+2026-06-08 09:11:44 | MostrarEvento | fila=3
+2026-06-08 09:11:44 | OptEnter_Click
+2026-06-08 09:11:44 | ActualizarEvento | nuevoEvento=7
+2026-06-08 09:11:44 | txtEditor_LostFocus
+2026-06-08 09:11:44 | txtEditor_LostFocus
+2026-06-08 09:11:44 | DgEventos_Click | Row=2
+2026-06-08 09:11:44 | MostrarEvento | fila=2
+2026-06-08 09:11:44 | OptTiempoEspera_Click
+2026-06-08 09:11:44 | ActualizarEvento | nuevoEvento=8
+2026-06-08 09:11:44 | DgEventos_Click | Row=2
+2026-06-08 09:11:44 | MostrarEvento | fila=2
+2026-06-08 09:11:49 | Form_Unload | Cancel=0
+2026-06-08 09:42:06 | Form_Load
+2026-06-08 09:42:06 | InicializarArray
+2026-06-08 09:42:06 | ConfigurarFlexGrid
+2026-06-08 09:42:06 | CargarRecientes
+2026-06-08 09:42:06 | AjustarColumnas
+2026-06-08 09:42:08 | Form_Unload | Cancel=0
+2026-06-08 09:43:14 | Form_Load
+2026-06-08 09:43:14 | InicializarArray
+2026-06-08 09:43:14 | ConfigurarFlexGrid
+2026-06-08 09:43:14 | CargarRecientes
+2026-06-08 09:43:14 | AjustarColumnas
+2026-06-08 09:43:15 | Form_Unload | Cancel=0
+2026-06-10 10:33:40 | Form_Load
+2026-06-10 10:33:40 | InicializarArray
+2026-06-10 10:33:40 | ConfigurarFlexGrid
+2026-06-10 10:33:40 | CargarRecientes
+2026-06-10 10:33:40 | AjustarColumnas
+2026-06-10 10:33:42 | DgEventos_Click | Row=1
+2026-06-10 10:33:42 | MostrarEvento | fila=1
+2026-06-10 10:33:42 | DgEventos_Click | Row=1
+2026-06-10 10:33:42 | MostrarEvento | fila=1
+2026-06-10 10:33:42 | DgEventos_Click | Row=1
+2026-06-10 10:33:42 | MostrarEvento | fila=1
+2026-06-10 10:33:42 | DgEventos_DblClick | Row=1, Col=2
+2026-06-10 10:33:44 | Form_Unload | Cancel=0
+2026-06-10 10:35:16 | Form_Load
+2026-06-10 10:35:16 | InicializarArray
+2026-06-10 10:35:16 | ConfigurarFlexGrid
+2026-06-10 10:35:17 | CargarRecientes
+2026-06-10 10:35:17 | AjustarColumnas
+2026-06-10 10:35:18 | DgEventos_Click | Row=1
+2026-06-10 10:35:18 | MostrarEvento | fila=1
+2026-06-10 10:35:18 | DgEventos_Click | Row=1
+2026-06-10 10:35:18 | MostrarEvento | fila=1
+2026-06-10 10:35:19 | DgEventos_Click | Row=1
+2026-06-10 10:35:19 | MostrarEvento | fila=1
+2026-06-10 10:35:19 | DgEventos_Click | Row=1
+2026-06-10 10:35:19 | MostrarEvento | fila=1
+2026-06-10 10:35:20 | DgEventos_DblClick | Row=1, Col=8
+2026-06-10 10:35:20 | txtEditor_LostFocus
+2026-06-10 10:35:20 | DgEventos_Click | Row=1
+2026-06-10 10:35:20 | MostrarEvento | fila=1
+2026-06-10 10:35:20 | DgEventos_Click | Row=1
+2026-06-10 10:35:20 | MostrarEvento | fila=1
+2026-06-10 10:35:20 | DgEventos_DblClick | Row=1, Col=8
+2026-06-10 10:35:20 | txtEditor_LostFocus
+2026-06-10 10:35:21 | DgEventos_Click | Row=1
+2026-06-10 10:35:21 | MostrarEvento | fila=1
+2026-06-10 10:35:21 | DgEventos_Click | Row=1
+2026-06-10 10:35:21 | MostrarEvento | fila=1
+2026-06-10 10:35:21 | DgEventos_Click | Row=1
+2026-06-10 10:35:21 | MostrarEvento | fila=1
+2026-06-10 10:35:21 | DgEventos_Click | Row=1
+2026-06-10 10:35:21 | MostrarEvento | fila=1
+2026-06-10 10:35:24 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-10 10:35:24 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-10 10:35:24 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-06-10 10:35:24 | CargarEventosDesdeArray | m_Count=4
+2026-06-10 10:35:24 | AjustarColumnas
+2026-06-10 10:35:24 | CargarConfiguracionProyecto
+2026-06-10 10:35:25 | DgEventos_Click | Row=1
+2026-06-10 10:35:25 | MostrarEvento | fila=1
+2026-06-10 10:35:25 | txtTexto_Change | Texto=dir *.* "hola"
+2026-06-10 10:35:25 | txtCx_Change | Valor=0
+2026-06-10 10:35:25 | TxtCy_Change | Valor=0
+2026-06-10 10:35:25 | OptTexto_Click
+2026-06-10 10:35:25 | ActualizarEvento | nuevoEvento=5
+2026-06-10 10:35:25 | optPulsarTecla_Click
+2026-06-10 10:35:26 | DgEventos_Click | Row=1
+2026-06-10 10:35:26 | MostrarEvento | fila=1
+2026-06-10 10:35:26 | DgEventos_Click | Row=1
+2026-06-10 10:35:26 | MostrarEvento | fila=1
+2026-06-10 10:35:26 | DgEventos_DblClick | Row=1, Col=8
+2026-06-10 10:35:26 | txtEditor_LostFocus
+2026-06-10 10:35:26 | DgEventos_Click | Row=1
+2026-06-10 10:35:26 | MostrarEvento | fila=1
+2026-06-10 10:35:26 | DgEventos_Click | Row=1
+2026-06-10 10:35:26 | MostrarEvento | fila=1
+2026-06-10 10:35:26 | DgEventos_DblClick | Row=1, Col=8
+2026-06-10 10:35:26 | txtEditor_LostFocus
+2026-06-10 10:35:26 | DgEventos_Click | Row=1
+2026-06-10 10:35:26 | MostrarEvento | fila=1
+2026-06-10 10:35:27 | DgEventos_Click | Row=2
+2026-06-10 10:35:27 | MostrarEvento | fila=2
+2026-06-10 10:35:27 | txtTexto_Change | Texto=
+2026-06-10 10:35:27 | OptTiempoEspera_Click
+2026-06-10 10:35:27 | ActualizarEvento | nuevoEvento=8
+2026-06-10 10:35:27 | txtTiempoEspera_Change | Valor=1
+2026-06-10 10:35:27 | DgEventos_Click | Row=1
+2026-06-10 10:35:28 | MostrarEvento | fila=1
+2026-06-10 10:35:28 | txtTexto_Change | Texto=dir *.* "hola"
+2026-06-10 10:35:28 | OptTexto_Click
+2026-06-10 10:35:28 | ActualizarEvento | nuevoEvento=5
+2026-06-10 10:35:28 | DgEventos_Click | Row=1
+2026-06-10 10:35:28 | MostrarEvento | fila=1
+2026-06-10 10:35:28 | DgEventos_DblClick | Row=1, Col=2
+2026-06-10 10:35:35 | txtEditor_LostFocus
+2026-06-10 10:35:35 | DgEventos_Click | Row=1
+2026-06-10 10:35:35 | MostrarEvento | fila=1
+2026-06-10 10:35:35 | DgEventos_Click | Row=1
+2026-06-10 10:35:35 | MostrarEvento | fila=1
+2026-06-10 10:35:36 | DgEventos_DblClick | Row=1, Col=2
+2026-06-10 10:35:39 | txtEditor_LostFocus
+2026-06-10 10:35:39 | DgEventos_Click | Row=1
+2026-06-10 10:35:39 | MostrarEvento | fila=1
+2026-06-10 10:35:39 | DgEventos_Click | Row=1
+2026-06-10 10:35:39 | MostrarEvento | fila=1
+2026-06-10 10:35:39 | DgEventos_DblClick | Row=1, Col=8
+2026-06-10 10:35:39 | txtEditor_LostFocus
+2026-06-10 10:35:39 | DgEventos_Click | Row=1
+2026-06-10 10:35:39 | MostrarEvento | fila=1
+2026-06-10 10:35:41 | Form_Unload | Cancel=0
+2026-06-10 10:35:49 | Form_Load
+2026-06-10 10:35:49 | InicializarArray
+2026-06-10 10:35:49 | ConfigurarFlexGrid
+2026-06-10 10:35:49 | CargarRecientes
+2026-06-10 10:35:49 | AjustarColumnas
+2026-06-10 10:35:51 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:35:51 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:35:51 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:35:51 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:35:51 | AjustarColumnas
+2026-06-10 10:35:51 | CargarConfiguracionProyecto
+2026-06-10 10:35:52 | DgEventos_Click | Row=2
+2026-06-10 10:35:52 | MostrarEvento | fila=2
+2026-06-10 10:35:52 | txtCx_Change | Valor=0
+2026-06-10 10:35:52 | TxtCy_Change | Valor=0
+2026-06-10 10:35:52 | OptTiempoEspera_Click
+2026-06-10 10:35:52 | ActualizarEvento | nuevoEvento=8
+2026-06-10 10:35:52 | txtTiempoEspera_Change | Valor=1
+2026-06-10 10:35:52 | DgEventos_Click | Row=3
+2026-06-10 10:35:52 | MostrarEvento | fila=3
+2026-06-10 10:35:52 | txtTexto_Change | Texto=Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-06-10 10:35:52 | OptTexto_Click
+2026-06-10 10:35:52 | ActualizarEvento | nuevoEvento=5
+2026-06-10 10:35:52 | optPulsarTecla_Click
+2026-06-10 10:35:52 | txtIntervaloTecla_Change | Valor=50
+2026-06-10 10:35:52 | DgEventos_DblClick | Row=3, Col=8
+2026-06-10 10:35:53 | txtEditor_LostFocus
+2026-06-10 10:35:53 | DgEventos_Click | Row=2
+2026-06-10 10:35:53 | MostrarEvento | fila=2
+2026-06-10 10:35:53 | txtTexto_Change | Texto=
+2026-06-10 10:35:54 | OptTiempoEspera_Click
+2026-06-10 10:35:54 | ActualizarEvento | nuevoEvento=8
+2026-06-10 10:35:54 | DgEventos_Click | Row=1
+2026-06-10 10:35:54 | MostrarEvento | fila=1
+2026-06-10 10:35:54 | OptNinguno_Click
+2026-06-10 10:35:54 | ActualizarEvento | nuevoEvento=9
+2026-06-10 10:35:55 | DgEventos_Click | Row=1
+2026-06-10 10:35:55 | MostrarEvento | fila=1
+2026-06-10 10:35:55 | DgEventos_Click | Row=1
+2026-06-10 10:35:55 | MostrarEvento | fila=1
+2026-06-10 10:35:55 | DgEventos_DblClick | Row=1, Col=2
+2026-06-10 10:35:58 | txtEditor_LostFocus
+2026-06-10 10:35:59 | DgEventos_Click | Row=2
+2026-06-10 10:35:59 | MostrarEvento | fila=2
+2026-06-10 10:35:59 | OptTiempoEspera_Click
+2026-06-10 10:35:59 | ActualizarEvento | nuevoEvento=8
+2026-06-10 10:35:59 | DgEventos_Click | Row=1
+2026-06-10 10:35:59 | MostrarEvento | fila=1
+2026-06-10 10:35:59 | OptNinguno_Click
+2026-06-10 10:35:59 | ActualizarEvento | nuevoEvento=9
+2026-06-10 10:35:59 | DgEventos_Click | Row=1
+2026-06-10 10:35:59 | MostrarEvento | fila=1
+2026-06-10 10:36:00 | DgEventos_DblClick | Row=1, Col=2
+2026-06-10 10:36:06 | DgEventos_Click | Row=1
+2026-06-10 10:36:06 | MostrarEvento | fila=1
+2026-06-10 10:36:07 | txtEditor_LostFocus
+2026-06-10 10:36:07 | DgEventos_Click | Row=5
+2026-06-10 10:36:07 | MostrarEvento | fila=5
+2026-06-10 10:36:07 | txtTexto_Change | Texto=()
+2026-06-10 10:36:07 | OptTexto_Click
+2026-06-10 10:36:07 | ActualizarEvento | nuevoEvento=5
+2026-06-10 10:36:07 | optPegarTexto_Click
+2026-06-10 10:36:07 | DgEventos_Click | Row=3
+2026-06-10 10:36:07 | MostrarEvento | fila=3
+2026-06-10 10:36:07 | txtTexto_Change | Texto=Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-06-10 10:36:07 | optPulsarTecla_Click
+2026-06-10 10:36:08 | DgEventos_Click | Row=2
+2026-06-10 10:36:08 | MostrarEvento | fila=2
+2026-06-10 10:36:08 | txtTexto_Change | Texto=
+2026-06-10 10:36:08 | OptTiempoEspera_Click
+2026-06-10 10:36:08 | ActualizarEvento | nuevoEvento=8
+2026-06-10 10:36:08 | DgEventos_Click | Row=1
+2026-06-10 10:36:08 | MostrarEvento | fila=1
+2026-06-10 10:36:08 | OptNinguno_Click
+2026-06-10 10:36:08 | ActualizarEvento | nuevoEvento=9
+2026-06-10 10:36:09 | DgEventos_Click | Row=1
+2026-06-10 10:36:09 | MostrarEvento | fila=1
+2026-06-10 10:36:09 | DgEventos_DblClick | Row=1, Col=2
+2026-06-10 10:36:13 | txtEditor_LostFocus
+2026-06-10 10:36:13 | DgEventos_Click | Row=2
+2026-06-10 10:36:13 | MostrarEvento | fila=2
+2026-06-10 10:36:13 | OptTiempoEspera_Click
+2026-06-10 10:36:13 | ActualizarEvento | nuevoEvento=8
+2026-06-10 10:36:15 | Form_Unload | Cancel=0
+2026-06-10 10:41:20 | Form_Load
+2026-06-10 10:41:20 | InicializarArray
+2026-06-10 10:41:20 | ConfigurarFlexGrid
+2026-06-10 10:41:20 | CargarRecientes
+2026-06-10 10:41:20 | AjustarColumnas
+2026-06-10 10:41:22 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:41:22 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:41:22 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:41:22 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:41:22 | AjustarColumnas
+2026-06-10 10:41:23 | CargarConfiguracionProyecto
+2026-06-10 10:41:23 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:41:23 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:42:35 | Form_Load
+2026-06-10 10:42:35 | InicializarArray
+2026-06-10 10:42:35 | ConfigurarFlexGrid
+2026-06-10 10:42:35 | CargarRecientes
+2026-06-10 10:42:35 | AjustarColumnas
+2026-06-10 10:42:37 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:42:37 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:42:37 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:42:37 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:42:37 | AjustarColumnas
+2026-06-10 10:42:37 | CargarConfiguracionProyecto
+2026-06-10 10:42:38 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:42:38 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:42:38 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:42:43 | EjecutarSecuencia_Timeout | Evento=1
+2026-06-10 10:42:46 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:42:46 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:42:47 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:42:47 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:42:49 | Form_Unload | Cancel=0
+2026-06-10 10:42:52 | EjecutarSecuencia_Timeout | Evento=3
+2026-06-10 10:42:53 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:42:53 | EjecutarAccion | hwndVentana=0, Texto=, ModoEnvioTexto=0
+2026-06-10 10:42:53 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:42:53 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:43:10 | Form_Load
+2026-06-10 10:43:10 | InicializarArray
+2026-06-10 10:43:10 | ConfigurarFlexGrid
+2026-06-10 10:43:10 | CargarRecientes
+2026-06-10 10:43:10 | AjustarColumnas
+2026-06-10 10:43:11 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:43:11 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:43:11 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:43:11 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:43:11 | AjustarColumnas
+2026-06-10 10:43:11 | CargarConfiguracionProyecto
+2026-06-10 10:43:12 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:43:12 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:43:12 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:43:25 | DgEventos_Click | Row=4
+2026-06-10 10:43:25 | MostrarEvento | fila=4
+2026-06-10 10:43:25 | txtCx_Change | Valor=0
+2026-06-10 10:43:25 | TxtCy_Change | Valor=0
+2026-06-10 10:43:25 | OptEnter_Click
+2026-06-10 10:43:25 | ActualizarEvento | nuevoEvento=7
+2026-06-10 10:43:27 | EjecutarSecuencia_Timeout | Evento=1
+2026-06-10 10:43:28 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:43:28 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:43:29 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:43:29 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:43:29 | Form_Unload | Cancel=0
+2026-06-10 10:44:03 | Form_Load
+2026-06-10 10:44:03 | InicializarArray
+2026-06-10 10:44:03 | ConfigurarFlexGrid
+2026-06-10 10:44:03 | CargarRecientes
+2026-06-10 10:44:03 | AjustarColumnas
+2026-06-10 10:44:05 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:44:05 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:44:05 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:44:05 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:44:05 | AjustarColumnas
+2026-06-10 10:44:05 | CargarConfiguracionProyecto
+2026-06-10 10:44:06 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:44:06 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:44:06 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:44:33 | EjecutarAccion | hwndVentana=6030660, Texto=, ModoEnvioTexto=0
+2026-06-10 10:44:33 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:44:33 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:44:34 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:44:34 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:44:40 | EjecutarSecuencia_Timeout | Evento=3
+2026-06-10 10:44:41 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:44:41 | EjecutarAccion | hwndVentana=0, Texto=, ModoEnvioTexto=0
+2026-06-10 10:44:41 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:44:41 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:44:41 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:44:41 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:44:41 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:44:54 | EjecutarAccion | hwndVentana=5113518, Texto=, ModoEnvioTexto=0
+2026-06-10 10:44:54 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:44:54 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:44:55 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:44:55 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:45:00 | EjecutarSecuencia_Timeout | Evento=3
+2026-06-10 10:45:01 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:45:01 | EjecutarAccion | hwndVentana=0, Texto=, ModoEnvioTexto=0
+2026-06-10 10:45:01 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:45:01 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:46:11 | Form_Load
+2026-06-10 10:46:11 | InicializarArray
+2026-06-10 10:46:11 | ConfigurarFlexGrid
+2026-06-10 10:46:11 | CargarRecientes
+2026-06-10 10:46:11 | AjustarColumnas
+2026-06-10 10:46:13 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:46:13 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:46:13 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:46:13 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:46:13 | AjustarColumnas
+2026-06-10 10:46:13 | CargarConfiguracionProyecto
+2026-06-10 10:46:13 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:46:13 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:46:13 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:46:13 | EjecutarSecuencia_Error | Error=No coinciden los tipos
+2026-06-10 10:46:16 | EjecutarSecuencia_Fin
+2026-06-10 10:46:18 | Form_Unload | Cancel=0
+2026-06-10 10:47:01 | Form_Load
+2026-06-10 10:47:01 | InicializarArray
+2026-06-10 10:47:01 | ConfigurarFlexGrid
+2026-06-10 10:47:01 | CargarRecientes
+2026-06-10 10:47:01 | AjustarColumnas
+2026-06-10 10:47:04 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:47:04 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:47:04 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:47:04 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:47:04 | AjustarColumnas
+2026-06-10 10:47:04 | CargarConfiguracionProyecto
+2026-06-10 10:47:05 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:47:05 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:47:05 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:47:05 | EjecutarSecuencia_Error | Error=No coinciden los tipos
+2026-06-10 10:47:07 | EjecutarSecuencia_Fin
+2026-06-10 10:47:08 | Form_Unload | Cancel=0
+2026-06-10 10:47:25 | Form_Load
+2026-06-10 10:47:25 | InicializarArray
+2026-06-10 10:47:25 | ConfigurarFlexGrid
+2026-06-10 10:47:25 | CargarRecientes
+2026-06-10 10:47:25 | AjustarColumnas
+2026-06-10 10:47:27 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:47:27 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:47:27 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:47:27 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:47:27 | AjustarColumnas
+2026-06-10 10:47:27 | CargarConfiguracionProyecto
+2026-06-10 10:47:42 | Form_Load
+2026-06-10 10:47:42 | InicializarArray
+2026-06-10 10:47:42 | ConfigurarFlexGrid
+2026-06-10 10:47:42 | CargarRecientes
+2026-06-10 10:47:42 | AjustarColumnas
+2026-06-10 10:47:44 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:47:44 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:47:44 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:47:44 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:47:44 | AjustarColumnas
+2026-06-10 10:47:44 | CargarConfiguracionProyecto
+2026-06-10 10:47:45 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:47:45 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:47:45 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:49:17 | Form_Load
+2026-06-10 10:49:17 | InicializarArray
+2026-06-10 10:49:17 | ConfigurarFlexGrid
+2026-06-10 10:49:17 | CargarRecientes
+2026-06-10 10:49:17 | AjustarColumnas
+2026-06-10 10:49:18 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:49:18 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:49:18 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:49:18 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:49:18 | AjustarColumnas
+2026-06-10 10:49:18 | CargarConfiguracionProyecto
+2026-06-10 10:49:19 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:49:19 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:49:19 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:49:24 | EjecutarSecuencia_Timeout | Evento=1
+2026-06-10 10:49:26 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:49:26 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:49:27 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:49:27 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:49:30 | Form_Unload | Cancel=0
+2026-06-10 10:49:32 | EjecutarSecuencia_Timeout | Evento=3
+2026-06-10 10:49:34 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:49:34 | EjecutarAccion | hwndVentana=0, Texto=, ModoEnvioTexto=0
+2026-06-10 10:49:34 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:49:34 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:49:50 | Form_Load
+2026-06-10 10:49:50 | InicializarArray
+2026-06-10 10:49:50 | ConfigurarFlexGrid
+2026-06-10 10:49:50 | CargarRecientes
+2026-06-10 10:49:50 | AjustarColumnas
+2026-06-10 10:49:51 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:49:51 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:49:51 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:49:51 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:49:51 | AjustarColumnas
+2026-06-10 10:49:51 | CargarConfiguracionProyecto
+2026-06-10 10:49:52 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:49:52 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:49:52 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:50:45 | Form_Load
+2026-06-10 10:50:45 | InicializarArray
+2026-06-10 10:50:45 | ConfigurarFlexGrid
+2026-06-10 10:50:45 | CargarRecientes
+2026-06-10 10:50:46 | AjustarColumnas
+2026-06-10 10:50:47 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:50:47 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:50:47 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:50:47 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:50:47 | AjustarColumnas
+2026-06-10 10:50:47 | CargarConfiguracionProyecto
+2026-06-10 10:50:51 | Form_Unload | Cancel=0
+2026-06-10 10:51:02 | Form_Load
+2026-06-10 10:51:02 | InicializarArray
+2026-06-10 10:51:02 | ConfigurarFlexGrid
+2026-06-10 10:51:02 | CargarRecientes
+2026-06-10 10:51:02 | AjustarColumnas
+2026-06-10 10:51:04 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:51:04 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:51:04 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:51:04 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:51:04 | AjustarColumnas
+2026-06-10 10:51:04 | CargarConfiguracionProyecto
+2026-06-10 10:51:05 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:51:05 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:51:05 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:51:05 | EjecutarAccion | hwndVentana=0, Texto=, ModoEnvioTexto=0
+2026-06-10 10:51:05 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:51:05 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:51:06 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:51:06 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:51:06 | EjecutarAccion | hwndVentana=0, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=1
+2026-06-10 10:51:10 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:51:10 | EjecutarAccion | hwndVentana=0, Texto=, ModoEnvioTexto=0
+2026-06-10 10:51:10 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:51:10 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:51:10 | EjecutarAccion | hwndVentana=0, Texto=(), ModoEnvioTexto=2
+2026-06-10 10:51:10 | EjecutarSecuencia_Error | Error=No se puede abrir el Portapapeles
+2026-06-10 10:51:15 | EjecutarSecuencia_Fin
+2026-06-10 10:51:17 | Form_Unload | Cancel=0
+2026-06-10 10:51:57 | Form_Load
+2026-06-10 10:51:57 | InicializarArray
+2026-06-10 10:51:58 | ConfigurarFlexGrid
+2026-06-10 10:51:58 | CargarRecientes
+2026-06-10 10:51:58 | AjustarColumnas
+2026-06-10 10:51:59 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:51:59 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:51:59 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:51:59 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:51:59 | AjustarColumnas
+2026-06-10 10:51:59 | CargarConfiguracionProyecto
+2026-06-10 10:52:00 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:52:00 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:52:00 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:52:36 | Form_Load
+2026-06-10 10:52:36 | InicializarArray
+2026-06-10 10:52:36 | ConfigurarFlexGrid
+2026-06-10 10:52:36 | CargarRecientes
+2026-06-10 10:52:36 | AjustarColumnas
+2026-06-10 10:52:36 | DgEventos_Click | Row=1
+2026-06-10 10:52:37 | MostrarEvento | fila=1
+2026-06-10 10:52:38 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:52:38 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:52:38 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:52:38 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:52:38 | AjustarColumnas
+2026-06-10 10:52:38 | CargarConfiguracionProyecto
+2026-06-10 10:52:47 | Form_Load
+2026-06-10 10:52:47 | InicializarArray
+2026-06-10 10:52:47 | ConfigurarFlexGrid
+2026-06-10 10:52:47 | CargarRecientes
+2026-06-10 10:52:47 | AjustarColumnas
+2026-06-10 10:52:48 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:52:48 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:52:48 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:52:48 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:52:48 | AjustarColumnas
+2026-06-10 10:52:48 | CargarConfiguracionProyecto
+2026-06-10 10:52:49 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:52:49 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:52:49 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:53:08 | Form_Load
+2026-06-10 10:53:08 | InicializarArray
+2026-06-10 10:53:08 | ConfigurarFlexGrid
+2026-06-10 10:53:08 | CargarRecientes
+2026-06-10 10:53:08 | AjustarColumnas
+2026-06-10 10:53:10 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:53:10 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:53:10 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:53:10 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:53:10 | AjustarColumnas
+2026-06-10 10:53:10 | CargarConfiguracionProyecto
+2026-06-10 10:53:11 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:53:11 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:53:11 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:53:17 | Form_Unload | Cancel=0
+2026-06-10 10:53:54 | Form_Load
+2026-06-10 10:53:54 | InicializarArray
+2026-06-10 10:53:54 | ConfigurarFlexGrid
+2026-06-10 10:53:54 | CargarRecientes
+2026-06-10 10:53:54 | AjustarColumnas
+2026-06-10 10:53:56 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:53:56 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:53:56 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:53:56 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:53:56 | AjustarColumnas
+2026-06-10 10:53:56 | CargarConfiguracionProyecto
+2026-06-10 10:53:56 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:53:56 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:53:56 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:53:56 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:53:56 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:53:58 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:53:58 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:53:58 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:53:58 | EjecutarAccion | hwndVentana=0, Texto=, ModoEnvioTexto=0
+2026-06-10 10:53:58 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:53:58 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:53:58 | EjecutarSecuencia_Fin
+2026-06-10 10:54:10 | Form_Unload | Cancel=0
+2026-06-10 10:54:44 | Form_Load
+2026-06-10 10:54:44 | InicializarArray
+2026-06-10 10:54:44 | ConfigurarFlexGrid
+2026-06-10 10:54:44 | CargarRecientes
+2026-06-10 10:54:44 | AjustarColumnas
+2026-06-10 10:54:45 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:54:45 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:54:45 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:54:45 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:54:45 | AjustarColumnas
+2026-06-10 10:54:45 | CargarConfiguracionProyecto
+2026-06-10 10:54:46 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:54:46 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:54:46 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:54:46 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:54:46 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:54:47 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:54:47 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:54:47 | EjecutarAccion | hwndVentana=3082298, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=1
+2026-06-10 10:54:51 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:54:51 | EjecutarAccion | hwndVentana=3082298, Texto=, ModoEnvioTexto=0
+2026-06-10 10:54:51 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:54:51 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:54:51 | EjecutarAccion | hwndVentana=3082298, Texto=(), ModoEnvioTexto=2
+2026-06-10 10:54:51 | EjecutarSecuencia_Error | Error=No se puede abrir el Portapapeles
+2026-06-10 10:54:56 | EjecutarSecuencia_Fin
+2026-06-10 10:54:57 | DgEventos_Click | Row=5
+2026-06-10 10:54:57 | MostrarEvento | fila=5
+2026-06-10 10:54:57 | txtTexto_Change | Texto=()
+2026-06-10 10:54:57 | txtCx_Change | Valor=0
+2026-06-10 10:54:57 | TxtCy_Change | Valor=0
+2026-06-10 10:54:57 | OptTexto_Click
+2026-06-10 10:54:57 | ActualizarEvento | nuevoEvento=5
+2026-06-10 10:54:57 | optPegarTexto_Click
+2026-06-10 10:54:58 | Form_Unload | Cancel=0
+2026-06-10 10:55:18 | Form_Load
+2026-06-10 10:55:18 | InicializarArray
+2026-06-10 10:55:18 | ConfigurarFlexGrid
+2026-06-10 10:55:18 | CargarRecientes
+2026-06-10 10:55:18 | AjustarColumnas
+2026-06-10 10:55:20 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:55:20 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:55:20 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:55:20 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:55:20 | AjustarColumnas
+2026-06-10 10:55:20 | CargarConfiguracionProyecto
+2026-06-10 10:55:20 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:55:20 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:55:20 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:55:20 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:55:20 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:55:21 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:55:21 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:55:21 | EjecutarAccion | hwndVentana=5768632, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=1
+2026-06-10 10:55:25 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:55:25 | EjecutarAccion | hwndVentana=5768632, Texto=, ModoEnvioTexto=0
+2026-06-10 10:55:25 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:55:25 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:55:25 | EjecutarAccion | hwndVentana=5768632, Texto=(), ModoEnvioTexto=2
+2026-06-10 10:55:33 | DgEventos_Click | Row=5
+2026-06-10 10:55:33 | MostrarEvento | fila=5
+2026-06-10 10:55:33 | txtTexto_Change | Texto=()
+2026-06-10 10:55:33 | txtCx_Change | Valor=0
+2026-06-10 10:55:33 | TxtCy_Change | Valor=0
+2026-06-10 10:55:33 | OptTexto_Click
+2026-06-10 10:55:33 | ActualizarEvento | nuevoEvento=5
+2026-06-10 10:55:33 | optPegarTexto_Click
+2026-06-10 10:55:33 | cboModoEnvio_LostFocus
+2026-06-10 10:55:33 | cboModoEnvio_LostFocus
+2026-06-10 10:55:33 | DgEventos_Click | Row=5
+2026-06-10 10:55:33 | MostrarEvento | fila=5
+2026-06-10 10:55:34 | cboEditor_Click | ListIndex=5
+2026-06-10 10:55:34 | DgEventos_Click | Row=5
+2026-06-10 10:55:34 | MostrarEvento | fila=5
+2026-06-10 10:55:35 | cboEditor_LostFocus
+2026-06-10 10:55:35 | DgEventos_Click | Row=4
+2026-06-10 10:55:35 | MostrarEvento | fila=4
+2026-06-10 10:55:35 | txtTexto_Change | Texto=
+2026-06-10 10:55:35 | OptEnter_Click
+2026-06-10 10:55:35 | ActualizarEvento | nuevoEvento=7
+2026-06-10 10:55:35 | DgEventos_Click | Row=5
+2026-06-10 10:55:35 | MostrarEvento | fila=5
+2026-06-10 10:55:35 | txtTexto_Change | Texto=()
+2026-06-10 10:55:35 | OptTexto_Click
+2026-06-10 10:55:35 | ActualizarEvento | nuevoEvento=5
+2026-06-10 10:55:54 | cboModoEnvio_LostFocus
+2026-06-10 10:55:54 | DgEventos_Click | Row=5
+2026-06-10 10:55:54 | MostrarEvento | fila=5
+2026-06-10 10:56:24 | cboEditor_LostFocus
+2026-06-10 10:56:25 | DgEventos_Click | Row=5
+2026-06-10 10:56:25 | MostrarEvento | fila=5
+2026-06-10 10:57:07 | Form_Load
+2026-06-10 10:57:07 | InicializarArray
+2026-06-10 10:57:07 | ConfigurarFlexGrid
+2026-06-10 10:57:07 | CargarRecientes
+2026-06-10 10:57:07 | AjustarColumnas
+2026-06-10 10:57:09 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:57:09 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:57:09 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:57:09 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:57:09 | AjustarColumnas
+2026-06-10 10:57:09 | CargarConfiguracionProyecto
+2026-06-10 10:57:10 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:57:10 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:57:10 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:57:10 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:57:10 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:57:11 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:57:11 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:57:11 | EjecutarAccion | hwndVentana=4327130, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=1
+2026-06-10 10:57:15 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:57:15 | EjecutarAccion | hwndVentana=4327130, Texto=, ModoEnvioTexto=0
+2026-06-10 10:57:15 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:57:15 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:57:15 | EjecutarAccion | hwndVentana=4327130, Texto=(), ModoEnvioTexto=2
+2026-06-10 10:57:19 | Form_Unload | Cancel=0
+2026-06-10 10:57:34 | Form_Load
+2026-06-10 10:57:34 | InicializarArray
+2026-06-10 10:57:34 | ConfigurarFlexGrid
+2026-06-10 10:57:34 | CargarRecientes
+2026-06-10 10:57:34 | AjustarColumnas
+2026-06-10 10:57:35 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:57:35 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:57:35 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:57:35 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:57:35 | AjustarColumnas
+2026-06-10 10:57:35 | CargarConfiguracionProyecto
+2026-06-10 10:57:36 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:57:36 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:57:36 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:57:36 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:57:36 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:57:37 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:57:37 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:57:37 | EjecutarAccion | hwndVentana=2557754, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=1
+2026-06-10 10:57:41 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:57:41 | EjecutarAccion | hwndVentana=2557754, Texto=, ModoEnvioTexto=0
+2026-06-10 10:57:41 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:57:41 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:57:41 | EjecutarAccion | hwndVentana=2557754, Texto=(), ModoEnvioTexto=2
+2026-06-10 10:58:05 | Form_Load
+2026-06-10 10:58:05 | InicializarArray
+2026-06-10 10:58:05 | ConfigurarFlexGrid
+2026-06-10 10:58:05 | CargarRecientes
+2026-06-10 10:58:05 | AjustarColumnas
+2026-06-10 10:58:07 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:58:07 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:58:08 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:58:08 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:58:08 | AjustarColumnas
+2026-06-10 10:58:08 | CargarConfiguracionProyecto
+2026-06-10 10:58:11 | EjecutarSecuencia_Inicio | TotalEventos=5
+2026-06-10 10:58:11 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:58:11 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:58:11 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:58:11 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:58:12 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:58:12 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:58:12 | EjecutarAccion | hwndVentana=3672132, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=1
+2026-06-10 10:58:16 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:58:16 | EjecutarAccion | hwndVentana=3672132, Texto=, ModoEnvioTexto=0
+2026-06-10 10:58:16 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:58:16 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:58:16 | EjecutarAccion | hwndVentana=3672132, Texto=(), ModoEnvioTexto=2
+2026-06-10 10:58:28 | DgEventos_Click | Row=5
+2026-06-10 10:58:28 | MostrarEvento | fila=5
+2026-06-10 10:58:28 | txtTexto_Change | Texto=()
+2026-06-10 10:58:28 | txtCx_Change | Valor=0
+2026-06-10 10:58:28 | TxtCy_Change | Valor=0
+2026-06-10 10:58:28 | OptTexto_Click
+2026-06-10 10:58:28 | ActualizarEvento | nuevoEvento=5
+2026-06-10 10:58:28 | optPegarTexto_Click
+2026-06-10 10:58:31 | cmdNuevo_Click
+2026-06-10 10:58:31 | AppendEvento
+2026-06-10 10:58:31 | CargarEventosDesdeArray | m_Count=6
+2026-06-10 10:58:31 | AjustarColumnas
+2026-06-10 10:58:32 | DgEventos_Click | Row=6
+2026-06-10 10:58:32 | MostrarEvento | fila=6
+2026-06-10 10:58:32 | txtTexto_Change | Texto=
+2026-06-10 10:58:32 | optClickIzquierdo_Click
+2026-06-10 10:58:32 | ActualizarEvento | nuevoEvento=1
+2026-06-10 10:58:33 | DgEventos_Click | Row=2
+2026-06-10 10:58:33 | MostrarEvento | fila=2
+2026-06-10 10:58:33 | OptTiempoEspera_Click
+2026-06-10 10:58:33 | ActualizarEvento | nuevoEvento=8
+2026-06-10 10:58:33 | txtTiempoEspera_Change | Valor=1
+2026-06-10 10:58:34 | DgEventos_Click | Row=1
+2026-06-10 10:58:34 | MostrarEvento | fila=1
+2026-06-10 10:58:34 | OptNinguno_Click
+2026-06-10 10:58:34 | ActualizarEvento | nuevoEvento=9
+2026-06-10 10:58:35 | DgEventos_Click | Row=6
+2026-06-10 10:58:35 | MostrarEvento | fila=6
+2026-06-10 10:58:35 | optClickIzquierdo_Click
+2026-06-10 10:58:35 | ActualizarEvento | nuevoEvento=1
+2026-06-10 10:58:35 | DgEventos_Click | Row=6
+2026-06-10 10:58:35 | MostrarEvento | fila=6
+2026-06-10 10:58:36 | DgEventos_DblClick | Row=6, Col=2
+2026-06-10 10:58:41 | txtEditor_LostFocus
+2026-06-10 10:58:41 | DgEventos_Click | Row=1
+2026-06-10 10:58:41 | MostrarEvento | fila=1
+2026-06-10 10:58:41 | OptNinguno_Click
+2026-06-10 10:58:41 | ActualizarEvento | nuevoEvento=9
+2026-06-10 10:58:41 | DgEventos_DblClick | Row=1, Col=2
+2026-06-10 10:58:44 | txtEditor_KeyDown | KeyCode=17, Shift=2
+2026-06-10 10:58:44 | txtEditor_KeyDown | KeyCode=67, Shift=2
+2026-06-10 10:58:44 | txtEditor_LostFocus
+2026-06-10 10:58:44 | DgEventos_Click | Row=6
+2026-06-10 10:58:44 | MostrarEvento | fila=6
+2026-06-10 10:58:44 | optClickIzquierdo_Click
+2026-06-10 10:58:44 | ActualizarEvento | nuevoEvento=1
+2026-06-10 10:58:45 | DgEventos_Click | Row=6
+2026-06-10 10:58:45 | MostrarEvento | fila=6
+2026-06-10 10:58:46 | DgEventos_Click | Row=6
+2026-06-10 10:58:46 | MostrarEvento | fila=6
+2026-06-10 10:58:46 | DgEventos_DblClick | Row=6, Col=2
+2026-06-10 10:58:49 | txtEditor_LostFocus
+2026-06-10 10:58:49 | DgEventos_Click | Row=6
+2026-06-10 10:58:49 | MostrarEvento | fila=6
+2026-06-10 10:58:50 | DgEventos_Click | Row=6
+2026-06-10 10:58:50 | MostrarEvento | fila=6
+2026-06-10 10:58:52 | cboEditor_Click | ListIndex=1
+2026-06-10 10:58:52 | DgEventos_Click | Row=6
+2026-06-10 10:58:52 | MostrarEvento | fila=6
+2026-06-10 10:58:55 | cboEditor_Click | ListIndex=5
+2026-06-10 10:58:55 | MostrarEvento | fila=6
+2026-06-10 10:58:55 | OptTexto_Click
+2026-06-10 10:58:55 | ActualizarEvento | nuevoEvento=5
+2026-06-10 10:58:55 | optPulsarTecla_Click
+2026-06-10 10:58:55 | txtIntervaloTecla_Change | Valor=0
+2026-06-10 10:58:55 | cboEditor_LostFocus
+2026-06-10 10:58:55 | DgEventos_Click | Row=6
+2026-06-10 10:58:55 | MostrarEvento | fila=6
+2026-06-10 10:58:56 | cboModoEnvio_LostFocus
+2026-06-10 10:58:56 | DgEventos_Click | Row=6
+2026-06-10 10:58:56 | MostrarEvento | fila=6
+2026-06-10 10:58:57 | DgEventos_Click | Row=6
+2026-06-10 10:58:57 | MostrarEvento | fila=6
+2026-06-10 10:58:57 | DgEventos_DblClick | Row=6, Col=8
+2026-06-10 10:58:59 | txtEditor_KeyDown | KeyCode=16, Shift=1
+2026-06-10 10:58:59 | txtEditor_KeyDown | KeyCode=79, Shift=1
+2026-06-10 10:58:59 | txtEditor_KeyDown | KeyCode=84, Shift=0
+2026-06-10 10:58:59 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-06-10 10:58:59 | txtEditor_KeyDown | KeyCode=79, Shift=0
+2026-06-10 10:58:59 | txtEditor_KeyDown | KeyCode=32, Shift=0
+2026-06-10 10:59:00 | txtEditor_KeyDown | KeyCode=8, Shift=0
+2026-06-10 10:59:00 | txtEditor_KeyDown | KeyCode=32, Shift=0
+2026-06-10 10:59:00 | txtEditor_KeyDown | KeyCode=78, Shift=0
+2026-06-10 10:59:01 | txtEditor_KeyDown | KeyCode=79, Shift=0
+2026-06-10 10:59:01 | txtEditor_KeyDown | KeyCode=84, Shift=0
+2026-06-10 10:59:01 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-06-10 10:59:01 | txtEditor_KeyDown | KeyCode=80, Shift=0
+2026-06-10 10:59:01 | txtEditor_KeyDown | KeyCode=65, Shift=0
+2026-06-10 10:59:02 | txtEditor_KeyDown | KeyCode=68, Shift=0
+2026-06-10 10:59:02 | txtEditor_KeyDown | KeyCode=16, Shift=1
+2026-06-10 10:59:02 | txtEditor_KeyDown | KeyCode=49, Shift=1
+2026-06-10 10:59:02 | txtEditor_KeyDown | KeyCode=49, Shift=1
+2026-06-10 10:59:02 | txtEditor_KeyDown | KeyCode=49, Shift=1
+2026-06-10 10:59:02 | txtEditor_KeyDown | KeyCode=49, Shift=1
+2026-06-10 10:59:03 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-06-10 10:59:03 | ActualizarCelda | fila=6, col=8, valor=Otro notepad!!!!
+2026-06-10 10:59:03 | MostrarEvento | fila=6
+2026-06-10 10:59:03 | txtTexto_Change | Texto=Otro notepad!!!!
+2026-06-10 10:59:03 | txtEditor_LostFocus
+2026-06-10 10:59:06 | EjecutarSecuencia_Inicio | TotalEventos=6
+2026-06-10 10:59:06 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 10:59:06 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:59:07 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 10:59:07 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 10:59:08 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 10:59:08 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 10:59:08 | EjecutarAccion | hwndVentana=460920, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=1
+2026-06-10 10:59:11 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 10:59:11 | EjecutarAccion | hwndVentana=460920, Texto=, ModoEnvioTexto=0
+2026-06-10 10:59:12 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 10:59:12 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 10:59:12 | EjecutarAccion | hwndVentana=460920, Texto=(), ModoEnvioTexto=2
+2026-06-10 10:59:12 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-06-10 10:59:12 | EjecutarAplicacionActual | FilaActual=6, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 10:59:21 | DgEventos_Click | Row=6
+2026-06-10 10:59:21 | MostrarEvento | fila=6
+2026-06-10 10:59:26 | Form_Unload | Cancel=0
+2026-06-10 10:59:41 | Form_Load
+2026-06-10 10:59:41 | InicializarArray
+2026-06-10 10:59:41 | ConfigurarFlexGrid
+2026-06-10 10:59:41 | CargarRecientes
+2026-06-10 10:59:41 | AjustarColumnas
+2026-06-10 10:59:43 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:59:43 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:59:43 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 10:59:43 | CargarEventosDesdeArray | m_Count=5
+2026-06-10 10:59:43 | AjustarColumnas
+2026-06-10 10:59:44 | CargarConfiguracionProyecto
+2026-06-10 10:59:45 | DgEventos_Click | Row=5
+2026-06-10 10:59:45 | MostrarEvento | fila=5
+2026-06-10 10:59:45 | txtTexto_Change | Texto=()
+2026-06-10 10:59:45 | txtCx_Change | Valor=0
+2026-06-10 10:59:45 | TxtCy_Change | Valor=0
+2026-06-10 10:59:45 | OptTexto_Click
+2026-06-10 10:59:45 | ActualizarEvento | nuevoEvento=5
+2026-06-10 10:59:45 | optPegarTexto_Click
+2026-06-10 10:59:45 | cmdNuevo_Click
+2026-06-10 10:59:45 | AppendEvento
+2026-06-10 10:59:45 | CargarEventosDesdeArray | m_Count=6
+2026-06-10 10:59:45 | AjustarColumnas
+2026-06-10 10:59:47 | DgEventos_Click | Row=6
+2026-06-10 10:59:47 | MostrarEvento | fila=6
+2026-06-10 10:59:47 | txtTexto_Change | Texto=
+2026-06-10 10:59:47 | optClickIzquierdo_Click
+2026-06-10 10:59:47 | ActualizarEvento | nuevoEvento=1
+2026-06-10 10:59:47 | DgEventos_Click | Row=6
+2026-06-10 10:59:47 | MostrarEvento | fila=6
+2026-06-10 10:59:48 | DgEventos_DblClick | Row=6, Col=2
+2026-06-10 10:59:50 | txtEditor_LostFocus
+2026-06-10 10:59:50 | DgEventos_Click | Row=2
+2026-06-10 10:59:50 | MostrarEvento | fila=2
+2026-06-10 10:59:50 | OptTiempoEspera_Click
+2026-06-10 10:59:50 | ActualizarEvento | nuevoEvento=8
+2026-06-10 10:59:50 | txtTiempoEspera_Change | Valor=1
+2026-06-10 10:59:50 | DgEventos_Click | Row=1
+2026-06-10 10:59:50 | MostrarEvento | fila=1
+2026-06-10 10:59:50 | OptNinguno_Click
+2026-06-10 10:59:50 | ActualizarEvento | nuevoEvento=9
+2026-06-10 10:59:50 | DgEventos_Click | Row=1
+2026-06-10 10:59:50 | MostrarEvento | fila=1
+2026-06-10 10:59:51 | DgEventos_DblClick | Row=1, Col=2
+2026-06-10 10:59:54 | txtEditor_KeyDown | KeyCode=17, Shift=2
+2026-06-10 10:59:54 | txtEditor_KeyDown | KeyCode=67, Shift=2
+2026-06-10 10:59:54 | txtEditor_LostFocus
+2026-06-10 10:59:54 | DgEventos_Click | Row=6
+2026-06-10 10:59:54 | MostrarEvento | fila=6
+2026-06-10 10:59:54 | optClickIzquierdo_Click
+2026-06-10 10:59:54 | ActualizarEvento | nuevoEvento=1
+2026-06-10 10:59:55 | DgEventos_Click | Row=6
+2026-06-10 10:59:55 | MostrarEvento | fila=6
+2026-06-10 10:59:55 | DgEventos_DblClick | Row=6, Col=2
+2026-06-10 11:00:00 | txtEditor_LostFocus
+2026-06-10 11:00:00 | DgEventos_Click | Row=6
+2026-06-10 11:00:00 | MostrarEvento | fila=6
+2026-06-10 11:00:01 | cboEditor_Click | ListIndex=1
+2026-06-10 11:00:01 | DgEventos_Click | Row=6
+2026-06-10 11:00:01 | MostrarEvento | fila=6
+2026-06-10 11:00:02 | cboEditor_Click | ListIndex=5
+2026-06-10 11:00:02 | MostrarEvento | fila=6
+2026-06-10 11:00:02 | OptTexto_Click
+2026-06-10 11:00:02 | ActualizarEvento | nuevoEvento=5
+2026-06-10 11:00:02 | optPulsarTecla_Click
+2026-06-10 11:00:02 | txtIntervaloTecla_Change | Valor=0
+2026-06-10 11:00:03 | cboEditor_LostFocus
+2026-06-10 11:00:03 | DgEventos_Click | Row=6
+2026-06-10 11:00:03 | MostrarEvento | fila=6
+2026-06-10 11:00:04 | cboModoEnvio_LostFocus
+2026-06-10 11:00:04 | DgEventos_Click | Row=6
+2026-06-10 11:00:04 | MostrarEvento | fila=6
+2026-06-10 11:00:04 | DgEventos_Click | Row=6
+2026-06-10 11:00:04 | MostrarEvento | fila=6
+2026-06-10 11:00:04 | DgEventos_Click | Row=6
+2026-06-10 11:00:04 | MostrarEvento | fila=6
+2026-06-10 11:00:05 | DgEventos_Click | Row=6
+2026-06-10 11:00:05 | MostrarEvento | fila=6
+2026-06-10 11:00:05 | DgEventos_Click | Row=6
+2026-06-10 11:00:05 | MostrarEvento | fila=6
+2026-06-10 11:00:05 | DgEventos_Click | Row=6
+2026-06-10 11:00:05 | MostrarEvento | fila=6
+2026-06-10 11:00:06 | DgEventos_Click | Row=6
+2026-06-10 11:00:06 | MostrarEvento | fila=6
+2026-06-10 11:00:06 | DgEventos_DblClick | Row=6, Col=8
+2026-06-10 11:00:08 | GuardarEnArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca, m_Count=6
+2026-06-10 11:00:10 | txtEditor_KeyDown | KeyCode=16, Shift=1
+2026-06-10 11:00:10 | txtEditor_KeyDown | KeyCode=79, Shift=1
+2026-06-10 11:00:10 | txtEditor_KeyDown | KeyCode=84, Shift=0
+2026-06-10 11:00:10 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-06-10 11:00:10 | txtEditor_KeyDown | KeyCode=79, Shift=0
+2026-06-10 11:00:10 | txtEditor_KeyDown | KeyCode=32, Shift=0
+2026-06-10 11:00:11 | txtEditor_KeyDown | KeyCode=84, Shift=0
+2026-06-10 11:00:11 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-06-10 11:00:11 | txtEditor_KeyDown | KeyCode=88, Shift=0
+2026-06-10 11:00:11 | txtEditor_KeyDown | KeyCode=84, Shift=0
+2026-06-10 11:00:11 | txtEditor_KeyDown | KeyCode=79, Shift=0
+2026-06-10 11:00:11 | txtEditor_KeyDown | KeyCode=16, Shift=1
+2026-06-10 11:00:12 | txtEditor_KeyDown | KeyCode=49, Shift=1
+2026-06-10 11:00:12 | txtEditor_KeyDown | KeyCode=49, Shift=1
+2026-06-10 11:00:12 | txtEditor_KeyDown | KeyCode=49, Shift=1
+2026-06-10 11:00:12 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-06-10 11:00:12 | ActualizarCelda | fila=6, col=8, valor=Otro texto!!!
+2026-06-10 11:00:12 | MostrarEvento | fila=6
+2026-06-10 11:00:12 | txtTexto_Change | Texto=Otro texto!!!
+2026-06-10 11:00:12 | txtEditor_LostFocus
+2026-06-10 11:00:15 | GuardarEnArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca, m_Count=6
+2026-06-10 11:00:16 | EjecutarSecuencia_Inicio | TotalEventos=6
+2026-06-10 11:00:16 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 11:00:16 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:00:16 | EjecutarAccion | hwndVentana=4851182, Texto=, ModoEnvioTexto=0
+2026-06-10 11:00:16 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 11:00:16 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 11:00:17 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 11:00:17 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 11:00:17 | EjecutarAccion | hwndVentana=4851182, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=1
+2026-06-10 11:00:21 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 11:00:21 | EjecutarAccion | hwndVentana=4851182, Texto=, ModoEnvioTexto=0
+2026-06-10 11:00:21 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 11:00:21 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 11:00:21 | EjecutarAccion | hwndVentana=4851182, Texto=(), ModoEnvioTexto=2
+2026-06-10 11:00:21 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-06-10 11:00:21 | EjecutarAplicacionActual | FilaActual=6, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:00:21 | EjecutarAccion | hwndVentana=395364, Texto=Otro texto!!!, ModoEnvioTexto=1
+2026-06-10 11:00:34 | DgEventos_Click | Row=6
+2026-06-10 11:00:34 | MostrarEvento | fila=6
+2026-06-10 11:00:35 | cboEditor_LostFocus
+2026-06-10 11:00:35 | DgEventos_Click | Row=6
+2026-06-10 11:00:35 | MostrarEvento | fila=6
+2026-06-10 11:00:37 | DgEventos_Click | Row=5
+2026-06-10 11:00:37 | MostrarEvento | fila=5
+2026-06-10 11:00:37 | txtTexto_Change | Texto=()
+2026-06-10 11:00:37 | optPegarTexto_Click
+2026-06-10 11:00:37 | cboModoEnvio_LostFocus
+2026-06-10 11:00:37 | cboModoEnvio_LostFocus
+2026-06-10 11:00:37 | DgEventos_Click | Row=6
+2026-06-10 11:00:37 | MostrarEvento | fila=6
+2026-06-10 11:00:37 | txtTexto_Change | Texto=Otro texto!!!
+2026-06-10 11:00:37 | optPulsarTecla_Click
+2026-06-10 11:00:39 | DgEventos_Click | Row=6
+2026-06-10 11:00:39 | MostrarEvento | fila=6
+2026-06-10 11:00:39 | DgEventos_Click | Row=6
+2026-06-10 11:00:39 | MostrarEvento | fila=6
+2026-06-10 11:00:42 | txtIntervaloTecla_Change | Valor=5
+2026-06-10 11:00:43 | txtIntervaloTecla_Change | Valor=50
+2026-06-10 11:00:44 | DgEventos_Click | Row=5
+2026-06-10 11:00:44 | MostrarEvento | fila=5
+2026-06-10 11:00:44 | txtTexto_Change | Texto=()
+2026-06-10 11:00:44 | optPegarTexto_Click
+2026-06-10 11:00:44 | DgEventos_Click | Row=6
+2026-06-10 11:00:44 | MostrarEvento | fila=6
+2026-06-10 11:00:44 | txtTexto_Change | Texto=Otro texto!!!
+2026-06-10 11:00:44 | optPulsarTecla_Click
+2026-06-10 11:00:47 | GuardarEnArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca, m_Count=6
+2026-06-10 11:00:48 | DgEventos_Click | Row=3
+2026-06-10 11:00:48 | MostrarEvento | fila=3
+2026-06-10 11:00:48 | txtTexto_Change | Texto=Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-06-10 11:00:51 | cboModoEnvio_LostFocus
+2026-06-10 11:00:51 | DgEventos_Click | Row=3
+2026-06-10 11:00:51 | MostrarEvento | fila=3
+2026-06-10 11:00:51 | optPegarTexto_Click
+2026-06-10 11:00:53 | GuardarEnArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca, m_Count=6
+2026-06-10 11:01:00 | EjecutarSecuencia_Inicio | TotalEventos=6
+2026-06-10 11:01:00 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 11:01:00 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:01:00 | EjecutarAccion | hwndVentana=2229120, Texto=, ModoEnvioTexto=0
+2026-06-10 11:01:00 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 11:01:00 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 11:01:01 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 11:01:01 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 11:01:01 | EjecutarAccion | hwndVentana=2229120, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=2
+2026-06-10 11:01:01 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 11:01:01 | EjecutarAccion | hwndVentana=2229120, Texto=, ModoEnvioTexto=0
+2026-06-10 11:01:01 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 11:01:01 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 11:01:01 | EjecutarAccion | hwndVentana=2229120, Texto=(), ModoEnvioTexto=2
+2026-06-10 11:01:01 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-06-10 11:01:01 | EjecutarAplicacionActual | FilaActual=6, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:01:01 | EjecutarAccion | hwndVentana=6358624, Texto=Otro texto!!!, ModoEnvioTexto=1
+2026-06-10 11:01:11 | cboEditor_Click | ListIndex=0
+2026-06-10 11:01:11 | DgEventos_Click | Row=1
+2026-06-10 11:01:11 | MostrarEvento | fila=1
+2026-06-10 11:01:11 | txtTexto_Change | Texto=
+2026-06-10 11:01:11 | OptNinguno_Click
+2026-06-10 11:01:11 | ActualizarEvento | nuevoEvento=9
+2026-06-10 11:01:12 | cboEditor_Click | ListIndex=5
+2026-06-10 11:01:12 | MostrarEvento | fila=1
+2026-06-10 11:01:12 | OptTexto_Click
+2026-06-10 11:01:12 | ActualizarEvento | nuevoEvento=5
+2026-06-10 11:01:12 | optPulsarTecla_Click
+2026-06-10 11:01:12 | txtIntervaloTecla_Change | Valor=100
+2026-06-10 11:01:13 | cboEditor_LostFocus
+2026-06-10 11:01:13 | DgEventos_Click | Row=2
+2026-06-10 11:01:13 | MostrarEvento | fila=2
+2026-06-10 11:01:13 | OptTiempoEspera_Click
+2026-06-10 11:01:13 | ActualizarEvento | nuevoEvento=8
+2026-06-10 11:01:14 | DgEventos_Click | Row=1
+2026-06-10 11:01:14 | MostrarEvento | fila=1
+2026-06-10 11:01:14 | OptTexto_Click
+2026-06-10 11:01:14 | ActualizarEvento | nuevoEvento=5
+2026-06-10 11:01:17 | cboModoEnvio_LostFocus
+2026-06-10 11:01:17 | DgEventos_Click | Row=1
+2026-06-10 11:01:17 | MostrarEvento | fila=1
+2026-06-10 11:01:19 | DgEventos_Click | Row=1
+2026-06-10 11:01:19 | MostrarEvento | fila=1
+2026-06-10 11:01:19 | DgEventos_DblClick | Row=1, Col=8
+2026-06-10 11:01:20 | txtEditor_KeyDown | KeyCode=80, Shift=0
+2026-06-10 11:01:20 | txtEditor_KeyDown | KeyCode=16, Shift=1
+2026-06-10 11:01:20 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-06-10 11:01:20 | txtEditor_KeyDown | KeyCode=73, Shift=0
+2026-06-10 11:01:21 | txtEditor_KeyDown | KeyCode=77, Shift=0
+2026-06-10 11:01:21 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-06-10 11:01:21 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-06-10 11:01:21 | txtEditor_KeyDown | KeyCode=32, Shift=0
+2026-06-10 11:01:21 | txtEditor_KeyDown | KeyCode=84, Shift=0
+2026-06-10 11:01:21 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-06-10 11:01:21 | txtEditor_KeyDown | KeyCode=88, Shift=0
+2026-06-10 11:01:22 | txtEditor_KeyDown | KeyCode=84, Shift=0
+2026-06-10 11:01:22 | txtEditor_KeyDown | KeyCode=79, Shift=0
+2026-06-10 11:01:22 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-06-10 11:01:22 | ActualizarCelda | fila=1, col=8, valor=primer texto
+2026-06-10 11:01:22 | MostrarEvento | fila=1
+2026-06-10 11:01:22 | txtTexto_Change | Texto=primer texto
+2026-06-10 11:01:22 | txtEditor_LostFocus
+2026-06-10 11:01:23 | EjecutarSecuencia_Inicio | TotalEventos=6
+2026-06-10 11:01:23 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=5
+2026-06-10 11:01:23 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:01:23 | EjecutarAccion | hwndVentana=2098938, Texto=primer texto, ModoEnvioTexto=1
+2026-06-10 11:01:25 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 11:01:25 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 11:01:26 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 11:01:26 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 11:01:26 | EjecutarAccion | hwndVentana=2098938, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=2
+2026-06-10 11:01:26 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 11:01:26 | EjecutarAccion | hwndVentana=2098938, Texto=, ModoEnvioTexto=0
+2026-06-10 11:01:26 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 11:01:26 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 11:01:26 | EjecutarAccion | hwndVentana=2098938, Texto=(), ModoEnvioTexto=2
+2026-06-10 11:01:26 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-06-10 11:01:26 | EjecutarAplicacionActual | FilaActual=6, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:01:26 | EjecutarAccion | hwndVentana=723046, Texto=Otro texto!!!, ModoEnvioTexto=1
+2026-06-10 11:01:37 | Form_Unload | Cancel=0
+2026-06-10 11:01:49 | Form_Load
+2026-06-10 11:01:49 | InicializarArray
+2026-06-10 11:01:49 | ConfigurarFlexGrid
+2026-06-10 11:01:49 | CargarRecientes
+2026-06-10 11:01:49 | AjustarColumnas
+2026-06-10 11:01:50 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 11:01:50 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 11:01:50 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-06-10 11:01:50 | CargarEventosDesdeArray | m_Count=6
+2026-06-10 11:01:50 | AjustarColumnas
+2026-06-10 11:01:51 | CargarConfiguracionProyecto
+2026-06-10 11:01:51 | EjecutarSecuencia_Inicio | TotalEventos=6
+2026-06-10 11:01:51 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 11:01:51 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:01:51 | EjecutarAccion | hwndVentana=3082226, Texto=, ModoEnvioTexto=0
+2026-06-10 11:01:52 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 11:01:52 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 11:01:53 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 11:01:53 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 11:01:53 | EjecutarAccion | hwndVentana=3082226, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=2
+2026-06-10 11:01:53 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 11:01:53 | EjecutarAccion | hwndVentana=3082226, Texto=, ModoEnvioTexto=0
+2026-06-10 11:01:53 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 11:01:53 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 11:01:53 | EjecutarAccion | hwndVentana=3082226, Texto=(), ModoEnvioTexto=2
+2026-06-10 11:01:53 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-06-10 11:01:53 | EjecutarAplicacionActual | FilaActual=6, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:01:53 | EjecutarAccion | hwndVentana=985182, Texto=Otro texto!!!, ModoEnvioTexto=1
+2026-06-10 11:01:54 | EjecutarSecuencia_Fin
+2026-06-10 11:02:02 | DgEventos_Click | Row=6
+2026-06-10 11:02:02 | MostrarEvento | fila=6
+2026-06-10 11:02:02 | txtTexto_Change | Texto=Otro texto!!!
+2026-06-10 11:02:02 | txtCx_Change | Valor=0
+2026-06-10 11:02:02 | TxtCy_Change | Valor=0
+2026-06-10 11:02:02 | OptTexto_Click
+2026-06-10 11:02:02 | ActualizarEvento | nuevoEvento=5
+2026-06-10 11:02:02 | optPulsarTecla_Click
+2026-06-10 11:02:02 | txtIntervaloTecla_Change | Valor=50
+2026-06-10 11:02:03 | cmdNuevo_Click
+2026-06-10 11:02:03 | AppendEvento
+2026-06-10 11:02:03 | CargarEventosDesdeArray | m_Count=7
+2026-06-10 11:02:03 | AjustarColumnas
+2026-06-10 11:02:04 | DgEventos_Click | Row=7
+2026-06-10 11:02:04 | MostrarEvento | fila=7
+2026-06-10 11:02:04 | txtTexto_Change | Texto=
+2026-06-10 11:02:04 | optClickIzquierdo_Click
+2026-06-10 11:02:04 | ActualizarEvento | nuevoEvento=1
+2026-06-10 11:02:04 | cboEditor_Click | ListIndex=1
+2026-06-10 11:02:04 | DgEventos_Click | Row=7
+2026-06-10 11:02:04 | MostrarEvento | fila=7
+2026-06-10 11:02:05 | cboEditor_Click | ListIndex=4
+2026-06-10 11:02:05 | MostrarEvento | fila=7
+2026-06-10 11:02:06 | optCerrarVentana_Click
+2026-06-10 11:02:06 | ActualizarEvento | nuevoEvento=4
+2026-06-10 11:02:06 | cboEditor_LostFocus
+2026-06-10 11:02:06 | EjecutarSecuencia_Inicio | TotalEventos=7
+2026-06-10 11:02:06 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 11:02:06 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:02:06 | EjecutarAccion | hwndVentana=3737624, Texto=, ModoEnvioTexto=0
+2026-06-10 11:02:06 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-06-10 11:02:06 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-06-10 11:02:07 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 11:02:07 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 11:02:07 | EjecutarAccion | hwndVentana=3737624, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=2
+2026-06-10 11:02:07 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 11:02:07 | EjecutarAccion | hwndVentana=3737624, Texto=, ModoEnvioTexto=0
+2026-06-10 11:02:07 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 11:02:07 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 11:02:07 | EjecutarAccion | hwndVentana=3737624, Texto=(), ModoEnvioTexto=2
+2026-06-10 11:02:07 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-06-10 11:02:07 | EjecutarAplicacionActual | FilaActual=6, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:02:08 | EjecutarAccion | hwndVentana=5310138, Texto=Otro texto!!!, ModoEnvioTexto=1
+2026-06-10 11:02:09 | EjecutarSecuencia_Evento | FilaActual=7, TipoEvento=4
+2026-06-10 11:02:09 | EjecutarAccion | hwndVentana=5310138, Texto=, ModoEnvioTexto=0
+2026-06-10 11:02:09 | EjecutarSecuencia_Fin
+2026-06-10 11:02:13 | cboEditor_Click | ListIndex=8
+2026-06-10 11:02:13 | DgEventos_Click | Row=2
+2026-06-10 11:02:13 | MostrarEvento | fila=2
+2026-06-10 11:02:14 | OptTiempoEspera_Click
+2026-06-10 11:02:14 | ActualizarEvento | nuevoEvento=8
+2026-06-10 11:02:14 | txtTiempoEspera_Change | Valor=1
+2026-06-10 11:02:17 | cboEditor_Click | ListIndex=4
+2026-06-10 11:02:17 | MostrarEvento | fila=2
+2026-06-10 11:02:17 | optCerrarVentana_Click
+2026-06-10 11:02:17 | ActualizarEvento | nuevoEvento=4
+2026-06-10 11:02:18 | cboEditor_LostFocus
+2026-06-10 11:02:18 | EjecutarSecuencia_Inicio | TotalEventos=7
+2026-06-10 11:02:18 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 11:02:18 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:02:18 | EjecutarAccion | hwndVentana=1574710, Texto=, ModoEnvioTexto=0
+2026-06-10 11:02:18 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=4
+2026-06-10 11:02:18 | EjecutarAccion | hwndVentana=1574710, Texto=, ModoEnvioTexto=1
+2026-06-10 11:02:18 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 11:02:18 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 11:02:23 | EjecutarSecuencia_Timeout | Evento=3
+2026-06-10 11:02:24 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 11:02:24 | EjecutarAccion | hwndVentana=0, Texto=, ModoEnvioTexto=0
+2026-06-10 11:02:24 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 11:02:24 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 11:02:24 | EjecutarSecuencia_Inicio | TotalEventos=7
+2026-06-10 11:02:24 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-06-10 11:02:24 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-06-10 11:02:25 | EjecutarAccion | hwndVentana=1968094, Texto=, ModoEnvioTexto=0
+2026-06-10 11:02:25 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=4
+2026-06-10 11:02:25 | EjecutarAccion | hwndVentana=1968094, Texto=, ModoEnvioTexto=1
+2026-06-10 11:02:25 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-06-10 11:02:25 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-06-10 11:02:30 | EjecutarSecuencia_Timeout | Evento=3
+2026-06-10 11:02:31 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-06-10 11:02:31 | EjecutarAccion | hwndVentana=0, Texto=, ModoEnvioTexto=0
+2026-06-10 11:02:31 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-06-10 11:02:31 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-06-10 11:02:35 | Form_Load
+2026-06-10 11:02:35 | InicializarArray
+2026-06-10 11:02:35 | ConfigurarFlexGrid
+2026-06-10 11:02:35 | CargarRecientes
+2026-06-10 11:02:35 | AjustarColumnas
+2026-06-10 11:02:40 | Form_Unload | Cancel=0
+2026-08-27 17:39:30 | Form_Load
+2026-08-27 17:39:30 | InicializarArray
+2026-08-27 17:39:30 | ConfigurarFlexGrid
+2026-08-27 17:39:30 | CargarRecientes
+2026-08-27 17:39:30 | AjustarColumnas
+2026-08-27 17:39:33 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-27 17:39:33 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-27 17:39:33 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-27 17:39:33 | CargarEventosDesdeArray | m_Count=6
+2026-08-27 17:39:33 | AjustarColumnas
+2026-08-27 17:39:33 | CargarConfiguracionProyecto
+2026-08-27 17:39:34 | DgEventos_Click | Row=1
+2026-08-27 17:39:34 | MostrarEvento | fila=1
+2026-08-27 17:39:34 | txtCx_Change | Valor=0
+2026-08-27 17:39:34 | TxtCy_Change | Valor=0
+2026-08-27 17:39:34 | OptNinguno_Click
+2026-08-27 17:39:34 | ActualizarEvento | nuevoEvento=9
+2026-08-27 17:39:34 | DgEventos_DblClick | Row=1, Col=1
+2026-08-27 17:39:35 | DgEventos_Click | Row=2
+2026-08-27 17:39:35 | MostrarEvento | fila=2
+2026-08-27 17:39:35 | OptTiempoEspera_Click
+2026-08-27 17:39:35 | ActualizarEvento | nuevoEvento=8
+2026-08-27 17:39:35 | txtTiempoEspera_Change | Valor=1
+2026-08-27 17:39:35 | DgEventos_DblClick | Row=2, Col=1
+2026-08-27 17:39:35 | DgEventos_Click | Row=2
+2026-08-27 17:39:35 | MostrarEvento | fila=2
+2026-08-27 17:39:36 | DgEventos_DblClick | Row=2, Col=1
+2026-08-27 17:39:36 | DgEventos_Click | Row=2
+2026-08-27 17:39:36 | MostrarEvento | fila=2
+2026-08-27 17:39:42 | Form_Unload | Cancel=0
+2026-08-27 17:58:27 | Form_Load
+2026-08-27 17:58:27 | InicializarArray
+2026-08-27 17:58:27 | ConfigurarFlexGrid
+2026-08-27 17:58:27 | CargarRecientes
+2026-08-27 17:58:27 | AjustarColumnas
+2026-08-27 17:58:29 | DgEventos_Click | Row=1
+2026-08-27 17:58:29 | MostrarEvento | fila=1
+2026-08-27 17:58:32 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-27 17:58:32 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-27 17:58:32 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-27 17:58:32 | CargarEventosDesdeArray | m_Count=6
+2026-08-27 17:58:32 | AjustarColumnas
+2026-08-27 17:58:32 | CargarConfiguracionProyecto
+2026-08-27 17:58:38 | EjecutarSecuencia_Inicio | TotalEventos=6
+2026-08-27 17:58:38 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-08-27 17:58:38 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-27 17:58:38 | EjecutarAccion | hwndVentana=262340, Texto=, ModoEnvioTexto=0
+2026-08-27 17:58:38 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-08-27 17:58:38 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-08-27 17:58:39 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-08-27 17:58:39 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-08-27 17:58:39 | EjecutarAccion | hwndVentana=262340, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=2
+2026-08-27 17:58:39 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-08-27 17:58:39 | EjecutarAccion | hwndVentana=262340, Texto=, ModoEnvioTexto=0
+2026-08-27 17:58:39 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-08-27 17:58:39 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-08-27 17:58:39 | EjecutarAccion | hwndVentana=262340, Texto=(), ModoEnvioTexto=2
+2026-08-27 17:58:39 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-08-27 17:58:39 | EjecutarAplicacionActual | FilaActual=6, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-27 17:58:39 | EjecutarAccion | hwndVentana=1049268, Texto=Otro texto!!!, ModoEnvioTexto=1
+2026-08-27 17:58:40 | EjecutarSecuencia_Fin
+2026-08-27 17:59:01 | Form_Unload | Cancel=0

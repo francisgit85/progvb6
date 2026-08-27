@@ -17,7 +17,114 @@ Private Const SE_ERR_OOM = 8
 Private Const SE_ERR_PNF = 3
 Private Const SE_ERR_SHARE = 26
 
+Private Declare Function SystemParametersInfo Lib "user32" _
+    Alias "SystemParametersInfoA" (ByVal uAction As Long, _
+    ByVal uParam As Long, ByVal lpvParam As Any, _
+    ByVal fuWinIni As Long) As Long
+
+Const SPI_SETDEFAULTINPUTLANG = &H5A
+Const SPIF_SENDCHANGE = &H2
+
 Declare Function MakeSureDirectoryPathExists Lib "imagehlp.dll" (ByVal lpPath As String) As Long
+Declare Function SetForegroundWindow Lib "user32" (ByVal hwnd As Long) As Long
+Public Declare Function SetActiveWindow Lib "user32" _
+    (ByVal hwnd As Long) As Long
+Declare Function ShowWindow Lib "user32" (ByVal hwnd As Long, ByVal nCmdShow As Long) As Long
+    
+Declare Function LoadKeyboardLayout Lib "user32" _
+    Alias "LoadKeyboardLayoutA" (ByVal pwszKLID As String, ByVal flags As Long) As Long
+
+Declare Function GetWindowThreadProcessId Lib "user32" _
+    (ByVal hwnd As Long, lpdwProcessId As Long) As Long
+
+Declare Function AttachThreadInput Lib "user32" _
+    (ByVal idAttach As Long, ByVal idAttachTo As Long, ByVal fAttach As Long) As Long
+
+Declare Function ActivateKeyboardLayout Lib "user32" _
+    (ByVal hkl As Long, ByVal flags As Long) As Long
+
+' API para enumerar ventanas
+Public Declare Function EnumWindows Lib "user32" _
+    (ByVal lpEnumFunc As Long, ByVal lParam As Long) As Long
+
+Public Declare Function IsWindowVisible Lib "user32" (ByVal hwnd As Long) As Long
+
+Private Declare Function SendInput Lib "user32" _
+    (ByVal nInputs As Long, pInputs As Any, ByVal cbSize As Long) As Long
+
+Private Declare Sub CopyMemory Lib "kernel32" Alias "RtlMoveMemory" _
+    (Destination As Any, Source As Any, ByVal length As Long)
+
+Private Declare Function GetKeyboardLayout Lib "user32" _
+    (ByVal idThread As Long) As Long
+    
+Private Type KEYBDINPUT
+    wVk As Integer
+    wScan As Integer
+    dwFlags As Long
+    time As Long
+    dwExtraInfo As Long
+End Type
+
+Private Type KINPUT
+    dwType As Long
+    ki As KEYBDINPUT
+End Type
+
+
+Private Declare Function MapVirtualKey Lib "user32" _
+    Alias "MapVirtualKeyA" (ByVal wCode As Long, ByVal wMapType As Long) As Long
+
+Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+
+Private Declare Function GetKeyState Lib "user32" (ByVal nVirtKey As Long) As Integer
+Private Declare Sub keybd_event Lib "user32" (ByVal bVk As Byte, ByVal bScan As Byte, ByVal dwFlags As Long, ByVal dwExtraInfo As Long)
+
+' Constantes
+Private Const INPUT_KEYBOARD = 1
+Private Const KEYEVENTF_KEYUP = &H2
+Public Const KEYEVENTF_UNICODE As Long = &H4
+Private Const VK_SHIFT = &H10
+Private Const VK_RETURN = &HD
+Private Const VK_TAB = &H9
+Private Const VK_SPACE = &H20
+Private Const VK_ADD = &H6B
+Private Const VK_SUBTRACT = &H6D
+Private Const VK_MULTIPLY = &H6A
+Private Const VK_DIVIDE = &H6F
+Private Const VK_DECIMAL = &H6E
+Private Const VK_CAPITAL = &H14
+
+' Diccionario Virtual Key Codes (US Standard)
+
+Const VK_OEM_1 = &HBA       ' ; :
+Const VK_OEM_PLUS = &HBB    ' = +
+Const VK_OEM_COMMA = &HBC   ' , <
+Const VK_OEM_MINUS = &HBD   ' -_
+Const VK_OEM_PERIOD = &HBE  ' . >
+Const VK_OEM_2 = &HBF       ' / ?
+Const VK_OEM_3 = &HC0       ' ` ~
+Const VK_OEM_4 = &HDB       ' [ {
+Const VK_OEM_5 = &HDC       ' \ |
+Const VK_OEM_6 = &HDD       ' ] }
+Const VK_OEM_7 = &HDE       ' ' "
+Const VK_OEM_8 = &HDF       ' (varía según layout)
+Const VK_OEM_102 = &HE2     ' <> o \ en teclados 102 teclas
+
+' Paréntesis
+' ( ? Shift + "9" (VK_9 = &H39)
+' ) ? Shift + "0" (VK_0 = &H30)
+
+' Otros símbolos con Shift:
+' ! ? Shift + "1" (VK_1 = &H31)
+' @ ? Shift + "2" (VK_2 = &H32)
+' # ? Shift + "3" (VK_3 = &H33)
+' $ ? Shift + "4" (VK_4 = &H34)
+' % ? Shift + "5" (VK_5 = &H35)
+' ^ ? Shift + "6" (VK_6 = &H36)
+' & ? Shift + "7" (VK_7 = &H37)
+' * ? Shift + "8" (VK_8 = &H38) o VK_MULTIPLY
+
 
 'Declaración de ShellExecute
 Private Declare Function ShellExecute Lib "shell32.dll" Alias "ShellExecuteA" _
@@ -25,9 +132,47 @@ Private Declare Function ShellExecute Lib "shell32.dll" Alias "ShellExecuteA" _
                         lpFile As String, ByVal lpParameters As String, ByVal _
                         lpDirectory As String, ByVal nShowCmd As Long) As Long
                         
+                        
+Private Declare Function CreateProcess Lib "kernel32" _
+    Alias "CreateProcessA" (ByVal lpApplicationName As String, _
+    ByVal lpCommandLine As String, lpProcessAttributes As Any, _
+    lpThreadAttributes As Any, ByVal bInheritHandles As Long, _
+    ByVal dwCreationFlags As Long, ByVal lpEnvironment As String, _
+    ByVal lpCurrentDirectory As String, lpStartupInfo As STARTUPINFO, _
+    lpProcessInformation As PROCESS_INFORMATION) As Long
+
+Private Type STARTUPINFO
+    cb As Long
+    lpReserved As String
+    lpDesktop As String
+    lpTitle As String
+    dwX As Long
+    dwY As Long
+    dwXSize As Long
+    dwYSize As Long
+    dwXCountChars As Long
+    dwYCountChars As Long
+    dwFillAttribute As Long
+    dwFlags As Long
+    wShowWindow As Integer
+    cbReserved2 As Integer
+    lpReserved2 As Long
+    hStdInput As Long
+    hStdOutput As Long
+    hStdError As Long
+End Type
+
+Private Type PROCESS_INFORMATION
+    hProcess As Long
+    hThread As Long
+    dwProcessId As Long
+    dwThreadId As Long
+End Type
+                       
+                        
 Private Const SW_SHOWNORMAL = 1
 
-Public Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+Public Declare Function GetTickCount Lib "kernel32" () As Long
 Public Declare Function SetFocus Lib "user32" (ByVal hwnd As Long) As Long
 Public Declare Function BringWindowToTop Lib "user32" (ByVal hwnd As Long) As Long
 Public Declare Function GetFocus Lib "user32" () As Long
@@ -36,7 +181,7 @@ Declare Function BlockInput Lib "user32" (ByVal fBlock As Long) As Long
 'Minimiza una ventana
 Declare Function CloseWindow Lib "user32" (ByVal hwnd As Long) As Long
 Declare Function IsWindow Lib "user32" (ByVal hwnd As Long) As Long
-Declare Function IsWindowVisible Lib "user32" (ByVal hwnd As Long) As Long
+
 'La región está habilitada?
 Declare Function IsWindowEnabled Lib "user32" (ByVal hwnd As Long) As Long
 'Función que habilita una región !!!
@@ -57,9 +202,10 @@ Declare Function EnumChildWindows Lib "user32" (ByVal hWndParent As Long, ByVal 
 Declare Function GetWindowText Lib "user32" Alias "GetWindowTextA" (ByVal hwnd As Long, ByVal lpString As String, ByVal cch As Long) As Long
 Declare Function GetWindowTextLength Lib "user32" Alias "GetWindowTextLengthA" (ByVal hwnd As Long) As Long
 Declare Function FindWindow Lib "user32" Alias "FindWindowA" (ByVal lpClassName As String, ByVal lpWindowName As String) As Long
+Declare Function CloseHandle Lib "kernel32" (ByVal hObject As Long) As Long
 
 ' función SendMessage
-Private Declare Function SendMessage Lib "user32" Alias "SendMessageA" ( _
+Public Declare Function SendMessage Lib "user32" Alias "SendMessageA" ( _
     ByVal hwnd As Long, _
     ByVal wMsg As Long, _
     ByVal wParam As Long, _
@@ -132,20 +278,7 @@ Type WINDOWPLACEMENT
 End Type
  
 Declare Function GetWindowRect Lib "user32" (ByVal hwnd As Long, lpRect As RECT) As Long
-Declare Function GetWindowPlacement Lib "user32" (ByVal hwnd As Long, lpwndpl As _
-                                                            WINDOWPLACEMENT) As Long
-'Declaración del Api keybd_event para la presión de tecla
-Private Declare Sub keybd_event Lib "user32" (ByVal bVk As Byte, _
-    ByVal bScan As Byte, _
-    ByVal dwFlags As Long, _
-    ByVal dwExtraInfo As Long)
-
-'Constantes para las teclas y otros
-Const KEYEVENTF_KEYUP = &H2
-Const INPUT_MOUSE = 0
-Const INPUT_KEYBOARD = 1
-Const INPUT_HARDWARE = 2
-Const KEYEVENTF_EXTENDEDKEY = &H1
+Declare Function GetWindowPlacement Lib "user32" (ByVal hwnd As Long, lpwndpl As WINDOWPLACEMENT) As Long
 
 Enum eButtons
     eNothing = 1
@@ -164,13 +297,7 @@ Private Type MOUSEINPUT
   dwExtraInfo As Long
 End Type
 
-Private Type KEYBDINPUT
-  wVk As Integer
-  wScan As Integer
-  dwFlags As Long
-  time As Long
-  dwExtraInfo As Long
-End Type
+
 Private Type HARDWAREINPUT
   uMsg As Long
   wParamL As Integer
@@ -181,8 +308,7 @@ Private Type GENERALINPUT
   xi(0 To 23) As Byte
 End Type
 
-Declare Function SendInput Lib "user32.dll" (ByVal nInputs As Long, pInputs As GENERALINPUT, ByVal cbSize As Long) As Long
-Declare Sub CopyMemory Lib "kernel32" Alias "RtlMoveMemory" (pDst As Any, pSrc As Any, ByVal ByteLen As Long)
+
 Declare Function GetSystemDirectory Lib "kernel32" Alias "GetSystemDirectoryA" (ByVal lpBuffer As String, ByVal nSize As Long) As Long
 Declare Sub mouse_event Lib "user32" (ByVal dwFlags As Long, ByVal dX As Long, ByVal dY As Long, ByVal cButtons As Long, ByVal dwExtraInfo As Long)
 'Para manipular archivos INI
@@ -212,9 +338,96 @@ Const WM_CUT As Long = &H300 'Cortar (solo si hay algo seleccionado)
 Const WM_PASTE As Long = &H302 'Pegar
 Const EM_SETSEL As Long = &HB1 'Seleccionar texto
 
+Const VK_CONTROL = &H11
+Const VK_V = &H56
+
 Public HwndPadre As Long
 Public EnumChild As Long
 Public TxtChild As String
+
+' En un módulo .BAS
+Public m_TargetPID As Long
+Public m_FoundHwnd As Long
+
+Private Type SHELLEXECUTEINFO
+    cbSize As Long
+    fMask As Long
+    hwnd As Long
+    lpVerb As String
+    lpFile As String
+    lpParameters As String
+    lpDirectory As String
+    nShow As Long
+    hInstApp As Long
+    lpIDList As Long
+    lpClass As String
+    hkeyClass As Long
+    dwHotKey As Long
+    hIcon As Long
+    hProcess As Long
+End Type
+Private Const SEE_MASK_NOCLOSEPROCESS = &H40
+Private Declare Function ShellExecuteEx Lib "shell32.dll" Alias "ShellExecuteExA" _
+    (lpExecInfo As SHELLEXECUTEINFO) As Long
+   
+Private Declare Function GetProcessId Lib "kernel32" (ByVal hProcess As Long) As Long
+     
+Private Declare Function OpenProcess Lib "kernel32" ( _
+    ByVal dwDesiredAccess As Long, _
+    ByVal bInheritHandle As Long, _
+    ByVal dwProcessId As Long) As Long
+
+Private Declare Function TerminateProcess Lib "kernel32" ( _
+    ByVal hProcess As Long, _
+    ByVal uExitCode As Long) As Long
+
+' Constantes de acceso
+Private Const PROCESS_TERMINATE = &H1
+     
+' Variable global para guardar el layout previo
+Private hklPrevio As Long
+Private tidDestino As Long
+Private Const KLF_ACTIVATE = &H1
+
+Public Sub KillProcessByPID(ByVal PID As Long)
+    Dim hProcess As Long
+    
+    ' Abrir el proceso con permiso de terminación
+    hProcess = OpenProcess(PROCESS_TERMINATE, 0, PID)
+    
+    If hProcess <> 0 Then
+        ' Terminar el proceso
+        Call TerminateProcess(hProcess, 0)
+        ' Cerrar el handle
+        Call CloseHandle(hProcess)
+    Else
+        MsgBox "No se pudo abrir el proceso con PID " & PID
+    End If
+End Sub
+
+Function ObtenerPID(hwndVentana As Long) As Long
+    Dim PID As Long
+    GetWindowThreadProcessId hwndVentana, PID
+    ObtenerPID = PID
+End Function
+
+Public Function EnumWindowsProc(ByVal hwnd As Long, ByVal lParam As Long) As Long
+    Dim PID As Long
+    GetWindowThreadProcessId hwnd, PID
+    If PID = m_TargetPID And IsWindowVisible(hwnd) <> 0 Then
+        m_FoundHwnd = hwnd
+        EnumWindowsProc = 0   ' detener
+    Else
+        EnumWindowsProc = 1   ' continuar
+    End If
+End Function
+
+Public Function FindWindowByProcessID(ByVal PID As Long) As Long
+    m_TargetPID = PID
+    m_FoundHwnd = 0
+    EnumWindows AddressOf EnumWindowsProc, 0
+    FindWindowByProcessID = m_FoundHwnd
+End Function
 
 Public Sub Ejecutar(ByVal hwnd As Long, ByVal Archivo As String)
     'Abre el archivo
@@ -249,6 +462,34 @@ Public Sub Ejecutar(ByVal hwnd As Long, ByVal Archivo As String)
             MsgBox "Sharing violation", vbCritical
     End Select
 End Sub
+
+Public Function EjecutarConPID(ByRef RutaExe As String, Optional ByVal Params As String = "") As Long
+    Dim sei As SHELLEXECUTEINFO
+    Dim ret As Long
+
+    sei.cbSize = Len(sei)
+    sei.fMask = SEE_MASK_NOCLOSEPROCESS
+    sei.hwnd = 0
+    sei.lpVerb = "open"
+    sei.lpFile = RutaExe
+    sei.lpParameters = Params
+    sei.lpDirectory = vbNullString
+    sei.nShow = SW_SHOWNORMAL
+
+    ret = ShellExecuteEx(sei)
+
+    If ret <> 0 Then
+        ' Obtener el PID real
+        Dim pi As Long
+        pi = GetProcessId(sei.hProcess)
+        EjecutarConPID = pi
+        CloseHandle sei.hProcess
+    Else
+        MsgBox "Error al ejecutar: " & Err.LastDllError, vbCritical
+        EjecutarConPID = 0
+    End If
+End Function
+
 
 'Funcion de lectura de un archivo INI
 Public Function LeeINI(ByVal Filename As String, ByVal Key_Value As String, ByVal Key_Name As String, Optional ByVal Default As String) As String
@@ -308,17 +549,17 @@ End Sub
 
 Private Sub SendKey(bKey As Byte) 'Idéntica a la anterior no hay diferencias
     Dim GInput(0 To 1) As GENERALINPUT
-    Dim KInput As KEYBDINPUT
-    KInput.wVk = bKey  'the key we're going to press
-    KInput.dwFlags = 0 'press the key
+    Dim KINPUT As KEYBDINPUT
+    KINPUT.wVk = bKey  'the key we're going to press
+    KINPUT.dwFlags = 0 'press the key
     'copy the structure into the input array's buffer.
     GInput(0).dwType = INPUT_KEYBOARD   ' keyboard input
-    CopyMemory GInput(0).xi(0), KInput, Len(KInput)
+    CopyMemory GInput(0).xi(0), KINPUT, Len(KINPUT)
     'do the same as above, but for releasing the key
-    KInput.wVk = bKey  ' the key we're going to realease
-    KInput.dwFlags = KEYEVENTF_KEYUP  ' release the key
+    KINPUT.wVk = bKey  ' the key we're going to realease
+    KINPUT.dwFlags = KEYEVENTF_KEYUP  ' release the key
     GInput(1).dwType = INPUT_KEYBOARD  ' keyboard input
-    CopyMemory GInput(1).xi(0), KInput, Len(KInput)
+    CopyMemory GInput(1).xi(0), KINPUT, Len(KINPUT)
     'send the input now
     Call SendInput(2, GInput(0), Len(GInput(0)))
 End Sub
@@ -434,6 +675,22 @@ End With
 GetWindowsPlacementx = p
 End Function
 
+Public Sub CopiarAlPortapapeles(ByVal Texto As String)
+    Clipboard.Clear
+    Clipboard.SetText Texto
+End Sub
+
+Public Sub SimularCtrlV()
+    ' Presionar Ctrl
+    keybd_event VK_CONTROL, 0, 0, 0
+    
+    ' Presionar y soltar V
+    EnviarTecla VK_V
+    
+    ' Soltar Ctrl
+    keybd_event VK_CONTROL, 0, KEYEVENTF_KEYUP, 0
+End Sub
+
 Public Sub PegarTextoHwnd(ByVal hwnd As Long, ByVal Texto As String, ByRef TmpTextBox As TextBox)
 TmpTextBox.Text = Trim(Texto)
 If TmpTextBox.SelLength = 0 Then SendMessage TmpTextBox.hwnd, EM_SETSEL, 0&, -1&
@@ -441,48 +698,205 @@ SendMessage TmpTextBox.hwnd, WM_COPY, 0&, 0&  'Copio al portapapeles
 SendMessage hwnd, WM_PASTE, 0&, 0&  'Pego en el destino
 End Sub
 
-Public Sub PegarTexto(ByVal hwnd As Long, ByVal Texto As String)
-Clipboard.Clear
-Clipboard.SetText Trim(Texto)
-'TomarFoco hwnd
-'Ctrl + v (pegar el texto enviado al clipboard)
-'Esto es equivalente a -> SendKeys "^(v)" pero ha funcionado mejor que este
-Call keybd_event(17, 0, 0, 0) 'Mantengo presionado la tecla ctrl
-Call keybd_event(86, 0, 0, 0) 'Mantengo presionado la tecla v
-Call keybd_event(17, 0, KEYEVENTF_KEYUP, 0) 'Suelto la tecla ctrl
-Call keybd_event(86, 0, KEYEVENTF_KEYUP, 0) 'Suelto la tecla v
+Public Sub EnviarTecla(vk As Integer, Optional shiftNeeded As Boolean = False)
+    If shiftNeeded Then keybd_event VK_SHIFT, 0, 0, 0
+    keybd_event vk, 0, 0, 0
+    
+    keybd_event vk, 0, KEYEVENTF_KEYUP, 0
+    If shiftNeeded Then keybd_event VK_SHIFT, 0, KEYEVENTF_KEYUP, 0
+End Sub
+
+Public Sub ForzarMinusculas()
+    ' Si Bloq Mayús está activo, lo desactiva
+    If (GetKeyState(VK_CAPITAL) And 1) <> 0 Then
+        ' Simula pulsar Bloq Mayús
+        keybd_event VK_CAPITAL, 0, 0, 0
+        keybd_event VK_CAPITAL, 0, KEYEVENTF_KEYUP, 0
+    End If
+End Sub
+
+Public Sub PegarTexto(ByVal hwnd As Long, ByVal Texto As String, IntervaloTecla As Long)
+    SetForegroundWindow hwnd
+    
+    Dim i As Long, c As String
+    For i = 1 To Len(Texto)
+        c = Mid$(Texto, i, 1)
+        
+    Select Case c
+        ' Números
+        Case "0" To "9"
+            EnviarTecla Asc(c)
+    
+        ' Espacio y Enter
+        Case " "
+            EnviarTecla VK_SPACE
+        Case vbCr, vbLf
+            EnviarTecla VK_RETURN
+    
+        Case ":"
+            EnviarTecla VK_OEM_1, True   ' Shift + ; ? :
+        Case ";"
+            EnviarTecla VK_OEM_1, False  ' ;
+    
+        Case "\"
+            EnviarTecla VK_OEM_5, False  ' \
+        Case "|"
+            EnviarTecla VK_OEM_5, True   ' Shift + \ ? |
+    
+        Case "="
+            EnviarTecla VK_OEM_PLUS, False
+        Case "+"
+            EnviarTecla VK_OEM_PLUS, True
+    
+        Case "/"
+            EnviarTecla VK_OEM_2, False
+        Case "?"
+            EnviarTecla VK_OEM_2, True
+    
+        Case """"
+            EnviarTecla VK_OEM_7, True   ' Shift + ' ? "
+        Case "'"
+            EnviarTecla VK_OEM_7, False
+    
+        Case "-"
+            EnviarTecla VK_OEM_MINUS, False
+        Case "_"
+            EnviarTecla VK_OEM_MINUS, True
+    
+        Case ","
+            EnviarTecla VK_OEM_COMMA, False
+        Case "<"
+            EnviarTecla VK_OEM_COMMA, True
+    
+        Case "."
+            EnviarTecla VK_OEM_PERIOD, False
+        Case ">"
+            EnviarTecla VK_OEM_PERIOD, True
+    
+        Case "["
+            EnviarTecla VK_OEM_4, False
+        Case "{"
+            EnviarTecla VK_OEM_4, True
+    
+        Case "]"
+            EnviarTecla VK_OEM_6, False
+        Case "}"
+            EnviarTecla VK_OEM_6, True
+    
+        Case "`"
+            EnviarTecla VK_OEM_3, False
+        Case "~"
+            EnviarTecla VK_OEM_3, True
+    
+        Case "*"
+            EnviarTecla Asc("8"), True  ' Shift + 8 en US ? *
+        
+    Case Else
+         If c Like "[A-Za-z]" Then
+            Dim vk As Integer
+            vk = Asc(UCase(c))   ' VK_A = 65, VK_B = 66, etc.
+            If c = UCase(c) Then
+                EnviarTecla vk, True   ' Mayúscula ? con Shift
+            Else
+                EnviarTecla vk, False  ' Minúscula ? sin Shift
+            End If
+        ElseIf c Like "[0-9]" Then
+            Dim vkNum As Integer
+            vkNum = Asc(c)             ' VK_0 = 48, VK_1 = 49, etc.
+            EnviarTecla vkNum, False
+        End If
+    End Select
+
+    Sleep IntervaloTecla
+    Next i
+    
+End Sub
+
+Sub EnviarUnicode(ByVal ch As String)
+    Dim inp As KINPUT
+    
+    ' Pulsar la tecla
+    inp.dwType = INPUT_KEYBOARD
+    inp.ki.wVk = 0
+    inp.ki.wScan = AscW(ch)
+    inp.ki.dwFlags = KEYEVENTF_UNICODE
+    SendInput 1, inp, Len(inp)
+    
+    ' Soltar la tecla
+    inp.ki.dwFlags = KEYEVENTF_UNICODE Or KEYEVENTF_KEYUP
+    SendInput 1, inp, Len(inp)
+End Sub
+
+' Guardar layout actual del hilo destino
+Public Sub GuardarLayoutVentana(hwndDestino As Long)
+    Dim idThread As Long
+    Dim hkl As Long
+    
+    idThread = GetWindowThreadProcessId(hwndDestino, 0)
+    hkl = GetKeyboardLayout(idThread)
+    
+    ' Guardar el HKL completo (32 bits)
+    hklPrevio = hkl
+End Sub
+
+' Restaurar layout previo
+Public Sub RestaurarLayoutVentana()
+    If hklPrevio <> 0 Then
+        Dim klid As String
+        Dim hklRestaurado As Long
+        
+        ' Convertir HKL a string KLID (8 dígitos hexadecimales)
+        klid = Right$("00000000" & Hex$(hklPrevio And &HFFFF&), 8)
+        
+        ' Cargar el layout por KLID
+        hklRestaurado = LoadKeyboardLayout(klid, KLF_ACTIVATE)
+        
+        ' Activar el layout restaurado
+        If hklRestaurado <> 0 Then
+            'ActivateKeyboardLayout hklRestaurado, KLF_ACTIVATE
+            ActivateKeyboardLayout hklPrevio, KLF_ACTIVATE
+        End If
+    End If
+End Sub
+
+Public Sub CambiarLayoutVentana(hwndDestino As Long)
+    Dim PID As Long, tid As Long
+    tid = GetWindowThreadProcessId(hwndDestino, PID)
+
+    ' Vincular tu hilo
+    AttachThreadInput App.ThreadID, tid, True
+    
+    ' Guardar layout español internacional
+    'hklPrevio = LoadKeyboardLayout("0001040A", 1)  ' Español Internacional
+        
+    ' Activar layout US en ese hilo
+    CambiarLayoutUS
+
+    ' Desvincular
+    AttachThreadInput App.ThreadID, tid, False
+End Sub
+
+Sub CambiarLayoutUS()
+    Dim hkl As Long
+    hkl = LoadKeyboardLayout("00000409", 1)   ' US
+    ActivateKeyboardLayout hkl, 0
+End Sub
+
+Sub CambiarLayoutES()
+    Dim hkl As Long
+    hkl = LoadKeyboardLayout("0000040A", 1)   ' Español (España)
+    ActivateKeyboardLayout hkl, 0
+End Sub
+
+Sub RestaurarLayoutGlobal()
+    Dim hklEsp As Long
+    hklEsp = LoadKeyboardLayout("0001040A", 1) ' Español Internacional
+    SystemParametersInfo SPI_SETDEFAULTINPUTLANG, 0, hklEsp, SPIF_SENDCHANGE
 End Sub
 
 Public Function TomarFoco(ByVal hwnd As Long) As Long
 TomarFoco = SetFocus(hwnd)
 End Function
-
-Public Sub OrdenarDataGrid(ByVal ColIndex As Integer, _
-                           rs As ADODB.Recordset, _
-                           DataGrid As DataGrid)
-
-    Dim strColName As String
-    Static bSortAsc As Boolean
-    Static strPrevCol As String
-    
-    strColName = DataGrid.Columns(ColIndex).DataField
- 
-    If strColName = strPrevCol Then
-
-        If bSortAsc Then
-            rs.Sort = strColName & " DESC"
-            bSortAsc = False
-        Else
-            rs.Sort = strColName
-            bSortAsc = True
-        End If
-
-    Else
-        rs.Sort = strColName
-        bSortAsc = True
-    End If
- strPrevCol = strColName
-End Sub
 
 Public Function EnumChildProc(ByVal hwnd As Long, ByVal lParam As Long) As Long
     Dim sSave As String

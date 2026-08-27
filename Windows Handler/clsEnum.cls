@@ -244,6 +244,10 @@ Private iWl                             As Long
 ' variable para almacenar la cantidad de procesos
 Private mCountLP                        As Long
 
+Private m_TargetPID As Long
+Private m_FoundHwnd As Long
+ 
+
 'Private tWindowsList
 '    sCaption As String
 '    lHwnd    As Long
