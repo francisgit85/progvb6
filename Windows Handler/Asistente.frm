@@ -1050,8 +1050,28 @@ Private Sub PosicionarControlSobreCelda( _
     ctrl.ZOrder 0
 End Sub
 
+Private Sub RefrescarCeldaTiempoEspera(ByVal fila As Long)
+    If fila < 1 Or fila > m_Count Then Exit Sub
+    With DgEventos
+        .Row = fila
+        .col = COL_TIEMPO_ESPERA
+
+        If m_Eventos(fila).Evento = evTiempoEspera Then
+            .TextMatrix(fila, COL_TIEMPO_ESPERA) = CStr(m_Eventos(fila).tiempoEspera)
+        Else
+            .TextMatrix(fila, COL_TIEMPO_ESPERA) = "0"
+        End If
+    End With
+End Sub
+
 Private Sub MostrarEditorTiempoEspera(ByVal fila As Long)
     If fila < 1 Or fila > m_Count Then Exit Sub
+
+    ' Solo mostrar si el evento es Esperar
+    If m_Eventos(fila).Evento <> evTiempoEspera Then
+        OcultarEditores
+        Exit Sub
+    End If
 
     OcultarEditores
 
@@ -1516,7 +1536,8 @@ Private Sub CargarEventosDesdeArray()
 '
 '                End If
                 RefrescarCeldaHabilitado (i)
-                
+                RefrescarCeldaTiempoEspera (i)
+
         End With
         DgEventos.Row = i
         DgEventos.col = COL_HABILITADO
@@ -1600,8 +1621,14 @@ Private Sub MostrarEvento(ByVal fila As Long)
 
     If ev.Evento = evTiempoEspera Then
         txtTiempoEspera.Text = CStr(ev.tiempoEspera)
+        txtTiempoEspera.Enabled = True
         fraModoTexto.Visible = False
-    ElseIf ev.Evento = evTexto Then
+    Else
+        txtTiempoEspera.Text = "0"        ' limpiar valor
+        txtTiempoEspera.Enabled = False   ' grisar/deshabilitar
+        fraModoTexto.Visible = (ev.Evento = evTexto)
+    End If
+    If ev.Evento = evTexto Then
         If ev.Evento = evTexto Then
             If ev.ModoEnvioTexto <> MODO_PEGAR_TEXTO Then
                 If ev.ModoEnvioTexto = 0 Then
@@ -1632,6 +1659,7 @@ Private Sub MostrarEvento(ByVal fila As Long)
     
     m_CargandoFila = False
 End Sub
+
 
 ' ====================================================
 '  CLICK EN LA GRILLA
@@ -1843,22 +1871,75 @@ End Sub
 Private Sub DgEventos_DblClick()
     EscribirLog "DgEventos_DblClick", "Row=" & DgEventos.Row & ", Col=" & DgEventos.col
     Dim fila As Long, col As Long
-    Dim X As Single, Y As Single, w As Single, h As Single
     fila = DgEventos.Row
     col = DgEventos.col
     If fila = 0 Or col = 0 Then Exit Sub
-    If col = COL_HABILITADO Or col = COL_EVENTO Then Exit Sub
+
     OcultarEditores
-    ObtenerRectCelda fila, col, X, Y, w, h
-    txtEditor.Move X, Y, w, h
-    txtEditor.Text = DgEventos.TextMatrix(fila, col)
-    txtEditor.Visible = True
-    txtEditor.ZOrder 0
-    txtEditor.SetFocus
-    
+
+    ' Mostrar editor genérico según columna
+    MostrarEditor fila, col
+
+    ' Acciones especiales
     Select Case col
         Case COL_RUTA
             cmdExplorar_Click
+    End Select
+End Sub
+
+Private Sub MostrarEditor(ByVal fila As Long, ByVal col As Long)
+    If fila < 1 Or fila > m_Count Then Exit Sub
+    OcultarEditores
+
+    Select Case col
+        Case COL_HABILITADO
+            ' Checkbox
+            chkEditor.Value = IIf(m_Eventos(fila).habilitado, vbChecked, vbUnchecked)
+            PosicionarControlSobreCelda chkEditor, fila, col, 18, 18
+            chkEditor.SetFocus
+
+        Case COL_EVENTO
+            ' Combo de eventos
+            SeleccionarEventoEnCombo m_Eventos(fila).Evento
+            PosicionarControlSobreCelda cboEditor, fila, col
+            cboEditor.SetFocus
+
+        Case COL_MODO_ENVIO
+            ' Solo aplica si es Texto
+            If m_Eventos(fila).Evento = evTexto Then
+                cboModoEnvio.Clear
+                cboModoEnvio.AddItem "Pulsar tecla": cboModoEnvio.ItemData(cboModoEnvio.NewIndex) = MODO_PULSAR_TECLA
+                cboModoEnvio.AddItem "Pegar texto": cboModoEnvio.ItemData(cboModoEnvio.NewIndex) = MODO_PEGAR_TEXTO
+                ' Seleccionar actual
+                Dim i As Long
+                For i = 0 To cboModoEnvio.ListCount - 1
+                    If cboModoEnvio.ItemData(i) = m_Eventos(fila).ModoEnvioTexto Then
+                        cboModoEnvio.ListIndex = i
+                        Exit For
+                    End If
+                Next i
+                PosicionarControlSobreCelda cboModoEnvio, fila, col
+                cboModoEnvio.SetFocus
+            End If
+
+        Case COL_TIEMPO_ESPERA
+            ' Solo si el evento es Esperar
+            If m_Eventos(fila).Evento = evTiempoEspera Then
+                Dim X As Single, Y As Single, w As Single, h As Single
+                ObtenerRectCelda fila, col, X, Y, w, h
+                txtEditor.Move X, Y, w, h
+                txtEditor.Text = CStr(m_Eventos(fila).tiempoEspera)
+                txtEditor.Visible = True
+                udTiempoEspera.Move X + w - udTiempoEspera.Width, Y, 20, h
+                udTiempoEspera.Visible = True
+                txtEditor.SetFocus
+            End If
+
+        Case Else
+            ' TextBox genérico para otros campos editables
+            PosicionarControlSobreCelda txtEditor, fila, col
+            txtEditor.Text = DgEventos.TextMatrix(fila, col)
+            txtEditor.SetFocus
     End Select
 End Sub
 

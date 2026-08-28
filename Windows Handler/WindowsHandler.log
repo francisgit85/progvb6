@@ -2158,3 +2158,1556 @@
 2026-08-28 10:09:44 | CargarRecientes
 2026-08-28 10:09:44 | AjustarColumnas
 2026-08-28 10:09:49 | Form_Unload | Cancel=0
+2026-08-28 14:25:25 | Form_Load
+2026-08-28 14:25:25 | InicializarArray
+2026-08-28 14:25:25 | ConfigurarFlexGrid
+2026-08-28 14:25:25 | CargarRecientes
+2026-08-28 14:25:25 | AjustarColumnas
+2026-08-28 14:25:28 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:25:28 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:25:28 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:25:28 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:25:28 | AjustarColumnas
+2026-08-28 14:25:28 | CargarConfiguracionProyecto
+2026-08-28 14:25:29 | DgEventos_Click | Row=4
+2026-08-28 14:25:29 | MostrarEvento | fila=4
+2026-08-28 14:25:29 | txtCx_Change | Valor=0
+2026-08-28 14:25:29 | TxtCy_Change | Valor=0
+2026-08-28 14:25:29 | OptEnter_Click
+2026-08-28 14:25:29 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:25:29 | cboEditor_Click | ListIndex=8
+2026-08-28 14:25:29 | DgEventos_Click | Row=2
+2026-08-28 14:25:29 | MostrarEvento | fila=2
+2026-08-28 14:25:29 | OptTiempoEspera_Click
+2026-08-28 14:25:29 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:25:29 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:25:31 | cboEditor_LostFocus
+2026-08-28 14:25:31 | DgEventos_Click | Row=3
+2026-08-28 14:25:31 | MostrarEvento | fila=3
+2026-08-28 14:25:31 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:25:31 | OptTexto_Click
+2026-08-28 14:25:31 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:25:31 | optPegarTexto_Click
+2026-08-28 14:25:31 | cboEditor_Click | ListIndex=7
+2026-08-28 14:25:31 | cboModoEnvio_LostFocus
+2026-08-28 14:25:32 | DgEventos_Click | Row=4
+2026-08-28 14:25:32 | MostrarEvento | fila=4
+2026-08-28 14:25:32 | txtTexto_Change | Texto=
+2026-08-28 14:25:32 | OptEnter_Click
+2026-08-28 14:25:32 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:25:32 | cboEditor_Click | ListIndex=8
+2026-08-28 14:25:32 | cboEditor_LostFocus
+2026-08-28 14:25:32 | cboEditor_LostFocus
+2026-08-28 14:25:32 | DgEventos_Click | Row=2
+2026-08-28 14:25:32 | MostrarEvento | fila=2
+2026-08-28 14:25:32 | OptTiempoEspera_Click
+2026-08-28 14:25:33 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:25:34 | cboEditor_Click | ListIndex=5
+2026-08-28 14:25:34 | DgEventos_Click | Row=3
+2026-08-28 14:25:34 | MostrarEvento | fila=3
+2026-08-28 14:25:34 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:25:34 | OptTexto_Click
+2026-08-28 14:25:34 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:25:39 | cboEditor_Click | ListIndex=8
+2026-08-28 14:25:39 | cboEditor_LostFocus
+2026-08-28 14:25:39 | cboEditor_LostFocus
+2026-08-28 14:25:39 | DgEventos_Click | Row=2
+2026-08-28 14:25:39 | MostrarEvento | fila=2
+2026-08-28 14:25:39 | txtTexto_Change | Texto=
+2026-08-28 14:25:39 | OptTiempoEspera_Click
+2026-08-28 14:25:39 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:25:40 | cboEditor_Click | ListIndex=5
+2026-08-28 14:25:40 | DgEventos_Click | Row=3
+2026-08-28 14:25:40 | MostrarEvento | fila=3
+2026-08-28 14:25:40 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:25:40 | OptTexto_Click
+2026-08-28 14:25:40 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:28:43 | Form_Load
+2026-08-28 14:28:43 | InicializarArray
+2026-08-28 14:28:43 | ConfigurarFlexGrid
+2026-08-28 14:28:43 | CargarRecientes
+2026-08-28 14:28:43 | AjustarColumnas
+2026-08-28 14:28:45 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:28:45 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:28:45 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:28:45 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:28:45 | AjustarColumnas
+2026-08-28 14:28:45 | CargarConfiguracionProyecto
+2026-08-28 14:28:46 | DgEventos_Click | Row=2
+2026-08-28 14:29:05 | Form_Load
+2026-08-28 14:29:05 | InicializarArray
+2026-08-28 14:29:05 | ConfigurarFlexGrid
+2026-08-28 14:29:05 | CargarRecientes
+2026-08-28 14:29:05 | AjustarColumnas
+2026-08-28 14:29:11 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:29:11 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:29:11 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:29:11 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:29:11 | AjustarColumnas
+2026-08-28 14:29:11 | CargarConfiguracionProyecto
+2026-08-28 14:29:12 | DgEventos_Click | Row=1
+2026-08-28 14:29:12 | MostrarEvento | fila=1
+2026-08-28 14:29:12 | txtCx_Change | Valor=0
+2026-08-28 14:29:12 | TxtCy_Change | Valor=0
+2026-08-28 14:29:12 | OptNinguno_Click
+2026-08-28 14:29:12 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:29:12 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:29:14 | DgEventos_Click | Row=1
+2026-08-28 14:29:14 | MostrarEvento | fila=1
+2026-08-28 14:29:15 | cboEditor_Click | ListIndex=0
+2026-08-28 14:29:15 | DgEventos_Click | Row=1
+2026-08-28 14:29:15 | MostrarEvento | fila=1
+2026-08-28 14:29:15 | cboEditor_Click | ListIndex=8
+2026-08-28 14:29:15 | cboEditor_LostFocus
+2026-08-28 14:29:15 | cboEditor_LostFocus
+2026-08-28 14:29:15 | DgEventos_Click | Row=2
+2026-08-28 14:29:15 | MostrarEvento | fila=2
+2026-08-28 14:29:15 | OptTiempoEspera_Click
+2026-08-28 14:29:15 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:29:15 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:29:16 | cboEditor_Click | ListIndex=5
+2026-08-28 14:29:16 | DgEventos_Click | Row=3
+2026-08-28 14:29:16 | MostrarEvento | fila=3
+2026-08-28 14:29:16 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:29:16 | OptTexto_Click
+2026-08-28 14:29:16 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:29:16 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:29:16 | optPegarTexto_Click
+2026-08-28 14:29:16 | cboEditor_LostFocus
+2026-08-28 14:29:16 | cboEditor_LostFocus
+2026-08-28 14:29:16 | DgEventos_Click | Row=5
+2026-08-28 14:29:16 | MostrarEvento | fila=5
+2026-08-28 14:29:16 | txtTexto_Change | Texto=()
+2026-08-28 14:29:17 | DgEventos_Click | Row=3
+2026-08-28 14:29:17 | MostrarEvento | fila=3
+2026-08-28 14:29:17 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:29:19 | cboEditor_Click | ListIndex=0
+2026-08-28 14:29:19 | cboEditor_LostFocus
+2026-08-28 14:29:19 | cboEditor_LostFocus
+2026-08-28 14:29:19 | DgEventos_Click | Row=1
+2026-08-28 14:29:19 | MostrarEvento | fila=1
+2026-08-28 14:29:19 | txtTexto_Change | Texto=
+2026-08-28 14:29:19 | OptNinguno_Click
+2026-08-28 14:29:19 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:29:21 | cboEditor_Click | ListIndex=8
+2026-08-28 14:29:21 | DgEventos_Click | Row=2
+2026-08-28 14:29:21 | MostrarEvento | fila=2
+2026-08-28 14:29:21 | OptTiempoEspera_Click
+2026-08-28 14:29:21 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:29:21 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:29:23 | cboEditor_Click | ListIndex=0
+2026-08-28 14:29:23 | cboEditor_LostFocus
+2026-08-28 14:29:23 | cboEditor_LostFocus
+2026-08-28 14:29:23 | DgEventos_Click | Row=1
+2026-08-28 14:29:23 | MostrarEvento | fila=1
+2026-08-28 14:29:23 | OptNinguno_Click
+2026-08-28 14:29:23 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:29:23 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:29:24 | cboEditor_Click | ListIndex=8
+2026-08-28 14:29:24 | DgEventos_Click | Row=2
+2026-08-28 14:29:24 | MostrarEvento | fila=2
+2026-08-28 14:29:24 | OptTiempoEspera_Click
+2026-08-28 14:29:24 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:29:24 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:29:30 | Form_Unload | Cancel=0
+2026-08-28 14:30:20 | Form_Load
+2026-08-28 14:30:20 | InicializarArray
+2026-08-28 14:30:20 | ConfigurarFlexGrid
+2026-08-28 14:30:20 | CargarRecientes
+2026-08-28 14:30:20 | AjustarColumnas
+2026-08-28 14:30:22 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:30:22 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:30:22 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:30:22 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:30:22 | AjustarColumnas
+2026-08-28 14:30:22 | CargarConfiguracionProyecto
+2026-08-28 14:30:23 | cboEditor_Click | ListIndex=0
+2026-08-28 14:30:24 | DgEventos_Click | Row=1
+2026-08-28 14:30:24 | MostrarEvento | fila=1
+2026-08-28 14:30:24 | txtCx_Change | Valor=0
+2026-08-28 14:30:24 | TxtCy_Change | Valor=0
+2026-08-28 14:30:24 | OptNinguno_Click
+2026-08-28 14:30:24 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:30:24 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:30:29 | cboEditor_Click | ListIndex=8
+2026-08-28 14:30:29 | cboEditor_LostFocus
+2026-08-28 14:30:29 | cboEditor_LostFocus
+2026-08-28 14:30:29 | DgEventos_Click | Row=2
+2026-08-28 14:30:29 | MostrarEvento | fila=2
+2026-08-28 14:30:29 | OptTiempoEspera_Click
+2026-08-28 14:30:29 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:30:29 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:30:35 | cboEditor_Click | ListIndex=5
+2026-08-28 14:30:35 | DgEventos_Click | Row=3
+2026-08-28 14:30:35 | MostrarEvento | fila=3
+2026-08-28 14:30:35 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:30:35 | OptTexto_Click
+2026-08-28 14:30:35 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:30:36 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:30:36 | optPegarTexto_Click
+2026-08-28 14:30:36 | cboEditor_Click | ListIndex=8
+2026-08-28 14:30:36 | cboEditor_LostFocus
+2026-08-28 14:30:36 | cboEditor_LostFocus
+2026-08-28 14:30:36 | DgEventos_Click | Row=2
+2026-08-28 14:30:36 | MostrarEvento | fila=2
+2026-08-28 14:30:36 | txtTexto_Change | Texto=
+2026-08-28 14:30:36 | OptTiempoEspera_Click
+2026-08-28 14:30:36 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:30:36 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:30:40 | cboEditor_Click | ListIndex=5
+2026-08-28 14:30:40 | DgEventos_Click | Row=3
+2026-08-28 14:30:40 | MostrarEvento | fila=3
+2026-08-28 14:30:40 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:30:40 | OptTexto_Click
+2026-08-28 14:30:40 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:30:40 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:30:42 | cboEditor_LostFocus
+2026-08-28 14:30:42 | OptTiempoEspera_Click
+2026-08-28 14:30:42 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:30:42 | SincronizarFrameModo | fila=3
+2026-08-28 14:30:42 | EsEventoTexto | tipoEvento=8
+2026-08-28 14:30:45 | cboEditor_Click | ListIndex=8
+2026-08-28 14:30:45 | DgEventos_Click | Row=2
+2026-08-28 14:30:45 | MostrarEvento | fila=2
+2026-08-28 14:30:45 | txtTexto_Change | Texto=
+2026-08-28 14:30:45 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:30:47 | cboEditor_LostFocus
+2026-08-28 14:30:47 | cboEditor_LostFocus
+2026-08-28 14:30:47 | DgEventos_Click | Row=3
+2026-08-28 14:30:47 | MostrarEvento | fila=3
+2026-08-28 14:30:47 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:30:47 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:30:48 | DgEventos_Click | Row=2
+2026-08-28 14:30:48 | MostrarEvento | fila=2
+2026-08-28 14:30:48 | txtTexto_Change | Texto=
+2026-08-28 14:30:48 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:30:50 | cboEditor_LostFocus
+2026-08-28 14:30:50 | cboEditor_LostFocus
+2026-08-28 14:30:50 | DgEventos_Click | Row=3
+2026-08-28 14:30:50 | MostrarEvento | fila=3
+2026-08-28 14:30:50 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:30:50 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:30:56 | DgEventos_Click | Row=2
+2026-08-28 14:30:56 | MostrarEvento | fila=2
+2026-08-28 14:30:56 | txtTexto_Change | Texto=
+2026-08-28 14:30:56 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:30:56 | cboEditor_LostFocus
+2026-08-28 14:30:56 | cboEditor_LostFocus
+2026-08-28 14:30:56 | DgEventos_Click | Row=3
+2026-08-28 14:30:56 | MostrarEvento | fila=3
+2026-08-28 14:30:56 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:30:56 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:31:07 | DgEventos_Click | Row=3
+2026-08-28 14:31:07 | MostrarEvento | fila=3
+2026-08-28 14:31:10 | cboEditor_Click | ListIndex=5
+2026-08-28 14:31:11 | MostrarEvento | fila=3
+2026-08-28 14:31:11 | OptTexto_Click
+2026-08-28 14:31:11 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:31:12 | cboEditor_LostFocus
+2026-08-28 14:31:12 | EjecutarSecuencia_Inicio | TotalEventos=6
+2026-08-28 14:31:12 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-08-28 14:31:12 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-28 14:31:13 | EjecutarAccion | hwndVentana=6620574, Texto=, ModoEnvioTexto=0
+2026-08-28 14:31:13 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-08-28 14:31:13 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-08-28 14:31:14 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-08-28 14:31:14 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-08-28 14:31:14 | EjecutarAccion | hwndVentana=6620574, Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=2
+2026-08-28 14:31:14 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-08-28 14:31:14 | EjecutarAccion | hwndVentana=6620574, Texto=, ModoEnvioTexto=0
+2026-08-28 14:31:14 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-08-28 14:31:14 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-08-28 14:31:14 | EjecutarAccion | hwndVentana=6620574, Texto=(), ModoEnvioTexto=2
+2026-08-28 14:31:14 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-08-28 14:31:14 | EjecutarAplicacionActual | FilaActual=6, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-28 14:31:14 | EjecutarAccion | hwndVentana=1509366, Texto=Otro texto!!!, ModoEnvioTexto=1
+2026-08-28 14:31:15 | EjecutarSecuencia_Fin
+2026-08-28 14:31:23 | GuardarEnArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca, m_Count=6
+2026-08-28 14:31:26 | DgEventos_Click | Row=2
+2026-08-28 14:31:26 | MostrarEvento | fila=2
+2026-08-28 14:31:26 | txtTexto_Change | Texto=
+2026-08-28 14:31:26 | OptTiempoEspera_Click
+2026-08-28 14:31:26 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:31:26 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:31:30 | txtEditor_LostFocus
+2026-08-28 14:31:30 | txtEditor_LostFocus
+2026-08-28 14:31:30 | DgEventos_Click | Row=3
+2026-08-28 14:31:30 | MostrarEvento | fila=3
+2026-08-28 14:31:30 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:31:30 | OptTexto_Click
+2026-08-28 14:31:30 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:31:30 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:31:31 | DgEventos_Click | Row=2
+2026-08-28 14:31:31 | MostrarEvento | fila=2
+2026-08-28 14:31:31 | txtTexto_Change | Texto=
+2026-08-28 14:31:31 | OptTiempoEspera_Click
+2026-08-28 14:31:31 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:31:32 | txtEditor_LostFocus
+2026-08-28 14:31:34 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:31:35 | DgEventos_Click | Row=1
+2026-08-28 14:31:35 | MostrarEvento | fila=1
+2026-08-28 14:31:35 | OptNinguno_Click
+2026-08-28 14:31:35 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:31:35 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:31:36 | DgEventos_Click | Row=3
+2026-08-28 14:31:36 | MostrarEvento | fila=3
+2026-08-28 14:31:36 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:31:36 | OptTexto_Click
+2026-08-28 14:31:36 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:31:36 | cboEditor_Click | ListIndex=8
+2026-08-28 14:31:36 | cboEditor_LostFocus
+2026-08-28 14:31:36 | cboEditor_LostFocus
+2026-08-28 14:31:36 | DgEventos_Click | Row=2
+2026-08-28 14:31:36 | MostrarEvento | fila=2
+2026-08-28 14:31:36 | txtTexto_Change | Texto=
+2026-08-28 14:31:36 | OptTiempoEspera_Click
+2026-08-28 14:31:36 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:31:36 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:31:37 | DgEventos_DblClick | Row=2, Col=6
+2026-08-28 14:31:37 | DgEventos_Click | Row=2
+2026-08-28 14:31:37 | MostrarEvento | fila=2
+2026-08-28 14:31:39 | cboEditor_Click | ListIndex=2
+2026-08-28 14:31:39 | MostrarEvento | fila=2
+2026-08-28 14:31:39 | OptClickDerecho_Click
+2026-08-28 14:31:39 | ActualizarEvento | nuevoEvento=2
+2026-08-28 14:31:39 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:31:41 | cboEditor_LostFocus
+2026-08-28 14:31:41 | OptTiempoEspera_Click
+2026-08-28 14:31:41 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:31:41 | SincronizarFrameModo | fila=2
+2026-08-28 14:31:41 | EsEventoTexto | tipoEvento=8
+2026-08-28 14:31:42 | DgEventos_Click | Row=2
+2026-08-28 14:31:42 | MostrarEvento | fila=2
+2026-08-28 14:31:42 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:31:43 | txtEditor_LostFocus
+2026-08-28 14:31:43 | DgEventos_Click | Row=2
+2026-08-28 14:31:43 | MostrarEvento | fila=2
+2026-08-28 14:31:45 | Form_Unload | Cancel=0
+2026-08-28 14:34:08 | Form_Load
+2026-08-28 14:34:08 | InicializarArray
+2026-08-28 14:34:08 | ConfigurarFlexGrid
+2026-08-28 14:34:08 | CargarRecientes
+2026-08-28 14:34:08 | AjustarColumnas
+2026-08-28 14:34:10 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:34:10 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:34:10 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:34:10 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:34:10 | AjustarColumnas
+2026-08-28 14:34:10 | CargarConfiguracionProyecto
+2026-08-28 14:34:12 | DgEventos_Click | Row=4
+2026-08-28 14:34:12 | MostrarEvento | fila=4
+2026-08-28 14:34:12 | txtCx_Change | Valor=0
+2026-08-28 14:34:12 | TxtCy_Change | Valor=0
+2026-08-28 14:34:12 | OptEnter_Click
+2026-08-28 14:34:12 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:34:12 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:34:13 | txtEditor_LostFocus
+2026-08-28 14:34:13 | txtEditor_LostFocus
+2026-08-28 14:34:13 | DgEventos_Click | Row=3
+2026-08-28 14:34:13 | MostrarEvento | fila=3
+2026-08-28 14:34:13 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:34:13 | OptTexto_Click
+2026-08-28 14:34:13 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:34:13 | optPegarTexto_Click
+2026-08-28 14:34:13 | DgEventos_Click | Row=5
+2026-08-28 14:34:13 | MostrarEvento | fila=5
+2026-08-28 14:34:13 | txtTexto_Change | Texto=()
+2026-08-28 14:34:14 | txtEditor_LostFocus
+2026-08-28 14:34:14 | txtEditor_LostFocus
+2026-08-28 14:34:14 | DgEventos_Click | Row=3
+2026-08-28 14:34:14 | MostrarEvento | fila=3
+2026-08-28 14:34:14 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:34:14 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:34:15 | txtEditor_LostFocus
+2026-08-28 14:34:15 | txtEditor_LostFocus
+2026-08-28 14:34:15 | DgEventos_Click | Row=5
+2026-08-28 14:34:15 | MostrarEvento | fila=5
+2026-08-28 14:34:15 | txtTexto_Change | Texto=()
+2026-08-28 14:34:20 | DgEventos_Click | Row=1
+2026-08-28 14:34:20 | MostrarEvento | fila=1
+2026-08-28 14:34:20 | txtTexto_Change | Texto=
+2026-08-28 14:34:20 | OptNinguno_Click
+2026-08-28 14:34:20 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:34:20 | txtEditor_LostFocus
+2026-08-28 14:34:20 | txtEditor_LostFocus
+2026-08-28 14:34:20 | DgEventos_Click | Row=2
+2026-08-28 14:34:20 | MostrarEvento | fila=2
+2026-08-28 14:34:20 | OptTiempoEspera_Click
+2026-08-28 14:34:20 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:34:20 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:34:20 | DgEventos_DblClick | Row=2, Col=9
+2026-08-28 14:34:21 | txtEditor_LostFocus
+2026-08-28 14:34:21 | txtEditor_LostFocus
+2026-08-28 14:34:21 | DgEventos_Click | Row=5
+2026-08-28 14:34:21 | MostrarEvento | fila=5
+2026-08-28 14:34:21 | txtTexto_Change | Texto=()
+2026-08-28 14:34:21 | OptTexto_Click
+2026-08-28 14:34:21 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:34:21 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:34:22 | DgEventos_Click | Row=2
+2026-08-28 14:34:22 | MostrarEvento | fila=2
+2026-08-28 14:34:22 | txtTexto_Change | Texto=
+2026-08-28 14:34:22 | OptTiempoEspera_Click
+2026-08-28 14:34:22 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:34:22 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:34:22 | txtEditor_LostFocus
+2026-08-28 14:34:22 | txtEditor_LostFocus
+2026-08-28 14:34:22 | DgEventos_Click | Row=4
+2026-08-28 14:34:22 | MostrarEvento | fila=4
+2026-08-28 14:34:22 | OptEnter_Click
+2026-08-28 14:34:22 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:34:22 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:34:23 | DgEventos_Click | Row=2
+2026-08-28 14:34:23 | MostrarEvento | fila=2
+2026-08-28 14:34:23 | OptTiempoEspera_Click
+2026-08-28 14:34:23 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:34:23 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:34:23 | DgEventos_DblClick | Row=2, Col=9
+2026-08-28 14:34:23 | txtEditor_LostFocus
+2026-08-28 14:34:23 | txtEditor_LostFocus
+2026-08-28 14:34:23 | DgEventos_Click | Row=3
+2026-08-28 14:34:23 | MostrarEvento | fila=3
+2026-08-28 14:34:24 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:34:24 | OptTexto_Click
+2026-08-28 14:34:24 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:34:24 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:34:25 | txtEditor_LostFocus
+2026-08-28 14:34:25 | DgEventos_Click | Row=2
+2026-08-28 14:34:25 | MostrarEvento | fila=2
+2026-08-28 14:34:25 | txtTexto_Change | Texto=
+2026-08-28 14:34:25 | OptTiempoEspera_Click
+2026-08-28 14:34:25 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:34:25 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:34:26 | DgEventos_Click | Row=6
+2026-08-28 14:34:26 | MostrarEvento | fila=6
+2026-08-28 14:34:26 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 14:34:26 | OptTexto_Click
+2026-08-28 14:34:26 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:34:26 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:34:26 | optPulsarTecla_Click
+2026-08-28 14:34:26 | txtIntervaloTecla_Change | Valor=50
+2026-08-28 14:34:26 | txtEditor_LostFocus
+2026-08-28 14:34:26 | txtEditor_LostFocus
+2026-08-28 14:34:26 | DgEventos_Click | Row=4
+2026-08-28 14:34:26 | MostrarEvento | fila=4
+2026-08-28 14:34:26 | txtTexto_Change | Texto=
+2026-08-28 14:34:26 | OptEnter_Click
+2026-08-28 14:34:26 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:34:26 | DgEventos_DblClick | Row=4, Col=9
+2026-08-28 14:34:29 | txtEditor_LostFocus
+2026-08-28 14:34:29 | txtEditor_LostFocus
+2026-08-28 14:34:29 | DgEventos_Click | Row=1
+2026-08-28 14:34:29 | MostrarEvento | fila=1
+2026-08-28 14:34:29 | OptNinguno_Click
+2026-08-28 14:34:29 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:34:30 | DgEventos_Click | Row=2
+2026-08-28 14:34:30 | MostrarEvento | fila=2
+2026-08-28 14:34:30 | OptTiempoEspera_Click
+2026-08-28 14:34:30 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:34:30 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:34:31 | txtEditor_LostFocus
+2026-08-28 14:34:31 | DgEventos_Click | Row=4
+2026-08-28 14:34:31 | MostrarEvento | fila=4
+2026-08-28 14:34:31 | OptEnter_Click
+2026-08-28 14:34:31 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:34:31 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:34:32 | DgEventos_Click | Row=2
+2026-08-28 14:34:32 | MostrarEvento | fila=2
+2026-08-28 14:34:32 | OptTiempoEspera_Click
+2026-08-28 14:34:32 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:34:32 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:34:32 | txtEditor_KeyDown | KeyCode=51, Shift=0
+2026-08-28 14:34:32 | txtEditor_KeyDown | KeyCode=51, Shift=0
+2026-08-28 14:34:32 | txtEditor_KeyDown | KeyCode=51, Shift=0
+2026-08-28 14:34:33 | txtEditor_KeyDown | KeyCode=27, Shift=0
+2026-08-28 14:34:33 | txtEditor_LostFocus
+2026-08-28 14:34:41 | txtEditor_KeyDown | KeyCode=27, Shift=0
+2026-08-28 14:34:41 | txtEditor_LostFocus
+2026-08-28 14:35:07 | DgEventos_Click | Row=4
+2026-08-28 14:35:07 | MostrarEvento | fila=4
+2026-08-28 14:35:07 | OptEnter_Click
+2026-08-28 14:35:07 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:35:07 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:35:11 | Form_Unload | Cancel=0
+2026-08-28 14:36:43 | Form_Load
+2026-08-28 14:36:43 | InicializarArray
+2026-08-28 14:36:43 | ConfigurarFlexGrid
+2026-08-28 14:36:43 | CargarRecientes
+2026-08-28 14:36:43 | AjustarColumnas
+2026-08-28 14:36:46 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:36:46 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:36:46 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:36:46 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:36:46 | AjustarColumnas
+2026-08-28 14:36:46 | CargarConfiguracionProyecto
+2026-08-28 14:36:47 | DgEventos_Click | Row=3
+2026-08-28 14:36:47 | MostrarEvento | fila=3
+2026-08-28 14:36:47 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:36:47 | txtCx_Change | Valor=0
+2026-08-28 14:36:47 | TxtCy_Change | Valor=0
+2026-08-28 14:36:47 | OptTexto_Click
+2026-08-28 14:36:47 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:36:47 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:36:47 | optPegarTexto_Click
+2026-08-28 14:36:47 | DgEventos_Click | Row=3
+2026-08-28 14:36:47 | MostrarEvento | fila=3
+2026-08-28 14:36:47 | DgEventos_Click | Row=4
+2026-08-28 14:36:47 | MostrarEvento | fila=4
+2026-08-28 14:36:47 | txtTexto_Change | Texto=
+2026-08-28 14:36:47 | OptEnter_Click
+2026-08-28 14:36:47 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:36:48 | DgEventos_Click | Row=5
+2026-08-28 14:36:48 | MostrarEvento | fila=5
+2026-08-28 14:36:48 | txtTexto_Change | Texto=()
+2026-08-28 14:36:48 | OptTexto_Click
+2026-08-28 14:36:48 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:36:48 | DgEventos_Click | Row=5
+2026-08-28 14:36:48 | MostrarEvento | fila=5
+2026-08-28 14:36:48 | DgEventos_DblClick | Row=5, Col=9
+2026-08-28 14:36:48 | txtEditor_LostFocus
+2026-08-28 14:36:49 | DgEventos_Click | Row=5
+2026-08-28 14:36:49 | MostrarEvento | fila=5
+2026-08-28 14:36:49 | DgEventos_Click | Row=6
+2026-08-28 14:36:49 | MostrarEvento | fila=6
+2026-08-28 14:36:49 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 14:36:49 | optPulsarTecla_Click
+2026-08-28 14:36:49 | txtIntervaloTecla_Change | Valor=50
+2026-08-28 14:36:49 | DgEventos_DblClick | Row=6, Col=9
+2026-08-28 14:36:49 | DgEventos_Click | Row=6
+2026-08-28 14:36:49 | MostrarEvento | fila=6
+2026-08-28 14:36:49 | txtEditor_LostFocus
+2026-08-28 14:36:49 | DgEventos_Click | Row=6
+2026-08-28 14:36:49 | MostrarEvento | fila=6
+2026-08-28 14:36:50 | DgEventos_Click | Row=5
+2026-08-28 14:36:50 | MostrarEvento | fila=5
+2026-08-28 14:36:50 | txtTexto_Change | Texto=()
+2026-08-28 14:36:50 | optPegarTexto_Click
+2026-08-28 14:36:50 | DgEventos_DblClick | Row=5, Col=9
+2026-08-28 14:36:50 | DgEventos_Click | Row=5
+2026-08-28 14:36:50 | MostrarEvento | fila=5
+2026-08-28 14:36:50 | txtEditor_LostFocus
+2026-08-28 14:36:51 | DgEventos_Click | Row=4
+2026-08-28 14:36:51 | MostrarEvento | fila=4
+2026-08-28 14:36:51 | txtTexto_Change | Texto=
+2026-08-28 14:36:51 | OptEnter_Click
+2026-08-28 14:36:51 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:36:51 | DgEventos_DblClick | Row=4, Col=9
+2026-08-28 14:36:51 | txtEditor_LostFocus
+2026-08-28 14:36:51 | DgEventos_Click | Row=3
+2026-08-28 14:36:51 | MostrarEvento | fila=3
+2026-08-28 14:36:51 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:36:51 | OptTexto_Click
+2026-08-28 14:36:51 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:36:51 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:36:52 | txtEditor_LostFocus
+2026-08-28 14:36:52 | txtEditor_LostFocus
+2026-08-28 14:36:52 | DgEventos_Click | Row=2
+2026-08-28 14:36:52 | MostrarEvento | fila=2
+2026-08-28 14:36:52 | txtTexto_Change | Texto=
+2026-08-28 14:36:52 | OptTiempoEspera_Click
+2026-08-28 14:36:52 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:36:52 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:36:52 | DgEventos_DblClick | Row=2, Col=9
+2026-08-28 14:36:53 | txtEditor_LostFocus
+2026-08-28 14:36:53 | txtEditor_LostFocus
+2026-08-28 14:36:53 | DgEventos_Click | Row=2
+2026-08-28 14:36:53 | MostrarEvento | fila=2
+2026-08-28 14:36:53 | DgEventos_Click | Row=3
+2026-08-28 14:36:53 | MostrarEvento | fila=3
+2026-08-28 14:36:53 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:36:53 | OptTexto_Click
+2026-08-28 14:36:53 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:36:53 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:36:54 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:36:54 | txtEditor_KeyDown | KeyCode=49, Shift=0
+2026-08-28 14:36:55 | txtEditor_KeyDown | KeyCode=49, Shift=0
+2026-08-28 14:36:55 | txtEditor_KeyDown | KeyCode=50, Shift=0
+2026-08-28 14:36:55 | txtEditor_KeyDown | KeyCode=51, Shift=0
+2026-08-28 14:36:56 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 14:36:56 | ActualizarCelda | fila=3, col=9, valor=01123
+2026-08-28 14:36:56 | MostrarEvento | fila=3
+2026-08-28 14:36:56 | txtEditor_LostFocus
+2026-08-28 14:37:01 | OptTiempoEspera_Click
+2026-08-28 14:37:01 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:37:01 | SincronizarFrameModo | fila=3
+2026-08-28 14:37:01 | EsEventoTexto | tipoEvento=8
+2026-08-28 14:37:05 | DgEventos_Click | Row=3
+2026-08-28 14:37:05 | MostrarEvento | fila=3
+2026-08-28 14:37:05 | txtTiempoEspera_Change | Valor=1123
+2026-08-28 14:37:09 | Form_Unload | Cancel=0
+2026-08-28 14:37:41 | Form_Load
+2026-08-28 14:37:41 | InicializarArray
+2026-08-28 14:37:41 | ConfigurarFlexGrid
+2026-08-28 14:37:41 | CargarRecientes
+2026-08-28 14:37:41 | AjustarColumnas
+2026-08-28 14:37:43 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:37:43 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:37:43 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:37:43 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:37:43 | AjustarColumnas
+2026-08-28 14:37:43 | CargarConfiguracionProyecto
+2026-08-28 14:37:44 | DgEventos_Click | Row=3
+2026-08-28 14:37:44 | MostrarEvento | fila=3
+2026-08-28 14:37:44 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:37:44 | txtCx_Change | Valor=0
+2026-08-28 14:37:44 | TxtCy_Change | Valor=0
+2026-08-28 14:37:44 | OptTexto_Click
+2026-08-28 14:37:44 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:37:44 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:37:44 | optPegarTexto_Click
+2026-08-28 14:37:44 | DgEventos_Click | Row=3
+2026-08-28 14:37:44 | MostrarEvento | fila=3
+2026-08-28 14:37:44 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:37:44 | DgEventos_Click | Row=3
+2026-08-28 14:37:44 | MostrarEvento | fila=3
+2026-08-28 14:37:44 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:37:44 | DgEventos_Click | Row=3
+2026-08-28 14:37:44 | MostrarEvento | fila=3
+2026-08-28 14:37:45 | DgEventos_Click | Row=2
+2026-08-28 14:37:45 | MostrarEvento | fila=2
+2026-08-28 14:37:45 | txtTexto_Change | Texto=
+2026-08-28 14:37:45 | OptTiempoEspera_Click
+2026-08-28 14:37:45 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:37:45 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:37:45 | txtEditor_LostFocus
+2026-08-28 14:37:45 | DgEventos_Click | Row=3
+2026-08-28 14:37:45 | MostrarEvento | fila=3
+2026-08-28 14:37:45 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:37:45 | OptTexto_Click
+2026-08-28 14:37:45 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:37:45 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:37:46 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:37:46 | DgEventos_Click | Row=3
+2026-08-28 14:37:46 | MostrarEvento | fila=3
+2026-08-28 14:37:46 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:37:46 | DgEventos_Click | Row=3
+2026-08-28 14:37:46 | MostrarEvento | fila=3
+2026-08-28 14:37:50 | Form_Unload | Cancel=0
+2026-08-28 14:38:43 | Form_Load
+2026-08-28 14:38:43 | InicializarArray
+2026-08-28 14:38:43 | ConfigurarFlexGrid
+2026-08-28 14:38:43 | CargarRecientes
+2026-08-28 14:38:43 | AjustarColumnas
+2026-08-28 14:38:45 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:38:45 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:38:45 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:38:45 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:38:45 | AjustarColumnas
+2026-08-28 14:38:45 | CargarConfiguracionProyecto
+2026-08-28 14:38:46 | DgEventos_Click | Row=3
+2026-08-28 14:38:46 | MostrarEvento | fila=3
+2026-08-28 14:38:46 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:38:46 | txtCx_Change | Valor=0
+2026-08-28 14:38:46 | TxtCy_Change | Valor=0
+2026-08-28 14:38:46 | OptTexto_Click
+2026-08-28 14:38:46 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:38:46 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:38:46 | optPegarTexto_Click
+2026-08-28 14:38:46 | DgEventos_Click | Row=3
+2026-08-28 14:38:46 | MostrarEvento | fila=3
+2026-08-28 14:38:46 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:38:47 | DgEventos_Click | Row=3
+2026-08-28 14:38:47 | MostrarEvento | fila=3
+2026-08-28 14:38:47 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:38:48 | DgEventos_Click | Row=2
+2026-08-28 14:38:48 | MostrarEvento | fila=2
+2026-08-28 14:38:48 | txtTexto_Change | Texto=
+2026-08-28 14:38:48 | OptTiempoEspera_Click
+2026-08-28 14:38:48 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:38:48 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:38:51 | txtEditor_LostFocus
+2026-08-28 14:38:52 | DgEventos_Click | Row=4
+2026-08-28 14:38:52 | MostrarEvento | fila=4
+2026-08-28 14:38:52 | OptEnter_Click
+2026-08-28 14:38:52 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:38:52 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:38:53 | DgEventos_Click | Row=2
+2026-08-28 14:38:53 | MostrarEvento | fila=2
+2026-08-28 14:38:53 | OptTiempoEspera_Click
+2026-08-28 14:38:53 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:38:53 | txtTiempoEspera_Change | Valor=2
+2026-08-28 14:38:55 | txtEditor_LostFocus
+2026-08-28 14:38:55 | DgEventos_Click | Row=4
+2026-08-28 14:38:55 | MostrarEvento | fila=4
+2026-08-28 14:38:55 | OptEnter_Click
+2026-08-28 14:38:55 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:38:55 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:38:55 | DgEventos_Click | Row=3
+2026-08-28 14:38:55 | MostrarEvento | fila=3
+2026-08-28 14:38:55 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:38:55 | OptTexto_Click
+2026-08-28 14:38:55 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:38:55 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:38:56 | DgEventos_Click | Row=3
+2026-08-28 14:38:56 | MostrarEvento | fila=3
+2026-08-28 14:38:56 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:38:56 | DgEventos_Click | Row=3
+2026-08-28 14:38:56 | MostrarEvento | fila=3
+2026-08-28 14:38:57 | OptTiempoEspera_Click
+2026-08-28 14:38:57 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:38:57 | SincronizarFrameModo | fila=3
+2026-08-28 14:38:57 | EsEventoTexto | tipoEvento=8
+2026-08-28 14:39:02 | OptTexto_Click
+2026-08-28 14:39:02 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:39:02 | SincronizarFrameModo | fila=3
+2026-08-28 14:39:02 | EsEventoTexto | tipoEvento=5
+2026-08-28 14:39:06 | DgEventos_Click | Row=4
+2026-08-28 14:39:06 | MostrarEvento | fila=4
+2026-08-28 14:39:06 | txtTexto_Change | Texto=
+2026-08-28 14:39:06 | OptEnter_Click
+2026-08-28 14:39:06 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:39:06 | DgEventos_Click | Row=3
+2026-08-28 14:39:06 | MostrarEvento | fila=3
+2026-08-28 14:39:06 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:39:06 | OptTexto_Click
+2026-08-28 14:39:06 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:39:07 | DgEventos_Click | Row=3
+2026-08-28 14:39:07 | MostrarEvento | fila=3
+2026-08-28 14:39:08 | DgEventos_Click | Row=3
+2026-08-28 14:39:08 | MostrarEvento | fila=3
+2026-08-28 14:39:08 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:39:08 | DgEventos_Click | Row=3
+2026-08-28 14:39:08 | MostrarEvento | fila=3
+2026-08-28 14:39:08 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:39:09 | DgEventos_Click | Row=3
+2026-08-28 14:39:09 | MostrarEvento | fila=3
+2026-08-28 14:39:09 | DgEventos_Click | Row=4
+2026-08-28 14:39:09 | MostrarEvento | fila=4
+2026-08-28 14:39:09 | txtTexto_Change | Texto=
+2026-08-28 14:39:09 | OptEnter_Click
+2026-08-28 14:39:09 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:39:09 | DgEventos_Click | Row=4
+2026-08-28 14:39:09 | MostrarEvento | fila=4
+2026-08-28 14:39:09 | DgEventos_Click | Row=4
+2026-08-28 14:39:09 | MostrarEvento | fila=4
+2026-08-28 14:39:09 | DgEventos_Click | Row=5
+2026-08-28 14:39:09 | MostrarEvento | fila=5
+2026-08-28 14:39:09 | txtTexto_Change | Texto=()
+2026-08-28 14:39:09 | OptTexto_Click
+2026-08-28 14:39:09 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:39:09 | DgEventos_DblClick | Row=5, Col=9
+2026-08-28 14:39:10 | DgEventos_Click | Row=5
+2026-08-28 14:39:10 | MostrarEvento | fila=5
+2026-08-28 14:39:10 | DgEventos_Click | Row=3
+2026-08-28 14:39:10 | MostrarEvento | fila=3
+2026-08-28 14:39:10 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:39:10 | DgEventos_Click | Row=5
+2026-08-28 14:39:10 | MostrarEvento | fila=5
+2026-08-28 14:39:10 | txtTexto_Change | Texto=()
+2026-08-28 14:39:11 | DgEventos_Click | Row=6
+2026-08-28 14:39:11 | MostrarEvento | fila=6
+2026-08-28 14:39:11 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 14:39:11 | optPulsarTecla_Click
+2026-08-28 14:39:11 | txtIntervaloTecla_Change | Valor=50
+2026-08-28 14:39:11 | DgEventos_Click | Row=6
+2026-08-28 14:39:11 | MostrarEvento | fila=6
+2026-08-28 14:39:11 | DgEventos_Click | Row=4
+2026-08-28 14:39:11 | MostrarEvento | fila=4
+2026-08-28 14:39:11 | txtTexto_Change | Texto=
+2026-08-28 14:39:11 | OptEnter_Click
+2026-08-28 14:39:11 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:39:12 | DgEventos_Click | Row=4
+2026-08-28 14:39:12 | MostrarEvento | fila=4
+2026-08-28 14:39:12 | DgEventos_Click | Row=4
+2026-08-28 14:39:12 | MostrarEvento | fila=4
+2026-08-28 14:39:12 | DgEventos_Click | Row=6
+2026-08-28 14:39:12 | MostrarEvento | fila=6
+2026-08-28 14:39:12 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 14:39:12 | OptTexto_Click
+2026-08-28 14:39:12 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:39:12 | DgEventos_Click | Row=4
+2026-08-28 14:39:12 | MostrarEvento | fila=4
+2026-08-28 14:39:12 | txtTexto_Change | Texto=
+2026-08-28 14:39:12 | OptEnter_Click
+2026-08-28 14:39:12 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:39:13 | Form_Unload | Cancel=0
+2026-08-28 14:40:56 | Form_Load
+2026-08-28 14:40:56 | InicializarArray
+2026-08-28 14:40:56 | ConfigurarFlexGrid
+2026-08-28 14:40:56 | CargarRecientes
+2026-08-28 14:40:56 | AjustarColumnas
+2026-08-28 14:40:59 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:40:59 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:40:59 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:40:59 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:40:59 | AjustarColumnas
+2026-08-28 14:40:59 | CargarConfiguracionProyecto
+2026-08-28 14:41:00 | DgEventos_Click | Row=2
+2026-08-28 14:41:00 | MostrarEvento | fila=2
+2026-08-28 14:41:00 | txtCx_Change | Valor=0
+2026-08-28 14:41:00 | TxtCy_Change | Valor=0
+2026-08-28 14:41:00 | OptTiempoEspera_Click
+2026-08-28 14:41:00 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:41:00 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:41:01 | txtEditor_LostFocus
+2026-08-28 14:41:01 | DgEventos_Click | Row=4
+2026-08-28 14:41:01 | MostrarEvento | fila=4
+2026-08-28 14:41:01 | OptEnter_Click
+2026-08-28 14:41:01 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:41:01 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:41:02 | DgEventos_Click | Row=2
+2026-08-28 14:41:02 | MostrarEvento | fila=2
+2026-08-28 14:41:02 | OptTiempoEspera_Click
+2026-08-28 14:41:02 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:41:02 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:41:02 | txtEditor_LostFocus
+2026-08-28 14:41:02 | DgEventos_Click | Row=3
+2026-08-28 14:41:02 | MostrarEvento | fila=3
+2026-08-28 14:41:02 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:41:02 | OptTexto_Click
+2026-08-28 14:41:02 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:41:02 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:41:02 | optPegarTexto_Click
+2026-08-28 14:41:02 | DgEventos_DblClick | Row=3, Col=9
+2026-08-28 14:41:03 | DgEventos_Click | Row=5
+2026-08-28 14:41:03 | MostrarEvento | fila=5
+2026-08-28 14:41:03 | txtTexto_Change | Texto=()
+2026-08-28 14:41:03 | DgEventos_Click | Row=5
+2026-08-28 14:41:03 | MostrarEvento | fila=5
+2026-08-28 14:41:04 | DgEventos_Click | Row=6
+2026-08-28 14:41:04 | MostrarEvento | fila=6
+2026-08-28 14:41:04 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 14:41:04 | optPulsarTecla_Click
+2026-08-28 14:41:04 | txtIntervaloTecla_Change | Valor=50
+2026-08-28 14:41:04 | DgEventos_Click | Row=6
+2026-08-28 14:41:04 | MostrarEvento | fila=6
+2026-08-28 14:41:04 | DgEventos_Click | Row=4
+2026-08-28 14:41:05 | MostrarEvento | fila=4
+2026-08-28 14:41:05 | txtTexto_Change | Texto=
+2026-08-28 14:41:05 | OptEnter_Click
+2026-08-28 14:41:05 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:41:06 | DgEventos_Click | Row=4
+2026-08-28 14:41:06 | MostrarEvento | fila=4
+2026-08-28 14:41:11 | DgEventos_Click | Row=1
+2026-08-28 14:41:11 | MostrarEvento | fila=1
+2026-08-28 14:41:11 | OptNinguno_Click
+2026-08-28 14:41:11 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:41:11 | DgEventos_DblClick | Row=1, Col=10
+2026-08-28 14:41:11 | DgEventos_Click | Row=1
+2026-08-28 14:41:11 | MostrarEvento | fila=1
+2026-08-28 14:41:11 | DgEventos_DblClick | Row=1, Col=10
+2026-08-28 14:41:12 | DgEventos_Click | Row=1
+2026-08-28 14:41:12 | MostrarEvento | fila=1
+2026-08-28 14:41:12 | DgEventos_Click | Row=4
+2026-08-28 14:41:12 | MostrarEvento | fila=4
+2026-08-28 14:41:12 | OptEnter_Click
+2026-08-28 14:41:12 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:41:13 | DgEventos_Click | Row=2
+2026-08-28 14:41:13 | MostrarEvento | fila=2
+2026-08-28 14:41:13 | OptTiempoEspera_Click
+2026-08-28 14:41:13 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:41:13 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:41:13 | DgEventos_DblClick | Row=2, Col=8
+2026-08-28 14:41:13 | DgEventos_Click | Row=2
+2026-08-28 14:41:13 | MostrarEvento | fila=2
+2026-08-28 14:41:14 | txtEditor_LostFocus
+2026-08-28 14:41:14 | DgEventos_Click | Row=3
+2026-08-28 14:41:14 | MostrarEvento | fila=3
+2026-08-28 14:41:14 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:41:14 | OptTexto_Click
+2026-08-28 14:41:14 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:41:14 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:41:14 | optPegarTexto_Click
+2026-08-28 14:41:14 | DgEventos_DblClick | Row=3, Col=8
+2026-08-28 14:41:14 | DgEventos_Click | Row=3
+2026-08-28 14:41:14 | MostrarEvento | fila=3
+2026-08-28 14:41:14 | DgEventos_DblClick | Row=3, Col=8
+2026-08-28 14:41:15 | DgEventos_Click | Row=3
+2026-08-28 14:41:15 | MostrarEvento | fila=3
+2026-08-28 14:41:15 | DgEventos_DblClick | Row=3, Col=8
+2026-08-28 14:41:15 | DgEventos_Click | Row=3
+2026-08-28 14:41:15 | MostrarEvento | fila=3
+2026-08-28 14:41:15 | DgEventos_DblClick | Row=3, Col=8
+2026-08-28 14:41:16 | DgEventos_Click | Row=3
+2026-08-28 14:41:16 | MostrarEvento | fila=3
+2026-08-28 14:41:16 | DgEventos_Click | Row=3
+2026-08-28 14:41:16 | MostrarEvento | fila=3
+2026-08-28 14:41:16 | DgEventos_DblClick | Row=3, Col=8
+2026-08-28 14:41:16 | DgEventos_Click | Row=3
+2026-08-28 14:41:16 | MostrarEvento | fila=3
+2026-08-28 14:41:16 | DgEventos_DblClick | Row=3, Col=8
+2026-08-28 14:41:16 | DgEventos_Click | Row=3
+2026-08-28 14:41:16 | MostrarEvento | fila=3
+2026-08-28 14:41:18 | Form_Unload | Cancel=0
+2026-08-28 14:45:07 | Form_Load
+2026-08-28 14:45:07 | InicializarArray
+2026-08-28 14:45:07 | ConfigurarFlexGrid
+2026-08-28 14:45:07 | CargarRecientes
+2026-08-28 14:45:07 | AjustarColumnas
+2026-08-28 14:45:10 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:45:10 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:45:10 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:45:10 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:45:10 | AjustarColumnas
+2026-08-28 14:45:10 | CargarConfiguracionProyecto
+2026-08-28 14:45:11 | DgEventos_Click | Row=1
+2026-08-28 14:45:11 | MostrarEvento | fila=1
+2026-08-28 14:45:11 | txtCx_Change | Valor=0
+2026-08-28 14:45:11 | TxtCy_Change | Valor=0
+2026-08-28 14:45:11 | OptNinguno_Click
+2026-08-28 14:45:11 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:45:11 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:45:40 | Form_Load
+2026-08-28 14:45:40 | InicializarArray
+2026-08-28 14:45:40 | ConfigurarFlexGrid
+2026-08-28 14:45:40 | CargarRecientes
+2026-08-28 14:45:40 | AjustarColumnas
+2026-08-28 14:45:42 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:45:42 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:45:42 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:45:42 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:45:43 | AjustarColumnas
+2026-08-28 14:45:43 | CargarConfiguracionProyecto
+2026-08-28 14:45:44 | DgEventos_Click | Row=6
+2026-08-28 14:45:44 | MostrarEvento | fila=6
+2026-08-28 14:45:44 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 14:45:44 | txtCx_Change | Valor=0
+2026-08-28 14:45:44 | TxtCy_Change | Valor=0
+2026-08-28 14:45:44 | OptTexto_Click
+2026-08-28 14:45:44 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:45:44 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:45:44 | optPulsarTecla_Click
+2026-08-28 14:45:44 | txtIntervaloTecla_Change | Valor=50
+2026-08-28 14:45:44 | DgEventos_DblClick | Row=6, Col=2
+2026-08-28 14:45:46 | txtEditor_LostFocus
+2026-08-28 14:45:46 | DgEventos_Click | Row=1
+2026-08-28 14:45:46 | MostrarEvento | fila=1
+2026-08-28 14:45:46 | txtTexto_Change | Texto=
+2026-08-28 14:45:46 | OptNinguno_Click
+2026-08-28 14:45:46 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:45:47 | DgEventos_Click | Row=2
+2026-08-28 14:45:47 | MostrarEvento | fila=2
+2026-08-28 14:45:47 | OptTiempoEspera_Click
+2026-08-28 14:45:47 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:45:47 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:45:48 | DgEventos_DblClick | Row=2, Col=5
+2026-08-28 14:45:49 | txtEditor_LostFocus
+2026-08-28 14:45:49 | DgEventos_Click | Row=2
+2026-08-28 14:45:49 | MostrarEvento | fila=2
+2026-08-28 14:45:49 | DgEventos_Click | Row=2
+2026-08-28 14:45:49 | MostrarEvento | fila=2
+2026-08-28 14:45:49 | DgEventos_Click | Row=1
+2026-08-28 14:45:49 | MostrarEvento | fila=1
+2026-08-28 14:45:49 | OptNinguno_Click
+2026-08-28 14:45:49 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:45:50 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:45:50 | DgEventos_DblClick | Row=1, Col=4
+2026-08-28 14:45:50 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-08-28 14:45:50 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-08-28 14:45:50 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-08-28 14:45:50 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-08-28 14:45:50 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-08-28 14:45:50 | txtEditor_KeyDown | KeyCode=87, Shift=0
+2026-08-28 14:45:53 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 14:45:53 | ActualizarCelda | fila=1, col=4, valor=rerrew
+2026-08-28 14:45:53 | MostrarEvento | fila=1
+2026-08-28 14:45:53 | txtEditor_LostFocus
+2026-08-28 14:45:54 | DgEventos_Click | Row=2
+2026-08-28 14:45:54 | MostrarEvento | fila=2
+2026-08-28 14:45:54 | OptTiempoEspera_Click
+2026-08-28 14:45:54 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:45:54 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:45:56 | DgEventos_Click | Row=1
+2026-08-28 14:45:56 | MostrarEvento | fila=1
+2026-08-28 14:45:56 | OptNinguno_Click
+2026-08-28 14:45:56 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:45:56 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:45:56 | DgEventos_DblClick | Row=1, Col=4
+2026-08-28 14:45:57 | txtEditor_LostFocus
+2026-08-28 14:45:57 | DgEventos_Click | Row=1
+2026-08-28 14:45:57 | MostrarEvento | fila=1
+2026-08-28 14:45:58 | DgEventos_Click | Row=1
+2026-08-28 14:45:58 | MostrarEvento | fila=1
+2026-08-28 14:45:58 | DgEventos_DblClick | Row=1, Col=9
+2026-08-28 14:45:58 | DgEventos_Click | Row=1
+2026-08-28 14:45:58 | MostrarEvento | fila=1
+2026-08-28 14:45:58 | DgEventos_DblClick | Row=1, Col=9
+2026-08-28 14:45:59 | DgEventos_Click | Row=2
+2026-08-28 14:45:59 | MostrarEvento | fila=2
+2026-08-28 14:45:59 | OptTiempoEspera_Click
+2026-08-28 14:45:59 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:45:59 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:46:01 | txtEditor_KeyDown | KeyCode=50, Shift=0
+2026-08-28 14:46:02 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 14:46:02 | ActualizarCelda | fila=2, col=9, valor=2
+2026-08-28 14:46:02 | MostrarEvento | fila=2
+2026-08-28 14:46:02 | txtTiempoEspera_Change | Valor=2
+2026-08-28 14:46:02 | txtEditor_LostFocus
+2026-08-28 14:46:03 | DgEventos_Click | Row=2
+2026-08-28 14:46:03 | MostrarEvento | fila=2
+2026-08-28 14:46:03 | txtEditor_LostFocus
+2026-08-28 14:46:03 | DgEventos_Click | Row=4
+2026-08-28 14:46:03 | MostrarEvento | fila=4
+2026-08-28 14:46:03 | OptEnter_Click
+2026-08-28 14:46:03 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:46:03 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:46:04 | DgEventos_Click | Row=2
+2026-08-28 14:46:04 | MostrarEvento | fila=2
+2026-08-28 14:46:04 | OptTiempoEspera_Click
+2026-08-28 14:46:04 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:46:04 | txtTiempoEspera_Change | Valor=2
+2026-08-28 14:46:14 | cboEditor_Click | ListIndex=0
+2026-08-28 14:46:14 | txtEditor_LostFocus
+2026-08-28 14:46:14 | DgEventos_Click | Row=1
+2026-08-28 14:46:14 | MostrarEvento | fila=1
+2026-08-28 14:46:14 | OptNinguno_Click
+2026-08-28 14:46:14 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:46:14 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:46:17 | DgEventos_Click | Row=1
+2026-08-28 14:46:17 | MostrarEvento | fila=1
+2026-08-28 14:46:18 | DgEventos_Click | Row=1
+2026-08-28 14:46:18 | MostrarEvento | fila=1
+2026-08-28 14:46:19 | cboEditor_Click | ListIndex=8
+2026-08-28 14:46:19 | cboEditor_LostFocus
+2026-08-28 14:46:19 | cboEditor_LostFocus
+2026-08-28 14:46:19 | DgEventos_Click | Row=2
+2026-08-28 14:46:19 | MostrarEvento | fila=2
+2026-08-28 14:46:19 | OptTiempoEspera_Click
+2026-08-28 14:46:19 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:46:19 | txtTiempoEspera_Change | Valor=2
+2026-08-28 14:46:19 | DgEventos_Click | Row=2
+2026-08-28 14:46:19 | MostrarEvento | fila=2
+2026-08-28 14:46:21 | cboEditor_LostFocus
+2026-08-28 14:46:21 | DgEventos_Click | Row=3
+2026-08-28 14:46:21 | MostrarEvento | fila=3
+2026-08-28 14:46:21 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:46:21 | OptTexto_Click
+2026-08-28 14:46:21 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:46:21 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:46:21 | optPegarTexto_Click
+2026-08-28 14:46:22 | DgEventos_Click | Row=3
+2026-08-28 14:46:22 | MostrarEvento | fila=3
+2026-08-28 14:46:22 | cboModoEnvio_LostFocus
+2026-08-28 14:46:23 | DgEventos_Click | Row=3
+2026-08-28 14:46:23 | MostrarEvento | fila=3
+2026-08-28 14:46:23 | DgEventos_DblClick | Row=3, Col=8
+2026-08-28 14:46:25 | txtEditor_LostFocus
+2026-08-28 14:46:25 | DgEventos_Click | Row=2
+2026-08-28 14:46:25 | MostrarEvento | fila=2
+2026-08-28 14:46:25 | txtTexto_Change | Texto=
+2026-08-28 14:46:25 | OptTiempoEspera_Click
+2026-08-28 14:46:25 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:46:25 | txtTiempoEspera_Change | Valor=2
+2026-08-28 14:46:26 | DgEventos_Click | Row=3
+2026-08-28 14:46:26 | MostrarEvento | fila=3
+2026-08-28 14:46:26 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:46:26 | OptTexto_Click
+2026-08-28 14:46:26 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:46:26 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:46:26 | DgEventos_DblClick | Row=3, Col=8
+2026-08-28 14:46:29 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 14:46:29 | ActualizarCelda | fila=3, col=8, valor=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:46:29 | MostrarEvento | fila=3
+2026-08-28 14:46:29 | txtEditor_LostFocus
+2026-08-28 14:46:30 | DgEventos_Click | Row=6
+2026-08-28 14:46:30 | MostrarEvento | fila=6
+2026-08-28 14:46:30 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 14:46:30 | optPulsarTecla_Click
+2026-08-28 14:46:31 | DgEventos_Click | Row=2
+2026-08-28 14:46:31 | MostrarEvento | fila=2
+2026-08-28 14:46:31 | txtTexto_Change | Texto=
+2026-08-28 14:46:31 | OptTiempoEspera_Click
+2026-08-28 14:46:31 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:46:31 | txtTiempoEspera_Change | Valor=2
+2026-08-28 14:46:32 | DgEventos_Click | Row=1
+2026-08-28 14:46:32 | MostrarEvento | fila=1
+2026-08-28 14:46:32 | OptNinguno_Click
+2026-08-28 14:46:32 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:46:32 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:46:32 | DgEventos_Click | Row=1
+2026-08-28 14:46:32 | MostrarEvento | fila=1
+2026-08-28 14:46:32 | DgEventos_DblClick | Row=1, Col=5
+2026-08-28 14:46:34 | txtEditor_LostFocus
+2026-08-28 14:46:34 | DgEventos_Click | Row=1
+2026-08-28 14:46:34 | MostrarEvento | fila=1
+2026-08-28 14:46:34 | DgEventos_DblClick | Row=1, Col=3
+2026-08-28 14:46:36 | txtEditor_KeyDown | KeyCode=72, Shift=0
+2026-08-28 14:46:36 | txtEditor_KeyDown | KeyCode=71, Shift=0
+2026-08-28 14:46:36 | txtEditor_KeyDown | KeyCode=85, Shift=0
+2026-08-28 14:46:36 | txtEditor_KeyDown | KeyCode=89, Shift=0
+2026-08-28 14:46:36 | txtEditor_KeyDown | KeyCode=71, Shift=0
+2026-08-28 14:46:37 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 14:46:37 | ActualizarCelda | fila=1, col=3, valor=hguyg
+2026-08-28 14:46:37 | MostrarEvento | fila=1
+2026-08-28 14:46:37 | txtEditor_LostFocus
+2026-08-28 14:46:39 | DgEventos_Click | Row=1
+2026-08-28 14:46:39 | MostrarEvento | fila=1
+2026-08-28 14:46:39 | DgEventos_DblClick | Row=1, Col=4
+2026-08-28 14:46:41 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-08-28 14:46:41 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-08-28 14:46:41 | txtEditor_KeyDown | KeyCode=87, Shift=0
+2026-08-28 14:46:41 | txtEditor_KeyDown | KeyCode=87, Shift=0
+2026-08-28 14:46:41 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-08-28 14:46:41 | txtEditor_KeyDown | KeyCode=87, Shift=0
+2026-08-28 14:46:41 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 14:46:41 | ActualizarCelda | fila=1, col=4, valor=rerrerewwrww
+2026-08-28 14:46:41 | MostrarEvento | fila=1
+2026-08-28 14:46:41 | txtEditor_LostFocus
+2026-08-28 14:46:42 | DgEventos_Click | Row=1
+2026-08-28 14:46:42 | MostrarEvento | fila=1
+2026-08-28 14:46:42 | DgEventos_DblClick | Row=1, Col=4
+2026-08-28 14:46:43 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-08-28 14:46:43 | txtEditor_KeyDown | KeyCode=87, Shift=0
+2026-08-28 14:46:44 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-08-28 14:46:44 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-08-28 14:46:44 | txtEditor_KeyDown | KeyCode=87, Shift=0
+2026-08-28 14:46:44 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 14:46:44 | ActualizarCelda | fila=1, col=4, valor=ewrew
+2026-08-28 14:46:44 | MostrarEvento | fila=1
+2026-08-28 14:46:44 | txtEditor_LostFocus
+2026-08-28 14:46:47 | DgEventos_Click | Row=6
+2026-08-28 14:46:47 | MostrarEvento | fila=6
+2026-08-28 14:46:47 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 14:46:47 | OptTexto_Click
+2026-08-28 14:46:47 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:46:47 | DgEventos_Click | Row=6
+2026-08-28 14:46:47 | MostrarEvento | fila=6
+2026-08-28 14:46:48 | DgEventos_DblClick | Row=6, Col=2
+2026-08-28 14:46:53 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:46:53 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:46:53 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:46:53 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:46:53 | AjustarColumnas
+2026-08-28 14:46:53 | CargarConfiguracionProyecto
+2026-08-28 14:46:53 | txtEditor_LostFocus
+2026-08-28 14:46:54 | DgEventos_Click | Row=6
+2026-08-28 14:46:54 | MostrarEvento | fila=6
+2026-08-28 14:46:54 | DgEventos_Click | Row=4
+2026-08-28 14:46:54 | MostrarEvento | fila=4
+2026-08-28 14:46:54 | txtTexto_Change | Texto=
+2026-08-28 14:46:55 | OptEnter_Click
+2026-08-28 14:46:55 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:46:55 | DgEventos_Click | Row=1
+2026-08-28 14:46:55 | MostrarEvento | fila=1
+2026-08-28 14:46:55 | OptNinguno_Click
+2026-08-28 14:46:55 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:46:56 | DgEventos_DblClick | Row=1, Col=3
+2026-08-28 14:46:56 | txtEditor_LostFocus
+2026-08-28 14:46:56 | DgEventos_Click | Row=1
+2026-08-28 14:46:56 | MostrarEvento | fila=1
+2026-08-28 14:46:56 | DgEventos_DblClick | Row=1, Col=4
+2026-08-28 14:46:57 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-08-28 14:46:57 | txtEditor_KeyDown | KeyCode=82, Shift=0
+2026-08-28 14:46:57 | txtEditor_KeyDown | KeyCode=69, Shift=0
+2026-08-28 14:46:57 | txtEditor_KeyDown | KeyCode=87, Shift=0
+2026-08-28 14:46:57 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 14:46:57 | ActualizarCelda | fila=1, col=4, valor=erew
+2026-08-28 14:46:58 | MostrarEvento | fila=1
+2026-08-28 14:46:58 | txtEditor_LostFocus
+2026-08-28 14:46:58 | OptEnter_Click
+2026-08-28 14:46:58 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:46:58 | SincronizarFrameModo | fila=1
+2026-08-28 14:46:58 | EsEventoTexto | tipoEvento=7
+2026-08-28 14:46:59 | OptNinguno_Click
+2026-08-28 14:46:59 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:46:59 | SincronizarFrameModo | fila=1
+2026-08-28 14:46:59 | EsEventoTexto | tipoEvento=9
+2026-08-28 14:46:59 | OptTiempoEspera_Click
+2026-08-28 14:46:59 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:46:59 | SincronizarFrameModo | fila=1
+2026-08-28 14:46:59 | EsEventoTexto | tipoEvento=8
+2026-08-28 14:47:00 | OptNinguno_Click
+2026-08-28 14:47:00 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:47:00 | SincronizarFrameModo | fila=1
+2026-08-28 14:47:00 | EsEventoTexto | tipoEvento=9
+2026-08-28 14:47:03 | DgEventos_Click | Row=2
+2026-08-28 14:47:03 | MostrarEvento | fila=2
+2026-08-28 14:47:03 | OptTiempoEspera_Click
+2026-08-28 14:47:03 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:03 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:03 | DgEventos_Click | Row=2
+2026-08-28 14:47:03 | MostrarEvento | fila=2
+2026-08-28 14:47:04 | DgEventos_Click | Row=1
+2026-08-28 14:47:04 | MostrarEvento | fila=1
+2026-08-28 14:47:04 | OptNinguno_Click
+2026-08-28 14:47:04 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:47:04 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:04 | DgEventos_DblClick | Row=1, Col=4
+2026-08-28 14:47:06 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 14:47:06 | ActualizarCelda | fila=1, col=4, valor=erew
+2026-08-28 14:47:06 | MostrarEvento | fila=1
+2026-08-28 14:47:06 | txtEditor_LostFocus
+2026-08-28 14:47:10 | DgEventos_Click | Row=1
+2026-08-28 14:47:10 | MostrarEvento | fila=1
+2026-08-28 14:47:12 | DgEventos_Click | Row=1
+2026-08-28 14:47:12 | MostrarEvento | fila=1
+2026-08-28 14:47:12 | DgEventos_DblClick | Row=1, Col=4
+2026-08-28 14:47:12 | DgEventos_Click | Row=1
+2026-08-28 14:47:12 | MostrarEvento | fila=1
+2026-08-28 14:47:12 | txtEditor_LostFocus
+2026-08-28 14:47:13 | DgEventos_Click | Row=1
+2026-08-28 14:47:13 | MostrarEvento | fila=1
+2026-08-28 14:47:13 | DgEventos_Click | Row=1
+2026-08-28 14:47:13 | MostrarEvento | fila=1
+2026-08-28 14:47:14 | DgEventos_Click | Row=2
+2026-08-28 14:47:14 | MostrarEvento | fila=2
+2026-08-28 14:47:14 | OptTiempoEspera_Click
+2026-08-28 14:47:14 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:14 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:14 | cboEditor_Click | ListIndex=0
+2026-08-28 14:47:14 | DgEventos_Click | Row=1
+2026-08-28 14:47:14 | MostrarEvento | fila=1
+2026-08-28 14:47:14 | OptNinguno_Click
+2026-08-28 14:47:14 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:47:14 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:16 | cboEditor_LostFocus
+2026-08-28 14:47:16 | DgEventos_Click | Row=2
+2026-08-28 14:47:16 | MostrarEvento | fila=2
+2026-08-28 14:47:16 | OptTiempoEspera_Click
+2026-08-28 14:47:16 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:16 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:16 | DgEventos_Click | Row=2
+2026-08-28 14:47:16 | MostrarEvento | fila=2
+2026-08-28 14:47:17 | DgEventos_Click | Row=4
+2026-08-28 14:47:17 | MostrarEvento | fila=4
+2026-08-28 14:47:17 | OptEnter_Click
+2026-08-28 14:47:17 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:47:17 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:17 | DgEventos_Click | Row=2
+2026-08-28 14:47:17 | MostrarEvento | fila=2
+2026-08-28 14:47:17 | OptTiempoEspera_Click
+2026-08-28 14:47:17 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:17 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:17 | DgEventos_Click | Row=3
+2026-08-28 14:47:17 | MostrarEvento | fila=3
+2026-08-28 14:47:17 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:47:17 | OptTexto_Click
+2026-08-28 14:47:17 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:47:17 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:17 | optPegarTexto_Click
+2026-08-28 14:47:19 | cboModoEnvio_LostFocus
+2026-08-28 14:47:19 | DgEventos_Click | Row=3
+2026-08-28 14:47:19 | MostrarEvento | fila=3
+2026-08-28 14:47:19 | DgEventos_Click | Row=2
+2026-08-28 14:47:19 | MostrarEvento | fila=2
+2026-08-28 14:47:19 | txtTexto_Change | Texto=
+2026-08-28 14:47:19 | OptTiempoEspera_Click
+2026-08-28 14:47:19 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:19 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:20 | DgEventos_Click | Row=2
+2026-08-28 14:47:20 | MostrarEvento | fila=2
+2026-08-28 14:47:20 | DgEventos_Click | Row=2
+2026-08-28 14:47:20 | MostrarEvento | fila=2
+2026-08-28 14:47:21 | txtEditor_LostFocus
+2026-08-28 14:47:21 | DgEventos_Click | Row=4
+2026-08-28 14:47:21 | MostrarEvento | fila=4
+2026-08-28 14:47:21 | OptEnter_Click
+2026-08-28 14:47:21 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:47:21 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:22 | cboEditor_Click | ListIndex=8
+2026-08-28 14:47:22 | DgEventos_Click | Row=2
+2026-08-28 14:47:22 | MostrarEvento | fila=2
+2026-08-28 14:47:22 | OptTiempoEspera_Click
+2026-08-28 14:47:22 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:22 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:23 | cboEditor_Click | ListIndex=5
+2026-08-28 14:47:23 | cboEditor_LostFocus
+2026-08-28 14:47:23 | cboEditor_LostFocus
+2026-08-28 14:47:23 | DgEventos_Click | Row=5
+2026-08-28 14:47:23 | MostrarEvento | fila=5
+2026-08-28 14:47:23 | txtTexto_Change | Texto=()
+2026-08-28 14:47:23 | OptTexto_Click
+2026-08-28 14:47:23 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:47:23 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:23 | DgEventos_Click | Row=5
+2026-08-28 14:47:23 | MostrarEvento | fila=5
+2026-08-28 14:47:25 | cboEditor_Click | ListIndex=8
+2026-08-28 14:47:25 | MostrarEvento | fila=5
+2026-08-28 14:47:25 | OptTiempoEspera_Click
+2026-08-28 14:47:25 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:26 | cboEditor_LostFocus
+2026-08-28 14:47:26 | DgEventos_Click | Row=5
+2026-08-28 14:47:26 | MostrarEvento | fila=5
+2026-08-28 14:47:27 | DgEventos_Click | Row=5
+2026-08-28 14:47:27 | MostrarEvento | fila=5
+2026-08-28 14:47:30 | txtEditor_LostFocus
+2026-08-28 14:47:30 | DgEventos_Click | Row=6
+2026-08-28 14:47:30 | MostrarEvento | fila=6
+2026-08-28 14:47:30 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 14:47:30 | OptTexto_Click
+2026-08-28 14:47:30 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:47:30 | optPulsarTecla_Click
+2026-08-28 14:47:30 | DgEventos_Click | Row=5
+2026-08-28 14:47:30 | MostrarEvento | fila=5
+2026-08-28 14:47:31 | txtTexto_Change | Texto=()
+2026-08-28 14:47:31 | OptTiempoEspera_Click
+2026-08-28 14:47:31 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:31 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:31 | txtEditor_LostFocus
+2026-08-28 14:47:31 | DgEventos_Click | Row=4
+2026-08-28 14:47:31 | MostrarEvento | fila=4
+2026-08-28 14:47:31 | txtTexto_Change | Texto=
+2026-08-28 14:47:31 | OptEnter_Click
+2026-08-28 14:47:31 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:47:31 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:32 | DgEventos_Click | Row=5
+2026-08-28 14:47:32 | MostrarEvento | fila=5
+2026-08-28 14:47:32 | txtTexto_Change | Texto=()
+2026-08-28 14:47:32 | OptTiempoEspera_Click
+2026-08-28 14:47:32 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:32 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:32 | txtEditor_LostFocus
+2026-08-28 14:47:32 | DgEventos_Click | Row=3
+2026-08-28 14:47:32 | MostrarEvento | fila=3
+2026-08-28 14:47:32 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:47:32 | OptTexto_Click
+2026-08-28 14:47:32 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:47:32 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:32 | optPegarTexto_Click
+2026-08-28 14:47:33 | DgEventos_Click | Row=5
+2026-08-28 14:47:33 | MostrarEvento | fila=5
+2026-08-28 14:47:33 | txtTexto_Change | Texto=()
+2026-08-28 14:47:33 | OptTiempoEspera_Click
+2026-08-28 14:47:33 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:33 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:35 | txtEditor_LostFocus
+2026-08-28 14:47:35 | DgEventos_Click | Row=3
+2026-08-28 14:47:35 | MostrarEvento | fila=3
+2026-08-28 14:47:35 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:47:35 | OptTexto_Click
+2026-08-28 14:47:35 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:47:35 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:35 | DgEventos_Click | Row=5
+2026-08-28 14:47:35 | MostrarEvento | fila=5
+2026-08-28 14:47:35 | txtTexto_Change | Texto=()
+2026-08-28 14:47:35 | OptTiempoEspera_Click
+2026-08-28 14:47:35 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:35 | txtTiempoEspera_Change | Valor=2
+2026-08-28 14:47:42 | txtEditor_LostFocus
+2026-08-28 14:47:42 | txtEditor_LostFocus
+2026-08-28 14:47:42 | DgEventos_Click | Row=2
+2026-08-28 14:47:42 | MostrarEvento | fila=2
+2026-08-28 14:47:42 | txtTexto_Change | Texto=
+2026-08-28 14:47:42 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:43 | DgEventos_Click | Row=3
+2026-08-28 14:47:43 | MostrarEvento | fila=3
+2026-08-28 14:47:43 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:47:43 | OptTexto_Click
+2026-08-28 14:47:43 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:47:43 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:44 | DgEventos_Click | Row=2
+2026-08-28 14:47:44 | MostrarEvento | fila=2
+2026-08-28 14:47:44 | txtTexto_Change | Texto=
+2026-08-28 14:47:44 | OptTiempoEspera_Click
+2026-08-28 14:47:44 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:44 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:44 | txtEditor_LostFocus
+2026-08-28 14:47:44 | DgEventos_Click | Row=4
+2026-08-28 14:47:44 | MostrarEvento | fila=4
+2026-08-28 14:47:44 | OptEnter_Click
+2026-08-28 14:47:44 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:47:44 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:47:45 | DgEventos_Click | Row=6
+2026-08-28 14:47:45 | MostrarEvento | fila=6
+2026-08-28 14:47:45 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 14:47:45 | OptTexto_Click
+2026-08-28 14:47:45 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:47:45 | optPulsarTecla_Click
+2026-08-28 14:47:48 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:47:48 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:47:49 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:47:49 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:47:49 | AjustarColumnas
+2026-08-28 14:47:49 | CargarConfiguracionProyecto
+2026-08-28 14:47:49 | DgEventos_Click | Row=6
+2026-08-28 14:47:49 | MostrarEvento | fila=6
+2026-08-28 14:47:50 | DgEventos_Click | Row=2
+2026-08-28 14:47:50 | MostrarEvento | fila=2
+2026-08-28 14:47:50 | txtTexto_Change | Texto=
+2026-08-28 14:47:50 | OptTiempoEspera_Click
+2026-08-28 14:47:50 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:47:50 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:47:50 | DgEventos_Click | Row=2
+2026-08-28 14:47:50 | MostrarEvento | fila=2
+2026-08-28 14:47:55 | Form_Unload | Cancel=0
+2026-08-28 14:48:52 | Form_Load
+2026-08-28 14:48:52 | InicializarArray
+2026-08-28 14:48:52 | ConfigurarFlexGrid
+2026-08-28 14:48:52 | CargarRecientes
+2026-08-28 14:48:52 | AjustarColumnas
+2026-08-28 14:48:54 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:48:54 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:48:54 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:48:54 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:48:54 | AjustarColumnas
+2026-08-28 14:48:54 | CargarConfiguracionProyecto
+2026-08-28 14:48:55 | cboEditor_Click | ListIndex=5
+2026-08-28 14:48:55 | DgEventos_Click | Row=3
+2026-08-28 14:48:55 | MostrarEvento | fila=3
+2026-08-28 14:48:55 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:48:55 | txtCx_Change | Valor=0
+2026-08-28 14:48:55 | TxtCy_Change | Valor=0
+2026-08-28 14:48:55 | OptTexto_Click
+2026-08-28 14:48:55 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:48:55 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:48:55 | optPegarTexto_Click
+2026-08-28 14:48:56 | cboEditor_LostFocus
+2026-08-28 14:48:56 | cboEditor_LostFocus
+2026-08-28 14:48:56 | DgEventos_Click | Row=5
+2026-08-28 14:48:56 | MostrarEvento | fila=5
+2026-08-28 14:48:56 | txtTexto_Change | Texto=()
+2026-08-28 14:48:56 | DgEventos_Click | Row=5
+2026-08-28 14:48:56 | MostrarEvento | fila=5
+2026-08-28 14:49:00 | DgEventos_Click | Row=5
+2026-08-28 14:49:00 | MostrarEvento | fila=5
+2026-08-28 14:49:01 | cboEditor_LostFocus
+2026-08-28 14:49:01 | DgEventos_Click | Row=5
+2026-08-28 14:49:01 | MostrarEvento | fila=5
+2026-08-28 14:49:03 | cboModoEnvio_LostFocus
+2026-08-28 14:49:03 | DgEventos_Click | Row=5
+2026-08-28 14:49:03 | MostrarEvento | fila=5
+2026-08-28 14:49:05 | cboEditor_Click | ListIndex=0
+2026-08-28 14:49:05 | MostrarEvento | fila=5
+2026-08-28 14:49:05 | OptNinguno_Click
+2026-08-28 14:49:05 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:49:05 | cboEditor_LostFocus
+2026-08-28 14:49:05 | DgEventos_Click | Row=5
+2026-08-28 14:49:05 | MostrarEvento | fila=5
+2026-08-28 14:49:06 | DgEventos_Click | Row=5
+2026-08-28 14:49:06 | MostrarEvento | fila=5
+2026-08-28 14:49:07 | DgEventos_DblClick | Row=5, Col=7
+2026-08-28 14:49:07 | DgEventos_Click | Row=5
+2026-08-28 14:49:07 | MostrarEvento | fila=5
+2026-08-28 14:49:07 | DgEventos_DblClick | Row=5, Col=7
+2026-08-28 14:49:07 | DgEventos_Click | Row=5
+2026-08-28 14:49:07 | MostrarEvento | fila=5
+2026-08-28 14:49:07 | DgEventos_Click | Row=5
+2026-08-28 14:49:07 | MostrarEvento | fila=5
+2026-08-28 14:49:07 | DgEventos_Click | Row=5
+2026-08-28 14:49:07 | MostrarEvento | fila=5
+2026-08-28 14:49:08 | DgEventos_DblClick | Row=5, Col=7
+2026-08-28 14:49:08 | DgEventos_Click | Row=5
+2026-08-28 14:49:08 | MostrarEvento | fila=5
+2026-08-28 14:49:09 | DgEventos_Click | Row=5
+2026-08-28 14:49:09 | MostrarEvento | fila=5
+2026-08-28 14:49:10 | DgEventos_DblClick | Row=5, Col=7
+2026-08-28 14:49:10 | DgEventos_Click | Row=5
+2026-08-28 14:49:10 | MostrarEvento | fila=5
+2026-08-28 14:49:13 | cboEditor_Click | ListIndex=5
+2026-08-28 14:49:13 | MostrarEvento | fila=5
+2026-08-28 14:49:13 | OptTexto_Click
+2026-08-28 14:49:13 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:49:13 | cboEditor_LostFocus
+2026-08-28 14:49:14 | DgEventos_Click | Row=5
+2026-08-28 14:49:14 | MostrarEvento | fila=5
+2026-08-28 14:49:15 | DgEventos_Click | Row=5
+2026-08-28 14:49:15 | MostrarEvento | fila=5
+2026-08-28 14:49:15 | cboModoEnvio_LostFocus
+2026-08-28 14:49:15 | DgEventos_Click | Row=5
+2026-08-28 14:49:15 | MostrarEvento | fila=5
+2026-08-28 14:49:16 | cboEditor_LostFocus
+2026-08-28 14:49:16 | DgEventos_Click | Row=5
+2026-08-28 14:49:16 | MostrarEvento | fila=5
+2026-08-28 14:49:55 | Form_Unload | Cancel=0
+2026-08-28 14:50:35 | Form_Load
+2026-08-28 14:50:35 | InicializarArray
+2026-08-28 14:50:35 | ConfigurarFlexGrid
+2026-08-28 14:50:35 | CargarRecientes
+2026-08-28 14:50:35 | AjustarColumnas
+2026-08-28 14:50:44 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:50:44 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:50:44 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:50:44 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:50:44 | AjustarColumnas
+2026-08-28 14:50:44 | CargarConfiguracionProyecto
+2026-08-28 14:50:45 | DgEventos_Click | Row=3
+2026-08-28 14:50:45 | MostrarEvento | fila=3
+2026-08-28 14:50:45 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:50:45 | txtCx_Change | Valor=0
+2026-08-28 14:50:45 | TxtCy_Change | Valor=0
+2026-08-28 14:50:45 | OptTexto_Click
+2026-08-28 14:50:45 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:50:45 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:50:45 | optPegarTexto_Click
+2026-08-28 14:50:46 | DgEventos_Click | Row=4
+2026-08-28 14:50:47 | MostrarEvento | fila=4
+2026-08-28 14:50:47 | txtTexto_Change | Texto=
+2026-08-28 14:50:47 | OptEnter_Click
+2026-08-28 14:50:47 | ActualizarEvento | nuevoEvento=7
+2026-08-28 14:50:58 | DgEventos_Click | Row=3
+2026-08-28 14:50:58 | MostrarEvento | fila=3
+2026-08-28 14:50:58 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:50:58 | OptTexto_Click
+2026-08-28 14:50:58 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:51:00 | cboEditor_Click | ListIndex=5
+2026-08-28 14:51:00 | DgEventos_Click | Row=3
+2026-08-28 14:51:00 | MostrarEvento | fila=3
+2026-08-28 14:51:00 | cboEditor_LostFocus
+2026-08-28 14:51:00 | DgEventos_Click | Row=3
+2026-08-28 14:51:00 | MostrarEvento | fila=3
+2026-08-28 14:51:02 | DgEventos_Click | Row=3
+2026-08-28 14:51:02 | MostrarEvento | fila=3
+2026-08-28 14:51:03 | cboEditor_Click | ListIndex=8
+2026-08-28 14:51:03 | cboEditor_LostFocus
+2026-08-28 14:51:03 | cboEditor_LostFocus
+2026-08-28 14:51:03 | DgEventos_Click | Row=2
+2026-08-28 14:51:03 | MostrarEvento | fila=2
+2026-08-28 14:51:03 | txtTexto_Change | Texto=
+2026-08-28 14:51:03 | OptTiempoEspera_Click
+2026-08-28 14:51:03 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:51:03 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:51:04 | cboEditor_Click | ListIndex=5
+2026-08-28 14:51:04 | DgEventos_Click | Row=3
+2026-08-28 14:51:04 | MostrarEvento | fila=3
+2026-08-28 14:51:04 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 14:51:04 | OptTexto_Click
+2026-08-28 14:51:04 | ActualizarEvento | nuevoEvento=5
+2026-08-28 14:51:04 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:51:04 | cboEditor_Click | ListIndex=8
+2026-08-28 14:51:04 | cboEditor_LostFocus
+2026-08-28 14:51:04 | cboEditor_LostFocus
+2026-08-28 14:51:05 | DgEventos_Click | Row=2
+2026-08-28 14:51:05 | MostrarEvento | fila=2
+2026-08-28 14:51:05 | txtTexto_Change | Texto=
+2026-08-28 14:51:05 | OptTiempoEspera_Click
+2026-08-28 14:51:05 | ActualizarEvento | nuevoEvento=8
+2026-08-28 14:51:05 | txtTiempoEspera_Change | Valor=1
+2026-08-28 14:51:05 | cboEditor_Click | ListIndex=0
+2026-08-28 14:51:05 | DgEventos_Click | Row=1
+2026-08-28 14:51:05 | MostrarEvento | fila=1
+2026-08-28 14:51:05 | OptNinguno_Click
+2026-08-28 14:51:05 | ActualizarEvento | nuevoEvento=9
+2026-08-28 14:51:05 | txtTiempoEspera_Change | Valor=0
+2026-08-28 14:51:07 | cboEditor_LostFocus
+2026-08-28 14:51:07 | EjecutarSecuencia_Inicio | TotalEventos=6
+2026-08-28 14:51:07 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-08-28 14:51:07 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-28 14:51:07 | EjecutarAccion | hwndVentana=2032330, Texto=, ModoEnvioTexto=0
+2026-08-28 14:51:07 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-08-28 14:51:07 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-08-28 14:51:08 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-08-28 14:51:08 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-08-28 14:51:09 | EjecutarAccion | hwndVentana=2032330, Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=2
+2026-08-28 14:51:09 | EjecutarSecuencia_Error | Error=No se puede abrir el Portapapeles
+2026-08-28 14:51:14 | EjecutarSecuencia_Fin
+2026-08-28 14:51:17 | Form_Unload | Cancel=0
+2026-08-28 14:51:22 | Form_Load
+2026-08-28 14:51:22 | InicializarArray
+2026-08-28 14:51:22 | ConfigurarFlexGrid
+2026-08-28 14:51:22 | CargarRecientes
+2026-08-28 14:51:22 | AjustarColumnas
+2026-08-28 14:51:24 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:51:24 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:51:24 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 14:51:24 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 14:51:24 | AjustarColumnas
+2026-08-28 14:51:24 | CargarConfiguracionProyecto
+2026-08-28 14:51:25 | EjecutarSecuencia_Inicio | TotalEventos=6
+2026-08-28 14:51:25 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-08-28 14:51:25 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-28 14:51:25 | EjecutarAccion | hwndVentana=1901736, Texto=, ModoEnvioTexto=0
+2026-08-28 14:51:25 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-08-28 14:51:25 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-08-28 14:51:26 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-08-28 14:51:26 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-08-28 14:51:26 | EjecutarAccion | hwndVentana=1901736, Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=2
+2026-08-28 14:51:26 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-08-28 14:51:26 | EjecutarAccion | hwndVentana=1901736, Texto=, ModoEnvioTexto=0
+2026-08-28 14:51:26 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-08-28 14:51:26 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-08-28 14:51:26 | EjecutarAccion | hwndVentana=1901736, Texto=(), ModoEnvioTexto=2
+2026-08-28 14:51:26 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-08-28 14:51:26 | EjecutarAplicacionActual | FilaActual=6, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-28 14:51:26 | EjecutarAccion | hwndVentana=1443792, Texto=Otro texto!!!, ModoEnvioTexto=1
+2026-08-28 14:51:27 | EjecutarSecuencia_Fin
+2026-08-28 14:51:43 | Form_Unload | Cancel=0
