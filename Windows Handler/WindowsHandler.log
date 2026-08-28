@@ -3711,3 +3711,702 @@
 2026-08-28 14:51:26 | EjecutarAccion | hwndVentana=1443792, Texto=Otro texto!!!, ModoEnvioTexto=1
 2026-08-28 14:51:27 | EjecutarSecuencia_Fin
 2026-08-28 14:51:43 | Form_Unload | Cancel=0
+2026-08-28 18:03:06 | Form_Load
+2026-08-28 18:03:07 | InicializarArray
+2026-08-28 18:03:07 | ConfigurarFlexGrid
+2026-08-28 18:03:07 | CargarRecientes
+2026-08-28 18:03:07 | AjustarColumnas
+2026-08-28 18:03:09 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:03:09 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:03:09 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:03:09 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:03:09 | AjustarColumnas
+2026-08-28 18:03:09 | CargarConfiguracionProyecto
+2026-08-28 18:03:09 | DgEventos_Click | Row=1
+2026-08-28 18:03:09 | MostrarEvento | fila=1
+2026-08-28 18:03:09 | txtCx_Change | Valor=0
+2026-08-28 18:03:09 | TxtCy_Change | Valor=0
+2026-08-28 18:03:09 | OptNinguno_Click
+2026-08-28 18:03:09 | ActualizarEvento | nuevoEvento=9
+2026-08-28 18:03:09 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:03:10 | cboEditor_Click | ListIndex=5
+2026-08-28 18:03:10 | DgEventos_Click | Row=3
+2026-08-28 18:03:10 | MostrarEvento | fila=3
+2026-08-28 18:03:10 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:03:10 | OptTexto_Click
+2026-08-28 18:03:10 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:03:10 | optPegarTexto_Click
+2026-08-28 18:03:10 | cboEditor_LostFocus
+2026-08-28 18:03:10 | DgEventos_Click | Row=3
+2026-08-28 18:03:10 | MostrarEvento | fila=3
+2026-08-28 18:03:11 | cboModoEnvio_LostFocus
+2026-08-28 18:03:11 | DgEventos_Click | Row=2
+2026-08-28 18:03:11 | MostrarEvento | fila=2
+2026-08-28 18:03:11 | txtTexto_Change | Texto=
+2026-08-28 18:03:11 | OptTiempoEspera_Click
+2026-08-28 18:03:11 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:03:11 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:03:11 | DgEventos_Click | Row=2
+2026-08-28 18:03:11 | MostrarEvento | fila=2
+2026-08-28 18:03:12 | txtEditor_LostFocus
+2026-08-28 18:03:12 | DgEventos_Click | Row=3
+2026-08-28 18:03:12 | MostrarEvento | fila=3
+2026-08-28 18:03:12 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:03:12 | OptTexto_Click
+2026-08-28 18:03:12 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:03:12 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:03:12 | DgEventos_Click | Row=4
+2026-08-28 18:03:12 | MostrarEvento | fila=4
+2026-08-28 18:03:12 | txtTexto_Change | Texto=
+2026-08-28 18:03:12 | OptEnter_Click
+2026-08-28 18:03:12 | ActualizarEvento | nuevoEvento=7
+2026-08-28 18:03:13 | DgEventos_Click | Row=4
+2026-08-28 18:03:13 | MostrarEvento | fila=4
+2026-08-28 18:03:13 | DgEventos_DblClick | Row=4, Col=9
+2026-08-28 18:03:13 | DgEventos_Click | Row=4
+2026-08-28 18:03:13 | MostrarEvento | fila=4
+2026-08-28 18:03:13 | DgEventos_Click | Row=5
+2026-08-28 18:03:13 | MostrarEvento | fila=5
+2026-08-28 18:03:13 | txtTexto_Change | Texto=()
+2026-08-28 18:03:13 | OptTexto_Click
+2026-08-28 18:03:13 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:03:13 | DgEventos_Click | Row=6
+2026-08-28 18:03:13 | MostrarEvento | fila=6
+2026-08-28 18:03:13 | txtTexto_Change | Texto=Otro texto!!!
+2026-08-28 18:03:13 | optPulsarTecla_Click
+2026-08-28 18:03:13 | txtIntervaloTecla_Change | Valor=50
+2026-08-28 18:03:13 | DgEventos_Click | Row=5
+2026-08-28 18:03:13 | MostrarEvento | fila=5
+2026-08-28 18:03:13 | txtTexto_Change | Texto=()
+2026-08-28 18:03:13 | optPegarTexto_Click
+2026-08-28 18:03:13 | DgEventos_DblClick | Row=5, Col=9
+2026-08-28 18:03:14 | DgEventos_Click | Row=5
+2026-08-28 18:03:14 | MostrarEvento | fila=5
+2026-08-28 18:03:14 | DgEventos_DblClick | Row=5, Col=9
+2026-08-28 18:03:16 | OptTiempoEspera_Click
+2026-08-28 18:03:16 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:03:16 | SincronizarFrameModo | fila=5
+2026-08-28 18:03:16 | EsEventoTexto | tipoEvento=8
+2026-08-28 18:03:18 | Form_Unload | Cancel=0
+2026-08-28 18:13:15 | Form_Load
+2026-08-28 18:13:15 | InicializarArray
+2026-08-28 18:13:15 | ConfigurarFlexGrid
+2026-08-28 18:13:15 | CargarRecientes
+2026-08-28 18:13:15 | AjustarColumnas
+2026-08-28 18:13:18 | Form_Unload | Cancel=0
+2026-08-28 18:13:44 | Form_Load
+2026-08-28 18:13:44 | InicializarArray
+2026-08-28 18:13:44 | ConfigurarFlexGrid
+2026-08-28 18:13:44 | CargarRecientes
+2026-08-28 18:13:44 | AjustarColumnas
+2026-08-28 18:13:46 | Form_Unload | Cancel=0
+2026-08-28 18:14:11 | Form_Load
+2026-08-28 18:14:11 | InicializarArray
+2026-08-28 18:14:11 | ConfigurarFlexGrid
+2026-08-28 18:14:11 | CargarRecientes
+2026-08-28 18:14:11 | AjustarColumnas
+2026-08-28 18:14:13 | Form_Unload | Cancel=0
+2026-08-28 18:15:09 | Form_Load
+2026-08-28 18:15:09 | InicializarArray
+2026-08-28 18:15:09 | ConfigurarFlexGrid
+2026-08-28 18:15:09 | CargarRecientes
+2026-08-28 18:15:09 | AjustarColumnas
+2026-08-28 18:15:11 | Form_Unload | Cancel=0
+2026-08-28 18:16:52 | Form_Load
+2026-08-28 18:16:52 | InicializarArray
+2026-08-28 18:16:52 | ConfigurarFlexGrid
+2026-08-28 18:16:52 | CargarRecientes
+2026-08-28 18:16:52 | AjustarColumnas
+2026-08-28 18:16:54 | Form_Unload | Cancel=0
+2026-08-28 18:18:01 | Form_Load
+2026-08-28 18:18:01 | InicializarArray
+2026-08-28 18:18:01 | ConfigurarFlexGrid
+2026-08-28 18:18:01 | CargarRecientes
+2026-08-28 18:18:01 | AjustarColumnas
+2026-08-28 18:18:02 | Form_Unload | Cancel=0
+2026-08-28 18:19:47 | Form_Load
+2026-08-28 18:19:47 | InicializarArray
+2026-08-28 18:19:47 | ConfigurarFlexGrid
+2026-08-28 18:19:47 | CargarRecientes
+2026-08-28 18:19:47 | AjustarColumnas
+2026-08-28 18:19:49 | Form_Unload | Cancel=0
+2026-08-28 18:19:54 | Form_Load
+2026-08-28 18:19:54 | InicializarArray
+2026-08-28 18:19:54 | ConfigurarFlexGrid
+2026-08-28 18:19:54 | CargarRecientes
+2026-08-28 18:19:54 | AjustarColumnas
+2026-08-28 18:19:56 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-08-28 18:19:56 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-08-28 18:20:07 | Form_Load
+2026-08-28 18:20:07 | InicializarArray
+2026-08-28 18:20:07 | ConfigurarFlexGrid
+2026-08-28 18:20:07 | CargarRecientes
+2026-08-28 18:20:07 | AjustarColumnas
+2026-08-28 18:20:09 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:20:09 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:20:09 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:20:09 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:20:09 | AjustarColumnas
+2026-08-28 18:20:09 | CargarConfiguracionProyecto
+2026-08-28 18:20:10 | EjecutarSecuencia_Inicio | TotalEventos=6
+2026-08-28 18:20:10 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-08-28 18:20:10 | EjecutarAplicacionActual | FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-28 18:20:11 | EjecutarAccion | hwndVentana=1706200, Texto=, ModoEnvioTexto=0
+2026-08-28 18:20:11 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-08-28 18:20:11 | EjecutarSecuencia_TiempoEspera | Segundos=1
+2026-08-28 18:20:12 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-08-28 18:20:12 | EjecutarAplicacionActual | FilaActual=3, Ruta=, Parametros=
+2026-08-28 18:20:12 | EjecutarAccion | hwndVentana=1706200, Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=2
+2026-08-28 18:20:12 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-08-28 18:20:12 | EjecutarAccion | hwndVentana=1706200, Texto=, ModoEnvioTexto=0
+2026-08-28 18:20:12 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=5
+2026-08-28 18:20:12 | EjecutarAplicacionActual | FilaActual=5, Ruta=, Parametros=
+2026-08-28 18:20:12 | EjecutarAccion | hwndVentana=1706200, Texto=(), ModoEnvioTexto=2
+2026-08-28 18:20:12 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-08-28 18:20:12 | EjecutarAplicacionActual | FilaActual=6, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-28 18:20:12 | EjecutarAccion | hwndVentana=1508466, Texto=Otro texto!!!, ModoEnvioTexto=1
+2026-08-28 18:20:13 | EjecutarSecuencia_Fin
+2026-08-28 18:20:29 | Form_Unload | Cancel=0
+2026-08-28 18:20:31 | Form_Load
+2026-08-28 18:20:31 | InicializarArray
+2026-08-28 18:20:31 | ConfigurarFlexGrid
+2026-08-28 18:20:31 | CargarRecientes
+2026-08-28 18:20:31 | AjustarColumnas
+2026-08-28 18:20:34 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:20:34 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:20:34 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:20:34 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:20:34 | AjustarColumnas
+2026-08-28 18:20:34 | CargarConfiguracionProyecto
+2026-08-28 18:20:36 | DgEventos_Click | Row=2
+2026-08-28 18:20:36 | MostrarEvento | fila=2
+2026-08-28 18:20:36 | txtCx_Change | Valor=0
+2026-08-28 18:20:36 | TxtCy_Change | Valor=0
+2026-08-28 18:20:36 | OptTiempoEspera_Click
+2026-08-28 18:20:36 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:20:36 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:20:36 | cboEditor_Click | ListIndex=8
+2026-08-28 18:20:36 | DgEventos_Click | Row=2
+2026-08-28 18:20:36 | MostrarEvento | fila=2
+2026-08-28 18:20:37 | cboEditor_LostFocus
+2026-08-28 18:20:37 | DgEventos_Click | Row=2
+2026-08-28 18:20:37 | MostrarEvento | fila=2
+2026-08-28 18:20:40 | txtEditor_LostFocus
+2026-08-28 18:20:40 | DgEventos_Click | Row=1
+2026-08-28 18:20:40 | MostrarEvento | fila=1
+2026-08-28 18:20:40 | OptNinguno_Click
+2026-08-28 18:20:40 | ActualizarEvento | nuevoEvento=9
+2026-08-28 18:20:40 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:20:40 | DgEventos_Click | Row=3
+2026-08-28 18:20:40 | MostrarEvento | fila=3
+2026-08-28 18:20:40 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:20:40 | OptTexto_Click
+2026-08-28 18:20:40 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:20:41 | optPegarTexto_Click
+2026-08-28 18:20:41 | DgEventos_Click | Row=2
+2026-08-28 18:20:41 | MostrarEvento | fila=2
+2026-08-28 18:20:41 | txtTexto_Change | Texto=
+2026-08-28 18:20:41 | OptTiempoEspera_Click
+2026-08-28 18:20:41 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:20:41 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:20:42 | txtEditor_LostFocus
+2026-08-28 18:20:42 | DgEventos_Click | Row=3
+2026-08-28 18:20:42 | MostrarEvento | fila=3
+2026-08-28 18:20:42 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:20:42 | OptTexto_Click
+2026-08-28 18:20:42 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:20:42 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:20:43 | Form_Unload | Cancel=0
+2026-08-28 18:20:47 | Form_Load
+2026-08-28 18:20:47 | InicializarArray
+2026-08-28 18:20:47 | ConfigurarFlexGrid
+2026-08-28 18:20:47 | CargarRecientes
+2026-08-28 18:20:47 | AjustarColumnas
+2026-08-28 18:20:49 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:20:49 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:20:49 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:20:49 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:20:49 | AjustarColumnas
+2026-08-28 18:20:49 | CargarConfiguracionProyecto
+2026-08-28 18:20:51 | DgEventos_Click | Row=2
+2026-08-28 18:20:51 | MostrarEvento | fila=2
+2026-08-28 18:20:51 | txtCx_Change | Valor=0
+2026-08-28 18:20:51 | TxtCy_Change | Valor=0
+2026-08-28 18:20:51 | OptTiempoEspera_Click
+2026-08-28 18:20:51 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:20:51 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:20:54 | txtEditor_LostFocus
+2026-08-28 18:20:54 | txtEditor_LostFocus
+2026-08-28 18:20:54 | DgEventos_Click | Row=2
+2026-08-28 18:20:54 | MostrarEvento | fila=2
+2026-08-28 18:20:54 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:20:55 | DgEventos_Click | Row=2
+2026-08-28 18:20:55 | MostrarEvento | fila=2
+2026-08-28 18:20:56 | txtEditor_LostFocus
+2026-08-28 18:20:56 | DgEventos_Click | Row=3
+2026-08-28 18:20:56 | MostrarEvento | fila=3
+2026-08-28 18:20:56 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:20:56 | OptTexto_Click
+2026-08-28 18:20:56 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:20:56 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:20:56 | optPegarTexto_Click
+2026-08-28 18:20:56 | DgEventos_Click | Row=2
+2026-08-28 18:20:56 | MostrarEvento | fila=2
+2026-08-28 18:20:56 | txtTexto_Change | Texto=
+2026-08-28 18:20:56 | OptTiempoEspera_Click
+2026-08-28 18:20:56 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:20:56 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:20:57 | txtEditor_LostFocus
+2026-08-28 18:20:57 | DgEventos_Click | Row=5
+2026-08-28 18:20:57 | MostrarEvento | fila=5
+2026-08-28 18:20:57 | txtTexto_Change | Texto=()
+2026-08-28 18:20:57 | OptTexto_Click
+2026-08-28 18:20:57 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:20:57 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:20:58 | Form_Unload | Cancel=0
+2026-08-28 18:21:17 | Form_Load
+2026-08-28 18:21:17 | InicializarArray
+2026-08-28 18:21:17 | ConfigurarFlexGrid
+2026-08-28 18:21:17 | CargarRecientes
+2026-08-28 18:21:17 | AjustarColumnas
+2026-08-28 18:21:19 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:21:20 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:21:20 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:21:20 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:21:20 | AjustarColumnas
+2026-08-28 18:21:20 | CargarConfiguracionProyecto
+2026-08-28 18:21:21 | DgEventos_Click | Row=2
+2026-08-28 18:21:21 | MostrarEvento | fila=2
+2026-08-28 18:21:21 | txtCx_Change | Valor=0
+2026-08-28 18:21:21 | TxtCy_Change | Valor=0
+2026-08-28 18:21:21 | OptTiempoEspera_Click
+2026-08-28 18:21:21 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:21:21 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:21:22 | txtEditor_LostFocus
+2026-08-28 18:21:22 | DgEventos_Click | Row=1
+2026-08-28 18:21:22 | MostrarEvento | fila=1
+2026-08-28 18:21:22 | OptNinguno_Click
+2026-08-28 18:21:22 | ActualizarEvento | nuevoEvento=9
+2026-08-28 18:21:22 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:21:23 | DgEventos_Click | Row=2
+2026-08-28 18:21:23 | MostrarEvento | fila=2
+2026-08-28 18:21:23 | OptTiempoEspera_Click
+2026-08-28 18:21:23 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:21:23 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:21:25 | txtEditor_LostFocus
+2026-08-28 18:21:25 | DgEventos_Click | Row=3
+2026-08-28 18:21:25 | MostrarEvento | fila=3
+2026-08-28 18:21:25 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:21:25 | OptTexto_Click
+2026-08-28 18:21:25 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:21:25 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:21:26 | optPegarTexto_Click
+2026-08-28 18:21:26 | DgEventos_Click | Row=2
+2026-08-28 18:21:26 | MostrarEvento | fila=2
+2026-08-28 18:21:26 | txtTexto_Change | Texto=
+2026-08-28 18:21:26 | OptTiempoEspera_Click
+2026-08-28 18:21:26 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:21:26 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:21:27 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 18:21:27 | ActualizarCelda | fila=2, col=9, valor=2
+2026-08-28 18:21:27 | MostrarEvento | fila=2
+2026-08-28 18:21:27 | txtEditor_LostFocus
+2026-08-28 18:21:28 | DgEventos_Click | Row=3
+2026-08-28 18:21:28 | MostrarEvento | fila=3
+2026-08-28 18:21:28 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:21:28 | OptTexto_Click
+2026-08-28 18:21:28 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:21:28 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:21:29 | DgEventos_Click | Row=2
+2026-08-28 18:21:29 | MostrarEvento | fila=2
+2026-08-28 18:21:29 | txtTexto_Change | Texto=
+2026-08-28 18:21:29 | OptTiempoEspera_Click
+2026-08-28 18:21:29 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:21:29 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:21:29 | txtEditor_LostFocus
+2026-08-28 18:21:29 | DgEventos_Click | Row=3
+2026-08-28 18:21:29 | MostrarEvento | fila=3
+2026-08-28 18:21:29 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:21:29 | OptTexto_Click
+2026-08-28 18:21:30 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:21:30 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:21:32 | DgEventos_Click | Row=1
+2026-08-28 18:21:32 | MostrarEvento | fila=1
+2026-08-28 18:21:32 | txtTexto_Change | Texto=
+2026-08-28 18:21:32 | OptNinguno_Click
+2026-08-28 18:21:32 | ActualizarEvento | nuevoEvento=9
+2026-08-28 18:21:32 | DgEventos_Click | Row=2
+2026-08-28 18:21:32 | MostrarEvento | fila=2
+2026-08-28 18:21:32 | OptTiempoEspera_Click
+2026-08-28 18:21:32 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:21:32 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:21:35 | Form_Unload | Cancel=0
+2026-08-28 18:21:48 | Form_Load
+2026-08-28 18:21:48 | InicializarArray
+2026-08-28 18:21:48 | ConfigurarFlexGrid
+2026-08-28 18:21:48 | CargarRecientes
+2026-08-28 18:21:48 | AjustarColumnas
+2026-08-28 18:21:51 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:21:51 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:21:51 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:21:51 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:21:51 | AjustarColumnas
+2026-08-28 18:21:51 | CargarConfiguracionProyecto
+2026-08-28 18:21:53 | txtEditor_LostFocus
+2026-08-28 18:21:54 | OptTiempoEspera_Click
+2026-08-28 18:21:54 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:21:54 | SincronizarFrameModo | fila=2
+2026-08-28 18:21:54 | EsEventoTexto | tipoEvento=8
+2026-08-28 18:21:58 | DgEventos_Click | Row=2
+2026-08-28 18:21:58 | MostrarEvento | fila=2
+2026-08-28 18:21:58 | txtCx_Change | Valor=0
+2026-08-28 18:21:58 | TxtCy_Change | Valor=0
+2026-08-28 18:21:58 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:22:00 | DgEventos_Click | Row=2
+2026-08-28 18:22:00 | MostrarEvento | fila=2
+2026-08-28 18:22:01 | txtEditor_LostFocus
+2026-08-28 18:22:01 | DgEventos_Click | Row=1
+2026-08-28 18:22:01 | MostrarEvento | fila=1
+2026-08-28 18:22:01 | OptNinguno_Click
+2026-08-28 18:22:01 | ActualizarEvento | nuevoEvento=9
+2026-08-28 18:22:01 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:22:01 | DgEventos_Click | Row=1
+2026-08-28 18:22:01 | MostrarEvento | fila=1
+2026-08-28 18:22:02 | DgEventos_Click | Row=2
+2026-08-28 18:22:02 | MostrarEvento | fila=2
+2026-08-28 18:22:02 | OptTiempoEspera_Click
+2026-08-28 18:22:02 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:22:02 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:22:04 | txtEditor_LostFocus
+2026-08-28 18:22:04 | DgEventos_Click | Row=3
+2026-08-28 18:22:04 | MostrarEvento | fila=3
+2026-08-28 18:22:04 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:22:04 | OptTexto_Click
+2026-08-28 18:22:04 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:22:04 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:22:04 | optPegarTexto_Click
+2026-08-28 18:22:05 | DgEventos_Click | Row=2
+2026-08-28 18:22:05 | MostrarEvento | fila=2
+2026-08-28 18:22:05 | txtTexto_Change | Texto=
+2026-08-28 18:22:05 | OptTiempoEspera_Click
+2026-08-28 18:22:05 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:22:05 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:22:05 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 18:22:05 | ActualizarCelda | fila=2, col=9, valor=2
+2026-08-28 18:22:05 | MostrarEvento | fila=2
+2026-08-28 18:22:05 | txtEditor_LostFocus
+2026-08-28 18:22:06 | DgEventos_Click | Row=2
+2026-08-28 18:22:06 | MostrarEvento | fila=2
+2026-08-28 18:22:07 | txtEditor_LostFocus
+2026-08-28 18:22:07 | DgEventos_Click | Row=3
+2026-08-28 18:22:07 | MostrarEvento | fila=3
+2026-08-28 18:22:07 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:22:07 | OptTexto_Click
+2026-08-28 18:22:07 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:22:07 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:22:08 | Form_Unload | Cancel=0
+2026-08-28 18:22:58 | Form_Load
+2026-08-28 18:22:58 | InicializarArray
+2026-08-28 18:22:58 | ConfigurarFlexGrid
+2026-08-28 18:22:58 | CargarRecientes
+2026-08-28 18:22:58 | AjustarColumnas
+2026-08-28 18:23:01 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:23:01 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:23:01 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:23:01 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:23:01 | AjustarColumnas
+2026-08-28 18:23:01 | CargarConfiguracionProyecto
+2026-08-28 18:23:04 | DgEventos_Click | Row=3
+2026-08-28 18:23:04 | MostrarEvento | fila=3
+2026-08-28 18:23:04 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:23:04 | txtCx_Change | Valor=0
+2026-08-28 18:23:04 | TxtCy_Change | Valor=0
+2026-08-28 18:23:04 | OptTexto_Click
+2026-08-28 18:23:04 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:23:04 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:23:04 | optPegarTexto_Click
+2026-08-28 18:23:06 | DgEventos_Click | Row=2
+2026-08-28 18:23:06 | MostrarEvento | fila=2
+2026-08-28 18:23:06 | txtTexto_Change | Texto=
+2026-08-28 18:23:06 | OptTiempoEspera_Click
+2026-08-28 18:23:06 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:23:06 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:23:10 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 18:23:10 | ActualizarCelda | fila=2, col=9, valor=2
+2026-08-28 18:23:10 | MostrarEvento | fila=2
+2026-08-28 18:23:10 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:23:10 | txtEditor_LostFocus
+2026-08-28 18:23:12 | Form_Unload | Cancel=0
+2026-08-28 18:23:49 | Form_Load
+2026-08-28 18:23:49 | InicializarArray
+2026-08-28 18:23:49 | ConfigurarFlexGrid
+2026-08-28 18:23:49 | CargarRecientes
+2026-08-28 18:23:49 | AjustarColumnas
+2026-08-28 18:23:52 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:23:52 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:23:52 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:24:19 | Form_Load
+2026-08-28 18:24:19 | InicializarArray
+2026-08-28 18:24:19 | ConfigurarFlexGrid
+2026-08-28 18:24:19 | CargarRecientes
+2026-08-28 18:24:19 | AjustarColumnas
+2026-08-28 18:24:21 | mnuTmp_Click | Index=3, Caption=3 C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-08-28 18:24:21 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-08-28 18:24:21 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\cmd_nuevo.sca
+2026-08-28 18:24:21 | AbrirProyecto_Error | Error=El subíndice está fuera del intervalo
+2026-08-28 18:24:25 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:24:25 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:24:25 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:24:25 | AbrirProyecto_Error | Error=El subíndice está fuera del intervalo
+2026-08-28 18:24:28 | Form_Unload | Cancel=0
+2026-08-28 18:24:58 | Form_Load
+2026-08-28 18:24:58 | InicializarArray
+2026-08-28 18:24:58 | ConfigurarFlexGrid
+2026-08-28 18:24:58 | CargarRecientes
+2026-08-28 18:24:58 | AjustarColumnas
+2026-08-28 18:25:00 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:25:00 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:25:19 | Form_Load
+2026-08-28 18:25:19 | InicializarArray
+2026-08-28 18:25:19 | ConfigurarFlexGrid
+2026-08-28 18:25:19 | CargarRecientes
+2026-08-28 18:25:19 | AjustarColumnas
+2026-08-28 18:25:21 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:25:21 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:25:21 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:25:21 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:25:21 | AjustarColumnas
+2026-08-28 18:25:21 | CargarConfiguracionProyecto
+2026-08-28 18:25:23 | Form_Unload | Cancel=0
+2026-08-28 18:25:42 | Form_Load
+2026-08-28 18:25:42 | InicializarArray
+2026-08-28 18:25:42 | ConfigurarFlexGrid
+2026-08-28 18:25:42 | CargarRecientes
+2026-08-28 18:25:42 | AjustarColumnas
+2026-08-28 18:25:44 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:25:44 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:25:44 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:25:44 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:25:44 | AjustarColumnas
+2026-08-28 18:25:44 | CargarConfiguracionProyecto
+2026-08-28 18:25:49 | Form_Unload | Cancel=0
+2026-08-28 18:26:42 | Form_Load
+2026-08-28 18:26:42 | InicializarArray
+2026-08-28 18:26:42 | ConfigurarFlexGrid
+2026-08-28 18:26:42 | CargarRecientes
+2026-08-28 18:26:42 | AjustarColumnas
+2026-08-28 18:26:44 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:26:44 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:26:44 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:26:44 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:26:44 | AjustarColumnas
+2026-08-28 18:26:44 | CargarConfiguracionProyecto
+2026-08-28 18:26:46 | DgEventos_Click | Row=2
+2026-08-28 18:26:46 | MostrarEvento | fila=2
+2026-08-28 18:26:46 | txtCx_Change | Valor=0
+2026-08-28 18:26:46 | TxtCy_Change | Valor=0
+2026-08-28 18:26:46 | OptTiempoEspera_Click
+2026-08-28 18:26:46 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:26:46 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:26:47 | txtEditor_LostFocus
+2026-08-28 18:26:47 | DgEventos_Click | Row=3
+2026-08-28 18:26:47 | MostrarEvento | fila=3
+2026-08-28 18:26:47 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:26:47 | OptTexto_Click
+2026-08-28 18:26:47 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:26:47 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:26:47 | optPegarTexto_Click
+2026-08-28 18:26:47 | DgEventos_Click | Row=2
+2026-08-28 18:26:47 | MostrarEvento | fila=2
+2026-08-28 18:26:47 | txtTexto_Change | Texto=
+2026-08-28 18:26:47 | OptTiempoEspera_Click
+2026-08-28 18:26:47 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:26:47 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:26:48 | txtEditor_LostFocus
+2026-08-28 18:26:48 | DgEventos_Click | Row=3
+2026-08-28 18:26:48 | MostrarEvento | fila=3
+2026-08-28 18:26:48 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:26:48 | OptTexto_Click
+2026-08-28 18:26:48 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:26:48 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:26:49 | DgEventos_Click | Row=2
+2026-08-28 18:26:49 | MostrarEvento | fila=2
+2026-08-28 18:26:49 | txtTexto_Change | Texto=
+2026-08-28 18:26:49 | OptTiempoEspera_Click
+2026-08-28 18:26:49 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:26:49 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:26:50 | Form_Unload | Cancel=0
+2026-08-28 18:29:18 | Form_Load
+2026-08-28 18:29:18 | InicializarArray
+2026-08-28 18:29:18 | ConfigurarFlexGrid
+2026-08-28 18:29:18 | CargarRecientes
+2026-08-28 18:29:18 | AjustarColumnas
+2026-08-28 18:29:21 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:29:21 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:29:21 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:29:21 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:29:21 | AjustarColumnas
+2026-08-28 18:29:21 | CargarConfiguracionProyecto
+2026-08-28 18:29:22 | Form_Unload | Cancel=0
+2026-08-28 18:30:01 | Form_Load
+2026-08-28 18:30:01 | InicializarArray
+2026-08-28 18:30:01 | ConfigurarFlexGrid
+2026-08-28 18:30:01 | CargarRecientes
+2026-08-28 18:30:01 | AjustarColumnas
+2026-08-28 18:30:03 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:30:03 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:30:03 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:30:03 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:30:03 | AjustarColumnas
+2026-08-28 18:30:03 | CargarConfiguracionProyecto
+2026-08-28 18:30:05 | Form_Unload | Cancel=0
+2026-08-28 18:30:10 | Form_Load
+2026-08-28 18:30:10 | InicializarArray
+2026-08-28 18:30:11 | ConfigurarFlexGrid
+2026-08-28 18:30:11 | CargarRecientes
+2026-08-28 18:30:11 | AjustarColumnas
+2026-08-28 18:30:15 | Form_Unload | Cancel=0
+2026-08-28 18:30:45 | Form_Load
+2026-08-28 18:30:45 | InicializarArray
+2026-08-28 18:30:45 | ConfigurarFlexGrid
+2026-08-28 18:30:45 | CargarRecientes
+2026-08-28 18:30:45 | AjustarColumnas
+2026-08-28 18:30:46 | Form_Unload | Cancel=0
+2026-08-28 18:31:02 | Form_Load
+2026-08-28 18:31:02 | InicializarArray
+2026-08-28 18:31:02 | ConfigurarFlexGrid
+2026-08-28 18:31:02 | CargarRecientes
+2026-08-28 18:31:02 | AjustarColumnas
+2026-08-28 18:31:04 | Form_Unload | Cancel=0
+2026-08-28 18:31:18 | Form_Load
+2026-08-28 18:31:19 | InicializarArray
+2026-08-28 18:31:19 | ConfigurarFlexGrid
+2026-08-28 18:31:19 | CargarRecientes
+2026-08-28 18:31:19 | AjustarColumnas
+2026-08-28 18:31:20 | Form_Unload | Cancel=0
+2026-08-28 18:31:57 | Form_Load
+2026-08-28 18:31:57 | InicializarArray
+2026-08-28 18:31:57 | ConfigurarFlexGrid
+2026-08-28 18:31:57 | CargarRecientes
+2026-08-28 18:31:57 | AjustarColumnas
+2026-08-28 18:31:58 | Form_Unload | Cancel=0
+2026-08-28 18:32:36 | Form_Load
+2026-08-28 18:32:36 | InicializarArray
+2026-08-28 18:32:36 | ConfigurarFlexGrid
+2026-08-28 18:32:36 | CargarRecientes
+2026-08-28 18:32:36 | AjustarColumnas
+2026-08-28 18:32:37 | Form_Unload | Cancel=0
+2026-08-28 18:32:40 | Form_Load
+2026-08-28 18:32:40 | InicializarArray
+2026-08-28 18:32:40 | ConfigurarFlexGrid
+2026-08-28 18:32:40 | CargarRecientes
+2026-08-28 18:32:40 | AjustarColumnas
+2026-08-28 18:32:41 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:32:41 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:32:41 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:32:41 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:32:41 | AjustarColumnas
+2026-08-28 18:32:41 | CargarConfiguracionProyecto
+2026-08-28 18:32:43 | Form_Unload | Cancel=0
+2026-08-28 18:32:51 | Form_Load
+2026-08-28 18:32:51 | InicializarArray
+2026-08-28 18:32:51 | ConfigurarFlexGrid
+2026-08-28 18:32:51 | CargarRecientes
+2026-08-28 18:32:51 | AjustarColumnas
+2026-08-28 18:32:53 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:32:53 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:32:53 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:32:53 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:32:53 | AjustarColumnas
+2026-08-28 18:32:53 | CargarConfiguracionProyecto
+2026-08-28 18:32:54 | DgEventos_Click | Row=2
+2026-08-28 18:32:54 | MostrarEvento | fila=2
+2026-08-28 18:32:54 | txtCx_Change | Valor=0
+2026-08-28 18:32:54 | TxtCy_Change | Valor=0
+2026-08-28 18:32:54 | OptTiempoEspera_Click
+2026-08-28 18:32:54 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:32:54 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:32:55 | txtEditor_LostFocus
+2026-08-28 18:32:55 | DgEventos_Click | Row=1
+2026-08-28 18:32:55 | MostrarEvento | fila=1
+2026-08-28 18:32:55 | OptNinguno_Click
+2026-08-28 18:32:55 | ActualizarEvento | nuevoEvento=9
+2026-08-28 18:32:55 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:32:56 | DgEventos_Click | Row=2
+2026-08-28 18:32:56 | MostrarEvento | fila=2
+2026-08-28 18:32:56 | OptTiempoEspera_Click
+2026-08-28 18:32:56 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:32:56 | txtTiempoEspera_Change | Valor=1
+2026-08-28 18:32:58 | txtEditor_KeyDown | KeyCode=13, Shift=0
+2026-08-28 18:32:58 | ActualizarCelda | fila=2, col=9, valor=2
+2026-08-28 18:32:58 | MostrarEvento | fila=2
+2026-08-28 18:32:58 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:32:58 | txtEditor_LostFocus
+2026-08-28 18:33:00 | DgEventos_Click | Row=5
+2026-08-28 18:33:00 | MostrarEvento | fila=5
+2026-08-28 18:33:00 | txtTexto_Change | Texto=()
+2026-08-28 18:33:00 | OptTexto_Click
+2026-08-28 18:33:00 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:33:00 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:33:00 | optPegarTexto_Click
+2026-08-28 18:33:01 | Form_Unload | Cancel=0
+2026-08-28 18:33:05 | GuardarEnArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca, m_Count=6
+2026-08-28 18:33:09 | Form_Load
+2026-08-28 18:33:09 | InicializarArray
+2026-08-28 18:33:09 | ConfigurarFlexGrid
+2026-08-28 18:33:09 | CargarRecientes
+2026-08-28 18:33:09 | AjustarColumnas
+2026-08-28 18:33:11 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:33:11 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:33:11 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:33:11 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:33:11 | AjustarColumnas
+2026-08-28 18:33:11 | CargarConfiguracionProyecto
+2026-08-28 18:33:15 | DgEventos_Click | Row=2
+2026-08-28 18:33:15 | MostrarEvento | fila=2
+2026-08-28 18:33:15 | txtCx_Change | Valor=0
+2026-08-28 18:33:15 | TxtCy_Change | Valor=0
+2026-08-28 18:33:15 | OptTiempoEspera_Click
+2026-08-28 18:33:15 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:33:15 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:33:15 | txtEditor_LostFocus
+2026-08-28 18:33:15 | DgEventos_Click | Row=3
+2026-08-28 18:33:15 | MostrarEvento | fila=3
+2026-08-28 18:33:15 | txtTexto_Change | Texto=        Hola! esto es una prueba de zinisoft windows handler!!! :)
+2026-08-28 18:33:15 | OptTexto_Click
+2026-08-28 18:33:15 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:33:15 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:33:15 | optPegarTexto_Click
+2026-08-28 18:33:16 | DgEventos_Click | Row=2
+2026-08-28 18:33:16 | MostrarEvento | fila=2
+2026-08-28 18:33:16 | txtTexto_Change | Texto=
+2026-08-28 18:33:16 | OptTiempoEspera_Click
+2026-08-28 18:33:16 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:33:16 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:33:17 | txtEditor_LostFocus
+2026-08-28 18:33:17 | DgEventos_Click | Row=5
+2026-08-28 18:33:17 | MostrarEvento | fila=5
+2026-08-28 18:33:17 | txtTexto_Change | Texto=()
+2026-08-28 18:33:17 | OptTexto_Click
+2026-08-28 18:33:17 | ActualizarEvento | nuevoEvento=5
+2026-08-28 18:33:17 | txtTiempoEspera_Change | Valor=0
+2026-08-28 18:33:19 | Form_Unload | Cancel=0
+2026-08-28 18:33:22 | Form_Load
+2026-08-28 18:33:22 | InicializarArray
+2026-08-28 18:33:22 | ConfigurarFlexGrid
+2026-08-28 18:33:22 | CargarRecientes
+2026-08-28 18:33:22 | AjustarColumnas
+2026-08-28 18:33:23 | mnuTmp_Click | Index=1, Caption=1 C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:33:23 | AbrirProyecto | RutaArchivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:33:23 | CargarDesdeArchivo | Archivo=C:\temp\Windows HandlerNuevaExtension\wordpad.sca
+2026-08-28 18:33:23 | CargarEventosDesdeArray | m_Count=6
+2026-08-28 18:33:23 | AjustarColumnas
+2026-08-28 18:33:23 | CargarConfiguracionProyecto
+2026-08-28 18:33:24 | DgEventos_Click | Row=2
+2026-08-28 18:33:24 | MostrarEvento | fila=2
+2026-08-28 18:33:24 | txtCx_Change | Valor=0
+2026-08-28 18:33:24 | TxtCy_Change | Valor=0
+2026-08-28 18:33:24 | OptTiempoEspera_Click
+2026-08-28 18:33:24 | ActualizarEvento | nuevoEvento=8
+2026-08-28 18:33:24 | txtTiempoEspera_Change | Valor=2
+2026-08-28 18:33:25 | Form_Unload | Cancel=0

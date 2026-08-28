@@ -868,6 +868,7 @@ Private UltCol     As Long
 Const FILE_INI = "config.ini"
 Public IsByParam As Boolean
 Public g_GrabarLog As Boolean
+Private m_EventosOriginal() As TEvento
 
 Private Const LOG_FILE As String = "WindowsHandler.log"
 
@@ -945,6 +946,7 @@ Private Sub InicializarArray()
     m_Count = 0
     m_FilaActual = 0
     ReDim m_Eventos(1 To 1)
+    ReDim m_eventos_original(1 To 1)
 End Sub
 
 Private Function FilaValida() As Boolean
@@ -1241,6 +1243,12 @@ Private Sub CargarDesdeArchivo(ByVal Archivo As String)
             .tiempoEspera = CLng(Val(LeeINI(Archivo, sec, "TiempoEspera", "0")))
         End With
     Next i
+    
+    'Copio el array para comparar luego si hubo cambios
+    ReDim m_EventosOriginal(1 To m_Count)
+    For i = 1 To m_Count
+        m_EventosOriginal(i) = m_Eventos(i)
+    Next i
 End Sub
 
 Private Sub GuardarEnArchivo(ByVal Archivo As String)
@@ -1315,15 +1323,6 @@ End Sub
 Private Sub Form_Terminate()
     On Error Resume Next
     RestaurarLayoutVentana
-End Sub
-
-Private Sub Form_Unload(Cancel As Integer)
-    EscribirLog "Form_Unload", "Cancel=" & Cancel
-    On Error Resume Next
-    RestaurarLayoutVentana
-    VBHotKey1.StopHotkey
-    Set DgEventos.DataSource = Nothing
-    Set m_EnumWin = Nothing
 End Sub
 
 ' ====================================================
@@ -2083,7 +2082,7 @@ End Sub
 '  MENÚS
 ' ====================================================
 Private Sub mnuAP_Click()
-    On Error GoTo Salir
+    On Error GoTo salir
     cdg.CancelError = True
     cdg.flags = cdlOFNFileMustExist Or cdlOFNHideReadOnly
     cdg.Filter = "Secuencia (*.sca)|*.sca"
@@ -2091,7 +2090,7 @@ Private Sub mnuAP_Click()
     If Trim$(cdg.Filename) = "" Then Exit Sub
     AbrirProyecto cdg.Filename
     AgregarMenuReciente cdg.Filename
-Salir:
+salir:
 End Sub
 
 Private Sub mnuGP_Click()
@@ -2110,7 +2109,7 @@ Private Sub mnuGP_Click()
 End Sub
 
 Private Sub mnuGPC_Click()
-    On Error GoTo Salir
+    On Error GoTo salir
     cdg.CancelError = True
     cdg.flags = cdlOFNOverwritePrompt
     cdg.Filter = "Secuencia (*.sca)|*.sca"
@@ -2121,7 +2120,7 @@ Private Sub mnuGPC_Click()
     GuardarProyecto
     Me.Caption = Me.Tag & " - [" & m_Archivo & "]"
     AgregarMenuReciente m_Archivo
-Salir:
+salir:
 End Sub
 
 Private Sub mnuNuevo_Click()
@@ -2250,7 +2249,7 @@ ContinuarLoop:
     RestaurarLayoutVentana
     SetForegroundWindow Me.hwnd
 
-Salir:
+salir:
     BlockInput False
     Screen.MousePointer = vbDefault
     EscribirLog "EjecutarSecuencia_Fin"
@@ -2259,7 +2258,7 @@ Salir:
 ErrHandler:
     EscribirLog "EjecutarSecuencia_Error", "Error=" & Err.Description
     MsgBox Err.Description, vbCritical
-    Resume Salir
+    Resume salir
 End Sub
 
 
@@ -2373,21 +2372,67 @@ Private Sub ActualizarInformacionVentana()
     txtCaption.Text = m_EnumWin.GetWindowCaption(hwndActual)
 End Sub
 
-
 ' ====================================================
 '  HELPERS
 ' ====================================================
-Private Function Nz(ByVal valor As Variant, _
-                    Optional ByVal DefaultValue As String = "") As String
-    If IsNull(valor) Then Nz = DefaultValue Else Nz = Trim$(CStr(valor))
+
+Private Function CompararEvento(ev1 As TEvento, ev2 As TEvento) As Boolean
+    CompararEvento = _
+       (ev1.Id = ev2.Id) And _
+       (ev1.habilitado = ev2.habilitado) And _
+       (ev1.Ruta = ev2.Ruta) And _
+       (ev1.parametros = ev2.parametros) And _
+       (ev1.TextoVentana = ev2.TextoVentana) And _
+       (ev1.TextoSubClase = ev2.TextoSubClase) And _
+       (ev1.Evento = ev2.Evento) And _
+       (ev1.Texto = ev2.Texto) And _
+       (ev1.ClickPosX = ev2.ClickPosX) And _
+       (ev1.ClickPosY = ev2.ClickPosY) And _
+       (ev1.ModoEnvioTexto = ev2.ModoEnvioTexto) And _
+       (ev1.IntervaloTecla = ev2.IntervaloTecla) And _
+       (ev1.tiempoEspera = ev2.tiempoEspera)
 End Function
 
-Private Function ObtenerUnidad(ByVal Unidad As String) As String
-    Select Case Trim$(Unidad)
-        Case "1": ObtenerUnidad = Left$(App.Path, 2)
-        Case "2": ObtenerUnidad = ObtenerWinDir()
-        Case Else: ObtenerUnidad = Unidad
-    End Select
+Private Function HayCambios() As Boolean
+    Dim i As Long
+    On Error GoTo salir
+    If m_Count <> UBound(m_EventosOriginal) Then
+        HayCambios = True: Exit Function
+    End If
+    For i = 1 To m_Count
+        If Not CompararEvento(m_Eventos(i), m_EventosOriginal(i)) Then
+            HayCambios = True: Exit Function
+        End If
+    Next i
+    HayCambios = False
+salir:
+    Exit Function
 End Function
+
+Private Sub Form_Unload(Cancel As Integer)
+    EscribirLog "Form_Unload", "Cancel=" & Cancel
+
+    ' Verificar si hubo cambios
+    If HayCambios() Then
+        Dim resp As VbMsgBoxResult
+        resp = MsgBox("¿Desea guardar los cambios antes de salir?", vbYesNoCancel + vbQuestion, "Confirmar salida")
+        Select Case resp
+            Case vbYes
+                GuardarEnArchivo m_Archivo
+            Case vbCancel
+                Cancel = 1   ' abortar cierre
+                Exit Sub
+            Case vbNo
+                ' salir sin guardar
+        End Select
+    End If
+
+    ' Limpieza normal
+    On Error Resume Next
+    RestaurarLayoutVentana
+    VBHotKey1.StopHotkey
+    Set DgEventos.DataSource = Nothing
+    Set m_EnumWin = Nothing
+End Sub
 
 
