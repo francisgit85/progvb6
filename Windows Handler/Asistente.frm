@@ -10,14 +10,13 @@ Begin VB.Form Form1
    BackColor       =   &H80000018&
    ClientHeight    =   11640
    ClientLeft      =   165
-   ClientTop       =   705
-   ClientWidth     =   20880
+   ClientTop       =   510
+   ClientWidth     =   14205
    Icon            =   "Asistente.frx":0000
    LinkTopic       =   "Form1"
-   Picture         =   "Asistente.frx":345A
    ScaleHeight     =   776
    ScaleMode       =   3  'Pixel
-   ScaleWidth      =   1392
+   ScaleWidth      =   947
    Tag             =   "Zinisoft Windows Handler"
    WindowState     =   2  'Maximized
    Begin ComCtl2.UpDown udTiempoEspera 
@@ -104,7 +103,7 @@ Begin VB.Form Form1
       FCOLO           =   0
       MCOL            =   12632256
       MPTR            =   1
-      MICON           =   "Asistente.frx":AE74
+      MICON           =   "Asistente.frx":345A
       UMCOL           =   -1  'True
       SOFT            =   0   'False
       PICPOS          =   0
@@ -182,7 +181,7 @@ Begin VB.Form Form1
          Width           =   3570
       End
       Begin VB.OptionButton optRuta1 
-         Caption         =   $"Asistente.frx":AE90
+         Caption         =   $"Asistente.frx":3476
          Enabled         =   0   'False
          Height          =   420
          Left            =   270
@@ -446,6 +445,7 @@ Begin VB.Form Form1
       End
       Begin VB.CheckBox chkCerrarApp 
          Caption         =   "Cerrar la aplicación al finalizar secuencia"
+         ForeColor       =   &H000000C0&
          Height          =   375
          Left            =   405
          TabIndex        =   46
@@ -471,13 +471,13 @@ Begin VB.Form Form1
          Width           =   3930
       End
       Begin VB.OptionButton OptTexto 
-         Caption         =   "Escribir Texto:"
+         Caption         =   "Texto:"
          ForeColor       =   &H00004000&
-         Height          =   195
+         Height          =   315
          Left            =   405
          TabIndex        =   23
-         Top             =   1605
-         Width           =   1365
+         Top             =   1560
+         Width           =   885
       End
       Begin VB.TextBox TxtCy 
          Enabled         =   0   'False
@@ -535,12 +535,12 @@ Begin VB.Form Form1
       End
       Begin VB.OptionButton optCerrarVentana 
          Caption         =   "Enviar cierre de ventana"
-         ForeColor       =   &H00000080&
-         Height          =   195
+         ForeColor       =   &H000000C0&
+         Height          =   360
          Left            =   405
          TabIndex        =   15
-         Top             =   1260
-         Width           =   2040
+         Top             =   1080
+         Width           =   2280
       End
       Begin VB.OptionButton OptClickDerecho 
          Caption         =   "Click Derecho"
@@ -619,7 +619,7 @@ Begin VB.Form Form1
       FCOLO           =   0
       MCOL            =   12632256
       MPTR            =   1
-      MICON           =   "Asistente.frx":AF4B
+      MICON           =   "Asistente.frx":3531
       UMCOL           =   -1  'True
       SOFT            =   0   'False
       PICPOS          =   0
@@ -657,7 +657,7 @@ Begin VB.Form Form1
       FCOLO           =   0
       MCOL            =   12632256
       MPTR            =   1
-      MICON           =   "Asistente.frx":AF67
+      MICON           =   "Asistente.frx":354D
       UMCOL           =   -1  'True
       SOFT            =   0   'False
       PICPOS          =   0
@@ -695,7 +695,7 @@ Begin VB.Form Form1
       FCOLO           =   0
       MCOL            =   12632256
       MPTR            =   1
-      MICON           =   "Asistente.frx":AF83
+      MICON           =   "Asistente.frx":3569
       UMCOL           =   -1  'True
       SOFT            =   0   'False
       PICPOS          =   0
@@ -717,10 +717,18 @@ Begin VB.Form Form1
       BackColorBkg    =   16777215
       Appearance      =   0
    End
+   Begin VB.Label lblVersion 
+      BackColor       =   &H00C0E0FF&
+      Height          =   375
+      Left            =   0
+      TabIndex        =   60
+      Top             =   11280
+      Width           =   1935
+   End
    Begin VB.Image Image1 
       Height          =   240
       Left            =   15960
-      Picture         =   "Asistente.frx":AF9F
+      Picture         =   "Asistente.frx":3585
       Stretch         =   -1  'True
       Top             =   13080
       Width           =   2265
@@ -1271,6 +1279,17 @@ Private Sub Form_Load()
     fraModoTexto.Visible = False
     Me.Caption = Me.Tag
     mnuGP.Enabled = True
+End Sub
+
+Private Sub Form_Resize()
+   With lblVersion
+        .Caption = "Versión: " & App.Major & "." & App.Minor & "." & App.Revision
+        .Visible = True
+        .AutoSize = True
+        .ForeColor = vbBlack
+        .Left = 0
+        .Top = Me.ScaleHeight - .Height
+    End With
 End Sub
 
 Private Sub Form_Terminate()

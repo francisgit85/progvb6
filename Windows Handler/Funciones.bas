@@ -490,32 +490,41 @@ Public Function EjecutarConPID(ByRef RutaExe As String, Optional ByVal Params As
     End If
 End Function
 
-
-'Funcion de lectura de un archivo INI
-Public Function LeeINI(ByVal Filename As String, ByVal Key_Value As String, ByVal Key_Name As String, Optional ByVal Default As String) As String
+'Funcion de lectura manual de un archivo INI (respeta los espacios de cadenas)
+Public Function LeeINI(ByVal Filename As String, ByVal Section As String, ByVal Key_Name As String, Optional ByVal Default As String) As String
     On Error GoTo ErrOut
-    Dim Size As Integer
-    Dim Value As String
+    Dim Linea As String
+    Dim SecActual As String
+    Dim f As Integer
+
     'Comprobamos que el archivo existe:
     If Dir(Filename) = "" Then Err.Raise 53
-    'Se define el tamaño maximo de caracteres
-    'que podra tener la variable Value:
-    Value = Space(256)
-    'Se utiliza la función para obtener
-    'el valor de la clave:
-    Size = GetPrivateProfileString(Key_Value, Key_Name, Default, Value, Len(Value), Filename)
 
-    'Si el tamaño es mayor a 0 entonces
-    'se ha encontrado el valor de la clave:
-    If Size > 0 Then
-        Value = VBA.Left$(Value, Size)
-    
-    'Devolvemos el valor de la clave:
-    If VBA.Right$(VBA.Trim$(Value), 1) = Chr(0) Then Value = VBA.Left$(VBA.Trim$(Value), Len(VBA.Trim$(Value)) - 1)
-    
-    LeeINI = VBA.Trim$(Value)
+    f = FreeFile
+    Open Filename For Input As #f
+
+    SecActual = ""
+    Do While Not EOF(f)
+        Line Input #f, Linea
+
+        'Detectar sección
+        If Left$(Trim$(Linea), 1) = "[" And Right$(Trim$(Linea), 1) = "]" Then
+            SecActual = Mid$(Linea, 2, Len(Linea) - 2)
+        ElseIf SecActual = Section Then
+            'Buscar clave dentro de la sección actual
+            If InStr(1, Linea, Key_Name & "=", vbTextCompare) = 1 Then
+                'Extraer valor tal cual, incluyendo espacios
+                LeeINI = Mid$(Linea, Len(Key_Name) + 2)
+                Close #f
+                Exit Function
+            End If
+        End If
+    Loop
+
+    Close #f
+    LeeINI = Default
     Exit Function
-    End If
+
 ErrOut:
     LeeINI = Default
 End Function
@@ -692,7 +701,7 @@ Public Sub SimularCtrlV()
 End Sub
 
 Public Sub PegarTextoHwnd(ByVal hwnd As Long, ByVal Texto As String, ByRef TmpTextBox As TextBox)
-TmpTextBox.Text = Trim(Texto)
+TmpTextBox.Text = Texto
 If TmpTextBox.SelLength = 0 Then SendMessage TmpTextBox.hwnd, EM_SETSEL, 0&, -1&
 SendMessage TmpTextBox.hwnd, WM_COPY, 0&, 0&  'Copio al portapapeles
 SendMessage hwnd, WM_PASTE, 0&, 0&  'Pego en el destino
