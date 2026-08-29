@@ -8,17 +8,620 @@ Object = "{FE0065C0-1B7B-11CF-9D53-00AA003C9CB6}#1.1#0"; "COMCT232.OCX"
 Begin VB.Form Form1 
    AutoRedraw      =   -1  'True
    BackColor       =   &H80000018&
-   ClientHeight    =   11640
+   ClientHeight    =   10860
    ClientLeft      =   165
    ClientTop       =   510
-   ClientWidth     =   14205
+   ClientWidth     =   15120
    Icon            =   "Asistente.frx":0000
    LinkTopic       =   "Form1"
-   ScaleHeight     =   776
+   LockControls    =   -1  'True
+   ScaleHeight     =   724
    ScaleMode       =   3  'Pixel
-   ScaleWidth      =   947
+   ScaleWidth      =   1008
    Tag             =   "Zinisoft Windows Handler"
    WindowState     =   2  'Maximized
+   Begin MSFlexGridLib.MSFlexGrid DgEventos 
+      Height          =   4305
+      Left            =   180
+      TabIndex        =   44
+      Top             =   150
+      Width           =   28440
+      _ExtentX        =   50165
+      _ExtentY        =   7594
+      _Version        =   393216
+      BackColorBkg    =   16777215
+      Appearance      =   0
+   End
+   Begin BotonXp.BotónXp CmdNuevo 
+      Height          =   390
+      Left            =   180
+      TabIndex        =   39
+      Top             =   4560
+      Width           =   1300
+      _ExtentX        =   2302
+      _ExtentY        =   688
+      BTYPE           =   14
+      TX              =   "&Nuevo"
+      ENAB            =   -1  'True
+      BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Segoe UI"
+         Size            =   9
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      COLTYPE         =   1
+      FOCUSR          =   0   'False
+      BCOL            =   14737632
+      BCOLO           =   14737632
+      FCOL            =   0
+      FCOLO           =   0
+      MCOL            =   15790320
+      MPTR            =   1
+      MICON           =   "Asistente.frx":345A
+      UMCOL           =   -1  'True
+      SOFT            =   0   'False
+      PICPOS          =   0
+      NGREY           =   0   'False
+      FX              =   3
+      HAND            =   0   'False
+      CHECK           =   0   'False
+      VALUE           =   0   'False
+   End
+   Begin BotonXp.BotónXp CmdInsertar 
+      Height          =   390
+      Left            =   1560
+      TabIndex        =   40
+      Top             =   4560
+      Width           =   1300
+      _ExtentX        =   2302
+      _ExtentY        =   688
+      BTYPE           =   14
+      TX              =   "&Insertar"
+      ENAB            =   -1  'True
+      BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Segoe UI"
+         Size            =   9
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      COLTYPE         =   1
+      FOCUSR          =   0   'False
+      BCOL            =   14737632
+      BCOLO           =   14737632
+      FCOL            =   0
+      FCOLO           =   0
+      MCOL            =   15790320
+      MPTR            =   1
+      MICON           =   "Asistente.frx":3476
+      UMCOL           =   -1  'True
+      SOFT            =   0   'False
+      PICPOS          =   0
+      NGREY           =   0   'False
+      FX              =   3
+      HAND            =   0   'False
+      CHECK           =   0   'False
+      VALUE           =   0   'False
+   End
+   Begin BotonXp.BotónXp CmdEliminar 
+      Height          =   390
+      Left            =   2940
+      TabIndex        =   41
+      Top             =   4560
+      Width           =   1300
+      _ExtentX        =   2302
+      _ExtentY        =   688
+      BTYPE           =   14
+      TX              =   "&Eliminar"
+      ENAB            =   -1  'True
+      BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Segoe UI"
+         Size            =   9
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      COLTYPE         =   1
+      FOCUSR          =   0   'False
+      BCOL            =   14737632
+      BCOLO           =   14737632
+      FCOL            =   0
+      FCOLO           =   0
+      MCOL            =   15790320
+      MPTR            =   1
+      MICON           =   "Asistente.frx":3492
+      UMCOL           =   -1  'True
+      SOFT            =   0   'False
+      PICPOS          =   0
+      NGREY           =   0   'False
+      FX              =   3
+      HAND            =   0   'False
+      CHECK           =   0   'False
+      VALUE           =   0   'False
+   End
+   Begin BotonXp.BotónXp CmdSec 
+      Height          =   390
+      Left            =   4380
+      TabIndex        =   42
+      Top             =   4560
+      Width           =   2200
+      _ExtentX        =   3889
+      _ExtentY        =   688
+      BTYPE           =   14
+      TX              =   "&Comenzar secuencia"
+      ENAB            =   -1  'True
+      BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "Segoe UI"
+         Size            =   9
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      COLTYPE         =   2
+      FOCUSR          =   0   'False
+      BCOL            =   14196792
+      BCOLO           =   12608000
+      FCOL            =   16777215
+      FCOLO           =   16777215
+      MCOL            =   14196792
+      MPTR            =   1
+      MICON           =   "Asistente.frx":34AE
+      UMCOL           =   -1  'True
+      SOFT            =   0   'False
+      PICPOS          =   0
+      NGREY           =   0   'False
+      FX              =   3
+      HAND            =   0   'False
+      CHECK           =   0   'False
+      VALUE           =   0   'False
+   End
+   Begin VB.CheckBox ChkBloq 
+      BackColor       =   &H80000018&
+      Caption         =   "Bloquear mouse y teclado durante ejecuciones largas"
+      BeginProperty Font 
+         Name            =   "Segoe UI"
+         Size            =   9
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   280
+      Left            =   6800
+      TabIndex        =   36
+      Top             =   4620
+      Width           =   4800
+   End
+   Begin VB.Frame Frame1 
+      BackColor       =   &H00FFFFFF&
+      Caption         =   " Configuración del Evento Seleccionado "
+      BeginProperty Font 
+         Name            =   "Segoe UI"
+         Size            =   9
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   5500
+      Left            =   180
+      TabIndex        =   0
+      Top             =   5050
+      Width           =   9800
+      Begin VB.OptionButton optClickIzquierdo 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Click Izquierdo"
+         Height          =   255
+         Left            =   240
+         TabIndex        =   1
+         Top             =   360
+         Value           =   -1  'True
+         Width           =   1400
+      End
+      Begin VB.OptionButton OptClickDerecho 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Click Derecho"
+         Height          =   255
+         Left            =   1700
+         TabIndex        =   2
+         Top             =   360
+         Width           =   1400
+      End
+      Begin VB.OptionButton OptDobleClick 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Doble Click"
+         Height          =   255
+         Left            =   3100
+         TabIndex        =   16
+         Top             =   360
+         Width           =   1300
+      End
+      Begin VB.OptionButton OptNinguno 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Ninguno"
+         Height          =   255
+         Left            =   4500
+         TabIndex        =   52
+         Top             =   360
+         Width           =   1100
+      End
+      Begin VB.OptionButton OptTiempoEspera 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Esperar"
+         Height          =   255
+         Left            =   5700
+         TabIndex        =   53
+         Top             =   360
+         Width           =   900
+      End
+      Begin VB.TextBox txtTiempoEspera 
+         Alignment       =   1  'Right Justify
+         Height          =   300
+         Left            =   6650
+         TabIndex        =   54
+         Top             =   330
+         Width           =   700
+      End
+      Begin VB.CheckBox ChkXY 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Coordenadas dentro de la ventana:"
+         Height          =   255
+         Left            =   240
+         TabIndex        =   37
+         Top             =   780
+         Width           =   2900
+      End
+      Begin VB.TextBox txtCx 
+         Enabled         =   0   'False
+         Height          =   300
+         Left            =   3450
+         MaxLength       =   4
+         TabIndex        =   21
+         Top             =   750
+         Width           =   600
+      End
+      Begin VB.TextBox TxtCy 
+         Enabled         =   0   'False
+         Height          =   300
+         Left            =   4400
+         MaxLength       =   4
+         TabIndex        =   22
+         Top             =   750
+         Width           =   600
+      End
+      Begin VB.OptionButton OptTexto 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Enviar Texto:"
+         Height          =   255
+         Left            =   240
+         TabIndex        =   23
+         Top             =   1200
+         Width           =   1300
+      End
+      Begin VB.TextBox txtTexto 
+         BeginProperty Font 
+            Name            =   "Consolas"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   2800
+         Left            =   240
+         MultiLine       =   -1  'True
+         ScrollBars      =   3  'Both
+         TabIndex        =   17
+         Top             =   1500
+         Width           =   9300
+      End
+      Begin VB.Frame fraModoTexto 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Modo de envío"
+         Height          =   850
+         Left            =   240
+         TabIndex        =   47
+         Top             =   4450
+         Width           =   4800
+         Begin VB.OptionButton optPulsarTecla 
+            BackColor       =   &H00FFFFFF&
+            Caption         =   "Pulsar tecla"
+            Height          =   255
+            Left            =   200
+            TabIndex        =   48
+            Top             =   300
+            Width           =   1200
+         End
+         Begin VB.TextBox txtIntervaloTecla 
+            Alignment       =   1  'Right Justify
+            Height          =   300
+            Left            =   1450
+            TabIndex        =   58
+            Text            =   "100"
+            Top             =   270
+            Visible         =   0   'False
+            Width           =   550
+         End
+         Begin VB.OptionButton optPegarTexto 
+            BackColor       =   &H00FFFFFF&
+            Caption         =   "Pegar texto (Clipboard)"
+            Height          =   255
+            Left            =   2600
+            TabIndex        =   49
+            Top             =   300
+            Width           =   2000
+         End
+         Begin VB.Label lblIntervaloTecla 
+            BackColor       =   &H00FFFFFF&
+            Caption         =   "ms."
+            Height          =   255
+            Left            =   2050
+            TabIndex        =   59
+            Top             =   300
+            Visible         =   0   'False
+            Width           =   400
+         End
+      End
+      Begin VB.OptionButton OptTab 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Enviar TAB"
+         Height          =   255
+         Left            =   5200
+         TabIndex        =   18
+         Top             =   4550
+         Width           =   1300
+      End
+      Begin VB.OptionButton OptEnter 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Enviar ENTER"
+         Height          =   255
+         Left            =   6600
+         TabIndex        =   43
+         Top             =   4550
+         Width           =   1400
+      End
+      Begin VB.OptionButton optCerrarVentana 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Cerrar ventana"
+         ForeColor       =   &H000000C0&
+         Height          =   255
+         Left            =   8100
+         TabIndex        =   15
+         Top             =   4550
+         Width           =   1400
+      End
+      Begin VB.CheckBox chkCerrarApp 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Cerrar la aplicación al finalizar secuencia"
+         BeginProperty Font 
+            Name            =   "Segoe UI"
+            Size            =   9
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   &H000000C0&
+         Height          =   255
+         Left            =   5200
+         TabIndex        =   46
+         Top             =   4950
+         Width           =   4300
+      End
+      Begin VB.Label lblSg 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "seg."
+         Height          =   255
+         Left            =   7420
+         TabIndex        =   55
+         Top             =   380
+         Width           =   400
+      End
+      Begin VB.Label Label9 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "X:"
+         Height          =   255
+         Left            =   3250
+         TabIndex        =   19
+         Top             =   780
+         Width           =   200
+      End
+      Begin VB.Label Label10 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Y:"
+         Height          =   255
+         Left            =   4200
+         TabIndex        =   20
+         Top             =   780
+         Width           =   200
+      End
+   End
+   Begin VB.Frame Frame2 
+      BackColor       =   &H00FFFFFF&
+      Caption         =   " Observador de Clases "
+      BeginProperty Font 
+         Name            =   "Segoe UI"
+         Size            =   9
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   3300
+      Left            =   10100
+      TabIndex        =   3
+      Top             =   5050
+      Width           =   4840
+      Begin VB.TextBox txthwnd 
+         Height          =   285
+         Left            =   1400
+         Locked          =   -1  'True
+         TabIndex        =   5
+         Top             =   350
+         Width           =   1300
+      End
+      Begin VB.TextBox txthwndp 
+         Height          =   285
+         Left            =   1400
+         Locked          =   -1  'True
+         TabIndex        =   7
+         Top             =   720
+         Width           =   1300
+      End
+      Begin VB.TextBox txtNC 
+         Height          =   285
+         Left            =   1400
+         Locked          =   -1  'True
+         TabIndex        =   9
+         Top             =   1100
+         Width           =   3200
+      End
+      Begin VB.TextBox txtCaption 
+         Height          =   285
+         Left            =   1400
+         Locked          =   -1  'True
+         TabIndex        =   11
+         Top             =   1480
+         Width           =   3200
+      End
+      Begin VB.TextBox txtX 
+         Height          =   285
+         Left            =   1400
+         Locked          =   -1  'True
+         TabIndex        =   14
+         Top             =   1900
+         Width           =   700
+      End
+      Begin VB.TextBox txtY 
+         Height          =   285
+         Left            =   2400
+         Locked          =   -1  'True
+         TabIndex        =   29
+         Top             =   1900
+         Width           =   700
+      End
+      Begin VB.TextBox txtRelX 
+         Height          =   285
+         Left            =   1400
+         Locked          =   -1  'True
+         TabIndex        =   26
+         Top             =   2300
+         Width           =   700
+      End
+      Begin VB.TextBox txtRelY 
+         Height          =   285
+         Left            =   2400
+         Locked          =   -1  'True
+         TabIndex        =   30
+         Top             =   2300
+         Width           =   700
+      End
+      Begin VB.Label Label1 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Hwnd:"
+         Height          =   255
+         Index           =   0
+         Left            =   200
+         TabIndex        =   4
+         Top             =   380
+         Width           =   1100
+      End
+      Begin VB.Label Label2 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Hwnd Parent:"
+         Height          =   255
+         Left            =   200
+         TabIndex        =   6
+         Top             =   750
+         Width           =   1100
+      End
+      Begin VB.Label Label3 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Clase:"
+         Height          =   255
+         Left            =   200
+         TabIndex        =   8
+         Top             =   1130
+         Width           =   1100
+      End
+      Begin VB.Label Label4 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Caption:"
+         Height          =   255
+         Left            =   200
+         TabIndex        =   10
+         Top             =   1510
+         Width           =   1100
+      End
+      Begin VB.Label Label7 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Cursor General:"
+         Height          =   255
+         Left            =   200
+         TabIndex        =   24
+         Top             =   1930
+         Width           =   1100
+      End
+      Begin VB.Label Label5 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "X"
+         Height          =   255
+         Left            =   2150
+         TabIndex        =   12
+         Top             =   1930
+         Width           =   200
+      End
+      Begin VB.Label Label6 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Y"
+         Height          =   255
+         Left            =   3150
+         TabIndex        =   13
+         Top             =   1930
+         Width           =   200
+      End
+      Begin VB.Label Label8 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Pos. Relativa:"
+         Height          =   255
+         Left            =   200
+         TabIndex        =   25
+         Top             =   2330
+         Width           =   1100
+      End
+      Begin VB.Label Label12 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "X"
+         Height          =   255
+         Left            =   2150
+         TabIndex        =   28
+         Top             =   2330
+         Width           =   200
+      End
+      Begin VB.Label Label11 
+         BackColor       =   &H00FFFFFF&
+         Caption         =   "Y"
+         Height          =   255
+         Left            =   3150
+         TabIndex        =   27
+         Top             =   2330
+         Width           =   200
+      End
+   End
    Begin ComCtl2.UpDown udTiempoEspera 
       Height          =   375
       Left            =   22920
@@ -69,53 +672,15 @@ Begin VB.Form Form1
       Width           =   1575
    End
    Begin MCLHotkey.VBHotKey VBHotKey1 
-      Left            =   135
-      Top             =   5715
+      Left            =   10100
+      Top             =   8500
       _ExtentX        =   794
       _ExtentY        =   794
       VKey            =   116
    End
-   Begin BotonXp.BotónXp CmdNuevo 
-      Height          =   375
-      Left            =   765
-      TabIndex        =   39
-      Top             =   4905
-      Width           =   1410
-      _ExtentX        =   2487
-      _ExtentY        =   661
-      BTYPE           =   14
-      TX              =   "&Nuevo"
-      ENAB            =   -1  'True
-      BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-         Name            =   "MS Sans Serif"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      COLTYPE         =   1
-      FOCUSR          =   0   'False
-      BCOL            =   13160660
-      BCOLO           =   13160660
-      FCOL            =   0
-      FCOLO           =   0
-      MCOL            =   12632256
-      MPTR            =   1
-      MICON           =   "Asistente.frx":345A
-      UMCOL           =   -1  'True
-      SOFT            =   0   'False
-      PICPOS          =   0
-      NGREY           =   0   'False
-      FX              =   3
-      HAND            =   0   'False
-      CHECK           =   0   'False
-      VALUE           =   0   'False
-   End
    Begin HookMenu.ctxHookMenu ctxHookMenu1 
-      Left            =   22080
-      Top             =   8880
+      Left            =   10600
+      Top             =   8500
       _ExtentX        =   900
       _ExtentY        =   900
       BmpCount        =   0
@@ -136,14 +701,6 @@ Begin VB.Form Form1
       Top             =   5040
       Visible         =   0   'False
       Width           =   1320
-   End
-   Begin VB.CheckBox ChkBloq 
-      Caption         =   "Bloquear mouse y teclado (recomendado para secuencias largas)"
-      Height          =   240
-      Left            =   7800
-      TabIndex        =   36
-      Top             =   6120
-      Width           =   5010
    End
    Begin VB.Frame Frame3 
       Caption         =   "Directorio raíz de la aplicación"
@@ -181,7 +738,7 @@ Begin VB.Form Form1
          Width           =   3570
       End
       Begin VB.OptionButton optRuta1 
-         Caption         =   $"Asistente.frx":3476
+         Caption         =   $"Asistente.frx":34CA
          Enabled         =   0   'False
          Height          =   420
          Left            =   270
@@ -191,546 +748,35 @@ Begin VB.Form Form1
       End
    End
    Begin MSComDlg.CommonDialog cdg 
-      Left            =   5580
-      Top             =   7440
+      Left            =   11100
+      Top             =   8500
       _ExtentX        =   847
       _ExtentY        =   847
       _Version        =   393216
       DefaultExt      =   "sca"
       Filter          =   "Archivos de secuencia de comandos automatizados (*.sca)|*.sca"
    End
-   Begin VB.Frame Frame2 
-      Caption         =   "Observador de clases:"
-      Height          =   2895
-      Left            =   21840
-      TabIndex        =   3
-      Top             =   5400
-      Width           =   5505
-      Begin VB.TextBox Text1 
-         Height          =   285
-         Left            =   4275
-         Locked          =   -1  'True
-         TabIndex        =   30
-         Top             =   2385
-         Width           =   825
-      End
-      Begin VB.TextBox txtY 
-         Height          =   285
-         Left            =   4275
-         Locked          =   -1  'True
-         TabIndex        =   29
-         Top             =   1890
-         Width           =   825
-      End
-      Begin VB.TextBox Text2 
-         Height          =   285
-         Left            =   3195
-         Locked          =   -1  'True
-         TabIndex        =   26
-         Top             =   2385
-         Width           =   825
-      End
-      Begin VB.TextBox txtX 
-         Height          =   285
-         Left            =   3195
-         Locked          =   -1  'True
-         TabIndex        =   14
-         Top             =   1890
-         Width           =   825
-      End
-      Begin VB.TextBox txtCaption 
-         Height          =   285
-         Left            =   1530
-         Locked          =   -1  'True
-         TabIndex        =   11
-         Top             =   1440
-         Width           =   3615
-      End
-      Begin VB.TextBox txtNC 
-         Height          =   285
-         Left            =   1530
-         Locked          =   -1  'True
-         TabIndex        =   9
-         Top             =   1080
-         Width           =   3615
-      End
-      Begin VB.TextBox txthwndp 
-         Height          =   285
-         Left            =   1530
-         Locked          =   -1  'True
-         TabIndex        =   7
-         Top             =   720
-         Width           =   1230
-      End
-      Begin VB.TextBox txthwnd 
-         Height          =   285
-         Left            =   1530
-         Locked          =   -1  'True
-         TabIndex        =   5
-         Top             =   360
-         Width           =   1230
-      End
-      Begin VB.Label Label12 
-         AutoSize        =   -1  'True
-         Caption         =   "X:"
-         Height          =   195
-         Left            =   3015
-         TabIndex        =   28
-         Top             =   2430
-         Width           =   150
-      End
-      Begin VB.Label Label11 
-         AutoSize        =   -1  'True
-         Caption         =   "Y:"
-         Height          =   195
-         Left            =   4095
-         TabIndex        =   27
-         Top             =   2430
-         Width           =   150
-      End
-      Begin VB.Label Label8 
-         AutoSize        =   -1  'True
-         Caption         =   "Posición relativa dentro de la región:"
-         Height          =   195
-         Left            =   330
-         TabIndex        =   25
-         Top             =   2430
-         Width           =   2565
-      End
-      Begin VB.Label Label7 
-         AutoSize        =   -1  'True
-         Caption         =   "Posición general del cursor:"
-         Height          =   195
-         Left            =   945
-         TabIndex        =   24
-         Top             =   1935
-         Width           =   1950
-      End
-      Begin VB.Label Label6 
-         AutoSize        =   -1  'True
-         Caption         =   "Y:"
-         Height          =   195
-         Left            =   4095
-         TabIndex        =   13
-         Top             =   1935
-         Width           =   150
-      End
-      Begin VB.Label Label5 
-         AutoSize        =   -1  'True
-         Caption         =   "X:"
-         Height          =   195
-         Left            =   3015
-         TabIndex        =   12
-         Top             =   1935
-         Width           =   150
-      End
-      Begin VB.Label Label4 
-         AutoSize        =   -1  'True
-         Caption         =   "Caption:"
-         Height          =   195
-         Left            =   795
-         TabIndex        =   10
-         Top             =   1485
-         Width           =   585
-      End
-      Begin VB.Label Label3 
-         AutoSize        =   -1  'True
-         Caption         =   "Nombre de clase:"
-         Height          =   195
-         Left            =   135
-         TabIndex        =   8
-         Top             =   1125
-         Width           =   1245
-      End
-      Begin VB.Label Label2 
-         AutoSize        =   -1  'True
-         Caption         =   "Hwnd parent:"
-         Height          =   195
-         Left            =   450
-         TabIndex        =   6
-         Top             =   765
-         Width           =   960
-      End
-      Begin VB.Label Label1 
-         AutoSize        =   -1  'True
-         Caption         =   "Hwnd:"
-         Height          =   195
-         Index           =   0
-         Left            =   945
-         TabIndex        =   4
-         Top             =   405
-         Width           =   465
-      End
-   End
    Begin VB.Timer Timer1 
       Interval        =   1
-      Left            =   4905
-      Top             =   7440
-   End
-   Begin VB.Frame Frame1 
-      Caption         =   "Eventos"
-      Height          =   5850
-      Left            =   720
-      TabIndex        =   0
-      Top             =   5400
-      Width           =   20490
-      Begin VB.TextBox txtTiempoEspera 
-         Alignment       =   1  'Right Justify
-         Height          =   285
-         Left            =   9480
-         TabIndex        =   54
-         Top             =   345
-         Width           =   975
-      End
-      Begin VB.OptionButton OptTiempoEspera 
-         Caption         =   "Esperar"
-         Height          =   195
-         Left            =   8640
-         TabIndex        =   53
-         Top             =   345
-         Width           =   1725
-      End
-      Begin VB.OptionButton OptNinguno 
-         Caption         =   "Ninguno"
-         Height          =   195
-         Left            =   6990
-         TabIndex        =   52
-         Top             =   315
-         Width           =   1725
-      End
-      Begin VB.Frame fraModoTexto 
-         Caption         =   "Modo envío"
-         Height          =   1095
-         Left            =   16800
-         TabIndex        =   47
-         Top             =   4560
-         Width           =   3375
-         Begin VB.TextBox txtIntervaloTecla 
-            Alignment       =   1  'Right Justify
-            Height          =   285
-            Left            =   1800
-            TabIndex        =   58
-            Text            =   "100"
-            Top             =   285
-            Visible         =   0   'False
-            Width           =   495
-         End
-         Begin VB.OptionButton optPegarTexto 
-            Caption         =   "Pegar texto"
-            Height          =   375
-            Left            =   240
-            TabIndex        =   49
-            Top             =   600
-            Width           =   1455
-         End
-         Begin VB.OptionButton optPulsarTecla 
-            Caption         =   "Pulsar tecla"
-            Height          =   375
-            Left            =   240
-            TabIndex        =   48
-            Top             =   240
-            Width           =   1575
-         End
-         Begin VB.Label lblIntervaloTecla 
-            Alignment       =   1  'Right Justify
-            AutoSize        =   -1  'True
-            Caption         =   "ms."
-            Height          =   195
-            Left            =   2280
-            TabIndex        =   59
-            Top             =   360
-            Visible         =   0   'False
-            Width           =   240
-         End
-      End
-      Begin VB.CheckBox chkCerrarApp 
-         Caption         =   "Cerrar la aplicación al finalizar secuencia"
-         ForeColor       =   &H000000C0&
-         Height          =   375
-         Left            =   405
-         TabIndex        =   46
-         Top             =   5280
-         Width           =   4575
-      End
-      Begin VB.OptionButton OptEnter 
-         Caption         =   "Enviar ENTER"
-         ForeColor       =   &H00004000&
-         Height          =   195
-         Left            =   405
-         TabIndex        =   43
-         Top             =   5040
-         Width           =   1500
-      End
-      Begin VB.CheckBox ChkXY 
-         Caption         =   "En coordenadas específicas dentro de la ventana:"
-         ForeColor       =   &H00800000&
-         Height          =   330
-         Left            =   810
-         TabIndex        =   37
-         Top             =   690
-         Width           =   3930
-      End
-      Begin VB.OptionButton OptTexto 
-         Caption         =   "Texto:"
-         ForeColor       =   &H00004000&
-         Height          =   315
-         Left            =   405
-         TabIndex        =   23
-         Top             =   1560
-         Width           =   885
-      End
-      Begin VB.TextBox TxtCy 
-         Enabled         =   0   'False
-         Height          =   285
-         Left            =   6075
-         MaxLength       =   4
-         TabIndex        =   22
-         Top             =   720
-         Width           =   780
-      End
-      Begin VB.TextBox txtCx 
-         Enabled         =   0   'False
-         Height          =   285
-         Left            =   4950
-         MaxLength       =   4
-         TabIndex        =   21
-         Top             =   720
-         Width           =   780
-      End
-      Begin VB.OptionButton OptTab 
-         Caption         =   "Enviar TAB"
-         ForeColor       =   &H00004000&
-         Height          =   195
-         Left            =   405
-         TabIndex        =   18
-         Top             =   4770
-         Width           =   1320
-      End
-      Begin VB.TextBox txtTexto 
-         BeginProperty Font 
-            Name            =   "Tahoma"
-            Size            =   9.75
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         Height          =   3000
-         Left            =   1800
-         MultiLine       =   -1  'True
-         ScrollBars      =   3  'Both
-         TabIndex        =   17
-         Top             =   1522
-         Width           =   18375
-      End
-      Begin VB.OptionButton OptDobleClick 
-         Caption         =   "Doble click"
-         ForeColor       =   &H00800000&
-         Height          =   195
-         Left            =   5145
-         TabIndex        =   16
-         Top             =   345
-         Width           =   1725
-      End
-      Begin VB.OptionButton optCerrarVentana 
-         Caption         =   "Enviar cierre de ventana"
-         ForeColor       =   &H000000C0&
-         Height          =   360
-         Left            =   405
-         TabIndex        =   15
-         Top             =   1080
-         Width           =   2280
-      End
-      Begin VB.OptionButton OptClickDerecho 
-         Caption         =   "Click Derecho"
-         ForeColor       =   &H00800000&
-         Height          =   195
-         Left            =   3300
-         TabIndex        =   2
-         Top             =   345
-         Width           =   1725
-      End
-      Begin VB.OptionButton optClickIzquierdo 
-         Caption         =   "Click"
-         ForeColor       =   &H00800000&
-         Height          =   195
-         Left            =   840
-         TabIndex        =   1
-         Top             =   345
-         Value           =   -1  'True
-         Width           =   1725
-      End
-      Begin VB.Label lblSg 
-         AutoSize        =   -1  'True
-         Caption         =   "sg."
-         Height          =   195
-         Left            =   10500
-         TabIndex        =   55
-         Top             =   435
-         Width           =   210
-      End
-      Begin VB.Label Label10 
-         AutoSize        =   -1  'True
-         Caption         =   "Y:"
-         ForeColor       =   &H00800000&
-         Height          =   195
-         Left            =   5895
-         TabIndex        =   20
-         Top             =   765
-         Width           =   150
-      End
-      Begin VB.Label Label9 
-         AutoSize        =   -1  'True
-         Caption         =   "X:"
-         ForeColor       =   &H00800000&
-         Height          =   195
-         Left            =   4770
-         TabIndex        =   19
-         Top             =   765
-         Width           =   150
-      End
-   End
-   Begin BotonXp.BotónXp CmdInsertar 
-      Height          =   375
-      Left            =   2470
-      TabIndex        =   40
-      Top             =   4905
-      Width           =   1410
-      _ExtentX        =   2487
-      _ExtentY        =   661
-      BTYPE           =   14
-      TX              =   "&Instertar"
-      ENAB            =   -1  'True
-      BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-         Name            =   "MS Sans Serif"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      COLTYPE         =   1
-      FOCUSR          =   0   'False
-      BCOL            =   13160660
-      BCOLO           =   13160660
-      FCOL            =   0
-      FCOLO           =   0
-      MCOL            =   12632256
-      MPTR            =   1
-      MICON           =   "Asistente.frx":3531
-      UMCOL           =   -1  'True
-      SOFT            =   0   'False
-      PICPOS          =   0
-      NGREY           =   0   'False
-      FX              =   3
-      HAND            =   0   'False
-      CHECK           =   0   'False
-      VALUE           =   0   'False
-   End
-   Begin BotonXp.BotónXp CmdEliminar 
-      Height          =   375
-      Left            =   4175
-      TabIndex        =   41
-      Top             =   4905
-      Width           =   1410
-      _ExtentX        =   2487
-      _ExtentY        =   661
-      BTYPE           =   14
-      TX              =   "&Eliminar"
-      ENAB            =   -1  'True
-      BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-         Name            =   "MS Sans Serif"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      COLTYPE         =   1
-      FOCUSR          =   0   'False
-      BCOL            =   13160660
-      BCOLO           =   13160660
-      FCOL            =   0
-      FCOLO           =   0
-      MCOL            =   12632256
-      MPTR            =   1
-      MICON           =   "Asistente.frx":354D
-      UMCOL           =   -1  'True
-      SOFT            =   0   'False
-      PICPOS          =   0
-      NGREY           =   0   'False
-      FX              =   3
-      HAND            =   0   'False
-      CHECK           =   0   'False
-      VALUE           =   0   'False
-   End
-   Begin BotonXp.BotónXp CmdSec 
-      Height          =   375
-      Left            =   5880
-      TabIndex        =   42
-      Top             =   4905
-      Width           =   2040
-      _ExtentX        =   3598
-      _ExtentY        =   661
-      BTYPE           =   14
-      TX              =   "&Comenzar secuencia"
-      ENAB            =   -1  'True
-      BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-         Name            =   "MS Sans Serif"
-         Size            =   8.25
-         Charset         =   0
-         Weight          =   400
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      COLTYPE         =   1
-      FOCUSR          =   0   'False
-      BCOL            =   13160660
-      BCOLO           =   13160660
-      FCOL            =   0
-      FCOLO           =   0
-      MCOL            =   12632256
-      MPTR            =   1
-      MICON           =   "Asistente.frx":3569
-      UMCOL           =   -1  'True
-      SOFT            =   0   'False
-      PICPOS          =   0
-      NGREY           =   0   'False
-      FX              =   3
-      HAND            =   0   'False
-      CHECK           =   0   'False
-      VALUE           =   0   'False
-   End
-   Begin MSFlexGridLib.MSFlexGrid DgEventos 
-      Height          =   4335
-      Left            =   0
-      TabIndex        =   44
-      Top             =   0
-      Width           =   28695
-      _ExtentX        =   50615
-      _ExtentY        =   7646
-      _Version        =   393216
-      BackColorBkg    =   16777215
-      Appearance      =   0
+      Left            =   11600
+      Top             =   8500
    End
    Begin VB.Label lblVersion 
-      BackColor       =   &H00C0E0FF&
-      Height          =   375
-      Left            =   0
+      BackColor       =   &H00C0FFFF&
+      BackStyle       =   0  'Transparent
+      Height          =   255
+      Left            =   180
       TabIndex        =   60
-      Top             =   11280
-      Width           =   1935
+      Top             =   10550
+      Width           =   2000
    End
    Begin VB.Image Image1 
       Height          =   240
-      Left            =   15960
+      Left            =   12500
       Picture         =   "Asistente.frx":3585
       Stretch         =   -1  'True
-      Top             =   13080
+      Top             =   8500
+      Visible         =   0   'False
       Width           =   2265
    End
    Begin VB.Menu mnuArchivo 
@@ -775,6 +821,26 @@ Begin VB.Form Form1
          Index           =   4
          Visible         =   0   'False
       End
+      Begin VB.Menu mnuTmp 
+         Caption         =   ""
+         Index           =   5
+         Visible         =   0   'False
+      End
+      Begin VB.Menu mnuTmp 
+         Caption         =   ""
+         Index           =   6
+         Visible         =   0   'False
+      End
+      Begin VB.Menu mnuTmp 
+         Caption         =   ""
+         Index           =   7
+         Visible         =   0   'False
+      End
+      Begin VB.Menu mnuTmp 
+         Caption         =   ""
+         Index           =   8
+         Visible         =   0   'False
+      End
       Begin VB.Menu raya2 
          Caption         =   "-"
       End
@@ -794,7 +860,7 @@ Option Explicit
 ' ====================================================
 '  CONSTANTES Y TIPOS
 ' ====================================================
-Private Const MAX_RECIENTES   As Long = 4
+Private Const MAX_RECIENTES   As Long = 8
 Private Const TIMEOUT_VENTANA As Long = 5000
 Private Const MAX_EVENTOS     As Long = 500
 Private Const SEC_META        As String = "Meta"
@@ -1284,6 +1350,7 @@ End Sub
 Public Sub LoadForm()
     EscribirLog "LoadForm"
     IsByParam = True
+    Timer1.Enabled = False
     Call Form_Load
 End Sub
 
@@ -1315,6 +1382,7 @@ Private Sub Form_Resize()
         .Visible = True
         .AutoSize = True
         .ForeColor = vbBlack
+        .FontBold = True
         .Left = 0
         .Top = Me.ScaleHeight - .Height
     End With
@@ -1365,18 +1433,37 @@ End Sub
 Private Sub AgregarMenuReciente(ByVal Archivo As String)
     EscribirLog "AgregarMenuReciente", "Archivo=" & Archivo
     Dim i As Long, Existe As Boolean
+    Dim rutaExistente As String
+    
+    ' Verificar si ya existe el archivo en la lista (sin prefijo numérico)
     For i = 1 To MAX_RECIENTES
-        If LCase$(Trim$(mnuTmp(i).Caption)) = LCase$(CStr(i) & " " & Archivo) Then
-            Existe = True: Exit For
+        If mnuTmp(i).Visible Then
+            rutaExistente = Mid$(mnuTmp(i).Caption, InStr(1, mnuTmp(i).Caption, " ") + 1)
+            If LCase$(Trim$(rutaExistente)) = LCase$(Trim$(Archivo)) Then
+                Existe = True: Exit For
+            End If
         End If
     Next i
+    
     If Existe Then Exit Sub
+    
+    ' Desplazar hacia abajo
     For i = MAX_RECIENTES To 2 Step -1
         mnuTmp(i).Caption = mnuTmp(i - 1).Caption
         mnuTmp(i).Visible = mnuTmp(i - 1).Visible
     Next i
+    
+    ' Insertar en primera posición
     mnuTmp(1).Caption = "1 " & Archivo
     mnuTmp(1).Visible = True
+    
+    ' Actualizar numeración
+    For i = 2 To MAX_RECIENTES
+        If mnuTmp(i).Visible Then
+            mnuTmp(i).Caption = CStr(i) & " " & Mid$(mnuTmp(i).Caption, InStr(1, mnuTmp(i).Caption, " ") + 1)
+        End If
+    Next i
+    
     GuardarRecientesINI
 End Sub
 
@@ -1386,7 +1473,9 @@ Private Sub GuardarRecientesINI()
     For i = 1 To MAX_RECIENTES
         Archivo = ""
         If mnuTmp(i).Visible Then
-            Archivo = Mid$(mnuTmp(i).Caption, InStr(1, mnuTmp(i).Caption, " ") + 1)
+            If InStr(1, mnuTmp(i).Caption, " ") > 0 Then
+                Archivo = Mid$(mnuTmp(i).Caption, InStr(1, mnuTmp(i).Caption, " ") + 1)
+            End If
         End If
         GrabaINI App.Path & "\" & FILE_INI, "MENU", "RECIENTE" & CStr(i), Archivo
     Next i
@@ -2032,7 +2121,7 @@ Private Sub DgEventos_MouseDown(Button As Integer, Shift As Integer, X As Single
     Dim fila As Long, col As Long
     fila = DgEventos.MouseRow
     col = DgEventos.MouseCol
-    If fila <= 0 Then Exit Sub
+    If fila < 1 Or fila > m_Count Then Exit Sub
     DgEventos.Row = fila
     DgEventos.col = col
     Select Case col
@@ -2366,10 +2455,28 @@ Private Sub ActualizarInformacionVentana()
     Dim pt As POINTAPI, hwndActual As Long
     GetCursorPos pt
     hwndActual = WindowFromPoint(pt.X, pt.Y)
+
     txtX.Text = pt.X
     txtY.Text = pt.Y
     txthwnd.Text = hwndActual
     txtCaption.Text = m_EnumWin.GetWindowCaption(hwndActual)
+
+    ' Hwnd Parent
+    Dim hParent As Long
+    hParent = GetParent(hwndActual)
+    txthwndp.Text = CStr(hParent)
+
+    ' Clase
+    Dim sClass As String * 256
+    Dim ret As Long
+    ret = GetClassName(hwndActual, sClass, 256)
+    If ret > 0 Then txtNC.Text = Left$(sClass, ret) Else txtNC.Text = ""
+
+    ' Posición relativa
+    Dim rc As RECT
+    GetWindowRect hwndActual, rc
+    txtRelX.Text = pt.X - rc.Left
+    txtRelY.Text = pt.Y - rc.Top
 End Sub
 
 ' ====================================================
