@@ -1,29 +1,32 @@
-2026-08-30 09:56:31 | Cargado Layout Teclado [0000040A]
-2026-08-30 09:56:31 | Form_Load
-2026-08-30 09:56:31 | InicializarArray
-2026-08-30 09:56:31 | ConfigurarFlexGrid
-2026-08-30 09:56:31 | CargarRecientes
-2026-08-30 09:56:31 | AjustarColumnas
-2026-08-30 09:56:35 | mnuTmp_Click | Index=2, Caption=2 C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\cmdPrueba.sca
-2026-08-30 09:56:35 | AbrirProyecto | RutaArchivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\cmdPrueba.sca
-2026-08-30 09:56:35 | CargarDesdeArchivo | Archivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\cmdPrueba.sca
-2026-08-30 09:56:35 | CargarEventosDesdeArray | m_Count=0
-2026-08-30 09:56:35 | CargarConfiguracionProyecto
-2026-08-30 09:56:38 | mnuTmp_Click | Index=1, Caption=1 C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
-2026-08-30 09:56:38 | AbrirProyecto | RutaArchivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
-2026-08-30 09:56:38 | CargarDesdeArchivo | Archivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
-2026-08-30 09:56:38 | CargarEventosDesdeArray | m_Count=7
-2026-08-30 09:56:38 | AjustarColumnas
-2026-08-30 09:56:38 | CargarConfiguracionProyecto
-2026-08-30 09:56:39 | DgEventos_Click | Row=6
-2026-08-30 09:56:39 | MostrarEvento | fila=6
-2026-08-30 09:56:39 | txtTexto_Change | Texto=()
-2026-08-30 09:56:39 | txtCx_Change | Valor=0
-2026-08-30 09:56:39 | TxtCy_Change | Valor=0
-2026-08-30 09:56:39 | OptTexto_Click
-2026-08-30 09:56:39 | ActualizarEvento | nuevoEvento=5
-2026-08-30 09:56:39 | txtTiempoEspera_Change | Valor=0
-2026-08-30 09:56:39 | optPegarTexto_Click
-2026-08-30 09:56:40 | Form_Unload | Cancel=0
-2026-08-30 09:56:47 | Form_Unload | Cancel=0
-2026-08-30 09:56:48 | RestaurarLayoutVentana: Unload() [0000040A]
+2026-08-30 12:24:05 | Cargado Layout Teclado [0000040A]
+2026-08-30 12:24:06 | Form_Load
+2026-08-30 12:24:06 | InicializarArray
+2026-08-30 12:24:06 | ConfigurarFlexGrid
+2026-08-30 12:24:06 | CargarRecientes
+2026-08-30 12:24:06 | AjustarColumnas
+2026-08-30 12:24:11 | mnuTmp_Click | Index=1, Caption=1 C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
+2026-08-30 12:24:11 | AbrirProyecto | RutaArchivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
+2026-08-30 12:24:11 | CargarDesdeArchivo | Archivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
+2026-08-30 12:24:11 | CargarEventosDesdeArray | m_Count=7
+2026-08-30 12:24:11 | AjustarColumnas
+2026-08-30 12:24:11 | CargarConfiguracionProyecto
+2026-08-30 12:24:12 | EjecutarSecuencia_Inicio | TotalEventos=7
+2026-08-30 12:24:12 | EjecutarSecuencia_Evento | FilaActual=1, TipoEvento=9
+2026-08-30 12:24:12 | LanzarProceso | PID=11164, FilaActual=1, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-30 12:24:12 | EjecutarAccion | hwndVentana=591072, Texto=, ModoEnvioTexto=0
+2026-08-30 12:24:12 | EjecutarSecuencia_Evento | FilaActual=2, TipoEvento=8
+2026-08-30 12:24:12 | EjecutarSecuencia_TiempoEspera | Segundos=2
+2026-08-30 12:24:15 | EjecutarSecuencia_Evento | FilaActual=3, TipoEvento=5
+2026-08-30 12:24:15 | EjecutarAccion | hwndVentana=591072, Texto=Hola! esto es una prueba de zinisoft windows handler!!! :), ModoEnvioTexto=1
+2026-08-30 12:24:19 | EjecutarSecuencia_Evento | FilaActual=4, TipoEvento=7
+2026-08-30 12:24:19 | EjecutarAccion | hwndVentana=591072, Texto=, ModoEnvioTexto=0
+2026-08-30 12:24:19 | EjecutarSecuencia_Evento | FilaActual=5, TipoEvento=8
+2026-08-30 12:24:19 | EjecutarSecuencia_TiempoEspera | Segundos=2
+2026-08-30 12:24:21 | EjecutarSecuencia_Evento | FilaActual=6, TipoEvento=5
+2026-08-30 12:24:21 | EjecutarAccion | hwndVentana=591072, Texto=(), ModoEnvioTexto=2
+2026-08-30 12:24:21 | EjecutarSecuencia_Evento | FilaActual=7, TipoEvento=5
+2026-08-30 12:24:21 | LanzarProceso | PID=1076, FilaActual=7, Ruta=C:\Windows\System32\notepad.exe, Parametros=
+2026-08-30 12:24:21 | EjecutarAccion | hwndVentana=2492280, Texto=Otro texto!!!, ModoEnvioTexto=1
+2026-08-30 12:24:22 | EjecutarSecuencia_Fin
+2026-08-30 12:24:22 | Form_Unload | Cancel=0
+2026-08-30 12:24:22 | RestaurarLayoutVentana: Unload() [0000040A]

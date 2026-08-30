@@ -1364,6 +1364,10 @@ Public Sub InicializarPorParametros()
     Timer1.Enabled = False
 End Sub
 
+Private Sub ChkBloq_Click()
+m_Bloquear = ChkBloq.Value
+End Sub
+
 Private Sub Form_Load()
     CargarConfiguracionGeneral
     
