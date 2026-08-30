@@ -2251,7 +2251,21 @@ Private Sub GuardarProyecto()
     On Error GoTo ErrHandler
     If Trim$(m_Archivo) = "" Then Exit Sub
     GuardarEnArchivo m_Archivo
+    
+    ' REFRESCAR EL ESTADO ORIGINAL EN MEMORIA
+    Dim i As Long
+    If m_Count > 0 Then
+        ReDim m_EventosOriginal(1 To m_Count) As TEvento
+        For i = 1 To m_Count
+            m_EventosOriginal(i) = m_Eventos(i)
+        Next i
+    Else
+        Erase m_EventosOriginal
+    End If
+    
+    ' Forzar la variable a False
     HayCambios = False
+    
     Exit Sub
 ErrHandler:
     MsgBox Err.Description, vbCritical
