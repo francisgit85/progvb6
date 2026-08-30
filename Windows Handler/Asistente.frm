@@ -1574,6 +1574,8 @@ Private Sub ConfigurarFlexGrid()
         .BackColorSel = RGB(173, 216, 230)
         .ForeColorSel = vbBlack
         .CellBackColor = RGB(240, 240, 240)
+        ' En tu Sub ConfigurarFlexGrid:
+        .FocusRect = flexFocusNone ' O flexFocusLight
     End With
     
     ' Marca visual de checkbox en celdas Habilitado (Wingdings)
@@ -1986,16 +1988,19 @@ End Sub
 Private Sub DgEventos_DblClick()
     EscribirLog "DgEventos_DblClick", "Row=" & DgEventos.Row & ", Col=" & DgEventos.col
     Dim fila As Long, col As Long
+    Dim X As Single, Y As Single, w As Single, h As Single
     fila = DgEventos.Row
     col = DgEventos.col
     If fila = 0 Or col = 0 Then Exit Sub
-
+    If col = COL_HABILITADO Or col = COL_EVENTO Then Exit Sub
     OcultarEditores
-
-    ' Mostrar editor genérico según columna
-    MostrarEditor fila, col
-
-    ' Acciones especiales
+    ObtenerRectCelda fila, col, X, Y, w, h
+    txtEditor.Move X, Y, w, h
+    txtEditor.Text = DgEventos.TextMatrix(fila, col)
+    txtEditor.Visible = True
+    txtEditor.ZOrder 0
+    txtEditor.SetFocus
+    
     Select Case col
         Case COL_RUTA
             cmdExplorar_Click
@@ -2356,6 +2361,9 @@ End Sub
 Public Sub EjecutarSecuencia()
     Dim hwndVentana As Long, i As Long
     Dim hwndNuevaInstancia As Long
+    Dim hayError As Boolean
+    
+    hayError = False
     
     On Error GoTo ErrHandler
     EscribirLog "EjecutarSecuencia_Inicio", "TotalEventos=" & m_Count
@@ -2379,6 +2387,13 @@ Public Sub EjecutarSecuencia()
         m_FilaActual = i
         EscribirLog "EjecutarSecuencia_Evento", "FilaActual=" & m_FilaActual & ", TipoEvento=" & m_Eventos(i).Evento
     
+        ' =========================================================================
+        ' RESALTAR FILA ACTUAL EN MODO INTERACTIVO
+        ' =========================================================================
+        If Not IsByParam Then
+            ResaltarFilaGrilla m_FilaActual
+        End If
+        
         Select Case m_Eventos(i).Evento
             Case evEnter, evTab, evCerrarVentana, evClickIzquierdo, evClickDerecho, evDobleClick
                 If hwndVentana <> 0 Then ActivarVentana hwndVentana
@@ -2405,6 +2420,7 @@ Public Sub EjecutarSecuencia()
                   
                 ' Evaluación de Timeout / Acción
                 If hwndVentana = 0 Or IsWindow(hwndVentana) = 0 Then
+                    hayError = True
                     If g_MostrarTimoutVentana = True Then
                         MsgBox "Timeout esperando ventana", vbExclamation
                         Exit Sub
@@ -2432,10 +2448,22 @@ salir:
     DoEvents
     Sleep 100
     
+    ' Manejo de la grilla según el resultado de la ejecución
+    If Not IsByParam Then
+        If hayError Then
+            ' Pintar de rojo la fila donde falló la secuencia
+            MarcarFilaError m_FilaActual
+        Else
+            ' Si terminó con éxito, limpiar el resaltado de la grilla
+            LimpiarResaltadoGrilla
+        End If
+    End If
+    
     EscribirLog "EjecutarSecuencia_Fin"
     Exit Sub
 
 ErrHandler:
+    hayError = True
     EscribirLog "EjecutarSecuencia_Error", "Error=" & Err.Description
     Resume salir
 End Sub
@@ -2451,6 +2479,87 @@ Private Function CalcularTimeoutGlobal() As Long
     ' margen extra de seguridad
     CalcularTimeoutGlobal = total + TIMEOUT_VENTANA
 End Function
+
+Private Sub ResaltarFilaGrilla(ByVal nFila As Long)
+    ' Solo aplicar en modo interactivo
+    If IsByParam Then Exit Sub
+    If nFila < 1 Or nFila > DgEventos.Rows - 1 Then Exit Sub
+
+    Dim f As Long, c As Long
+    
+    ' Desactivar redibujado para evitar parpadeo
+    DgEventos.Redraw = False
+    
+    ' 1. Limpiar color de todas las filas de datos (volver a blanco)
+    ' En lugar de usar RowSel/ColSel en bucle de columnas, recorremos celdas o filas
+    For f = 1 To DgEventos.Rows - 1
+        DgEventos.Row = f
+        For c = 0 To DgEventos.Cols - 1
+            DgEventos.col = c
+            DgEventos.CellBackColor = vbWhite
+            DgEventos.CellForeColor = vbBlack
+        Next c
+    Next f
+
+    ' 2. Colorear la fila actual (Verde pastel / suave)
+    DgEventos.Row = nFila
+    For c = 0 To DgEventos.Cols - 1
+        DgEventos.col = c
+        DgEventos.CellBackColor = RGB(200, 245, 200) ' Verde pastel
+        DgEventos.CellForeColor = RGB(0, 100, 0)     ' Texto verde oscuro
+    Next c
+
+    ' Desactivar selección de bloque interna que pueda tapar la fila 1
+    DgEventos.RowSel = nFila
+    DgEventos.ColSel = DgEventos.Cols - 1
+
+    ' 3. Asegurar que la fila en ejecución sea visible si hay scrollbar
+    DgEventos.TopRow = nFila
+
+    ' Reactivar redibujado y refrescar la pantalla
+    DgEventos.Redraw = True
+    DgEventos.Refresh
+End Sub
+
+Private Sub MarcarFilaError(ByVal nFila As Long)
+    If IsByParam Then Exit Sub
+    If nFila < 1 Or nFila > DgEventos.Rows - 1 Then Exit Sub
+
+    Dim c As Long
+    
+    DgEventos.Redraw = False
+    DgEventos.Row = nFila
+    DgEventos.RowSel = nFila
+    
+    For c = 0 To DgEventos.Cols - 1
+        DgEventos.col = c
+        DgEventos.CellBackColor = RGB(255, 200, 200) ' Rojo suave / Salmón
+        DgEventos.CellForeColor = RGB(150, 0, 0)     ' Texto rojo oscuro
+    Next c
+
+    DgEventos.TopRow = nFila
+    DgEventos.Redraw = True
+    DgEventos.Refresh
+End Sub
+
+Private Sub LimpiarResaltadoGrilla()
+    If IsByParam Then Exit Sub
+    
+    Dim c As Long
+    On Error Resume Next
+    
+    DgEventos.Redraw = False
+    For c = 0 To DgEventos.Cols - 1
+        DgEventos.Row = 1
+        DgEventos.col = c
+        DgEventos.RowSel = DgEventos.Rows - 1
+        DgEventos.ColSel = c
+        DgEventos.CellBackColor = vbWhite
+        DgEventos.CellForeColor = vbBlack
+    Next c
+    DgEventos.Redraw = True
+    DgEventos.Refresh
+End Sub
 
 ' ====================================================
 '  EJECUTAR ACCIÓN

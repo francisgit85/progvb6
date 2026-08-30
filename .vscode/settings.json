@@ -1,0 +1,10 @@
+{
+  "files.encoding": "windows1252",
+  "files.autoGuessEncoding": true,
+  "files.associations": {
+    "*.frm": "plaintext"
+  },
+  "[plaintext]": {
+    "files.encoding": "windows1252"
+  }
+}
