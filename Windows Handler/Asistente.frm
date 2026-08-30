@@ -2328,7 +2328,6 @@ Public Sub CmdSecClick()
             KillProcessByPID ObtenerPID(Me.hwnd)
         Else
             Unload Me
-            End
         End If
     End If
 End Sub

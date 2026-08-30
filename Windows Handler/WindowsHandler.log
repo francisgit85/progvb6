@@ -1,15 +1,29 @@
-2026-08-30 09:45:47 | Cargado Layout Teclado [0000040A]
-2026-08-30 09:45:47 | Form_Load
-2026-08-30 09:45:47 | InicializarArray
-2026-08-30 09:45:47 | ConfigurarFlexGrid
-2026-08-30 09:45:47 | CargarRecientes
-2026-08-30 09:45:47 | AjustarColumnas
-2026-08-30 09:45:52 | mnuTmp_Click | Index=1, Caption=1 C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
-2026-08-30 09:45:52 | AbrirProyecto | RutaArchivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
-2026-08-30 09:45:52 | CargarDesdeArchivo | Archivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
-2026-08-30 09:45:52 | CargarEventosDesdeArray | m_Count=7
-2026-08-30 09:45:52 | AjustarColumnas
-2026-08-30 09:45:52 | CargarConfiguracionProyecto
-2026-08-30 09:45:56 | GuardarEnArchivo | Archivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca, m_Count=7
-2026-08-30 09:45:58 | Form_Unload | Cancel=0
-2026-08-30 09:45:58 | RestaurarLayoutVentana: Unload() [0000040A]
+2026-08-30 09:56:31 | Cargado Layout Teclado [0000040A]
+2026-08-30 09:56:31 | Form_Load
+2026-08-30 09:56:31 | InicializarArray
+2026-08-30 09:56:31 | ConfigurarFlexGrid
+2026-08-30 09:56:31 | CargarRecientes
+2026-08-30 09:56:31 | AjustarColumnas
+2026-08-30 09:56:35 | mnuTmp_Click | Index=2, Caption=2 C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\cmdPrueba.sca
+2026-08-30 09:56:35 | AbrirProyecto | RutaArchivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\cmdPrueba.sca
+2026-08-30 09:56:35 | CargarDesdeArchivo | Archivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\cmdPrueba.sca
+2026-08-30 09:56:35 | CargarEventosDesdeArray | m_Count=0
+2026-08-30 09:56:35 | CargarConfiguracionProyecto
+2026-08-30 09:56:38 | mnuTmp_Click | Index=1, Caption=1 C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
+2026-08-30 09:56:38 | AbrirProyecto | RutaArchivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
+2026-08-30 09:56:38 | CargarDesdeArchivo | Archivo=C:\Users\Francisco\Documents\GitHub\progvb6\Windows Handler\wordpad.sca
+2026-08-30 09:56:38 | CargarEventosDesdeArray | m_Count=7
+2026-08-30 09:56:38 | AjustarColumnas
+2026-08-30 09:56:38 | CargarConfiguracionProyecto
+2026-08-30 09:56:39 | DgEventos_Click | Row=6
+2026-08-30 09:56:39 | MostrarEvento | fila=6
+2026-08-30 09:56:39 | txtTexto_Change | Texto=()
+2026-08-30 09:56:39 | txtCx_Change | Valor=0
+2026-08-30 09:56:39 | TxtCy_Change | Valor=0
+2026-08-30 09:56:39 | OptTexto_Click
+2026-08-30 09:56:39 | ActualizarEvento | nuevoEvento=5
+2026-08-30 09:56:39 | txtTiempoEspera_Change | Valor=0
+2026-08-30 09:56:39 | optPegarTexto_Click
+2026-08-30 09:56:40 | Form_Unload | Cancel=0
+2026-08-30 09:56:47 | Form_Unload | Cancel=0
+2026-08-30 09:56:48 | RestaurarLayoutVentana: Unload() [0000040A]
