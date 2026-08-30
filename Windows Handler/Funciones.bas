@@ -25,6 +25,9 @@ Private Declare Function SystemParametersInfo Lib "user32" _
 Const SPI_SETDEFAULTINPUTLANG = &H5A
 Const SPIF_SENDCHANGE = &H2
 
+Public Declare Function GetCurrentProcessId Lib "kernel32" () As Long
+Public Declare Function GetCurrentProcess Lib "kernel32" () As Long
+
 Declare Function MakeSureDirectoryPathExists Lib "imagehlp.dll" (ByVal lpPath As String) As Long
 Declare Function SetForegroundWindow Lib "user32" (ByVal hwnd As Long) As Long
 Public Declare Function SetActiveWindow Lib "user32" _
@@ -43,6 +46,9 @@ Declare Function AttachThreadInput Lib "user32" _
 Declare Function ActivateKeyboardLayout Lib "user32" _
     (ByVal hkl As Long, ByVal flags As Long) As Long
 
+Private Declare Function GetKeyboardLayoutName Lib "user32" _
+    Alias "GetKeyboardLayoutNameA" (ByVal pwszKLID As String) As Long
+
 ' API para enumerar ventanas
 Public Declare Function EnumWindows Lib "user32" _
     (ByVal lpEnumFunc As Long, ByVal lParam As Long) As Long
@@ -55,8 +61,11 @@ Private Declare Function SendInput Lib "user32" _
 Private Declare Sub CopyMemory Lib "kernel32" Alias "RtlMoveMemory" _
     (Destination As Any, Source As Any, ByVal length As Long)
 
-Private Declare Function GetKeyboardLayout Lib "user32" _
+Public Declare Function GetKeyboardLayout Lib "user32" _
     (ByVal idThread As Long) As Long
+    
+Public Declare Function GetForegroundWindow Lib "user32" () As Long
+    
     
 Private Type KEYBDINPUT
     wVk As Integer
@@ -836,73 +845,12 @@ Sub EnviarUnicode(ByVal ch As String)
     SendInput 1, inp, Len(inp)
 End Sub
 
-' Guardar layout actual del hilo destino
-Public Sub GuardarLayoutVentana(hwndDestino As Long)
-    Dim idThread As Long
-    Dim hkl As Long
-    
-    idThread = GetWindowThreadProcessId(hwndDestino, 0)
-    hkl = GetKeyboardLayout(idThread)
-    
-    ' Guardar el HKL completo (32 bits)
-    hklPrevio = hkl
-End Sub
-
-' Restaurar layout previo
-Public Sub RestaurarLayoutVentana()
-    If hklPrevio <> 0 Then
-        Dim klid As String
-        Dim hklRestaurado As Long
-        
-        ' Convertir HKL a string KLID (8 dígitos hexadecimales)
-        klid = Right$("00000000" & Hex$(hklPrevio And &HFFFF&), 8)
-        
-        ' Cargar el layout por KLID
-        hklRestaurado = LoadKeyboardLayout(klid, KLF_ACTIVATE)
-        
-        ' Activar el layout restaurado
-        If hklRestaurado <> 0 Then
-            'ActivateKeyboardLayout hklRestaurado, KLF_ACTIVATE
-            ActivateKeyboardLayout hklPrevio, KLF_ACTIVATE
-        End If
-    End If
-End Sub
-
-Public Sub CambiarLayoutVentana(hwndDestino As Long)
-    Dim PID As Long, tid As Long
-    tid = GetWindowThreadProcessId(hwndDestino, PID)
-
-    ' Vincular tu hilo
-    AttachThreadInput App.ThreadID, tid, True
-    
-    ' Guardar layout español internacional
-    'hklPrevio = LoadKeyboardLayout("0001040A", 1)  ' Español Internacional
-        
-    ' Activar layout US en ese hilo
-    CambiarLayoutUS
-
-    ' Desvincular
-    AttachThreadInput App.ThreadID, tid, False
-End Sub
-
-Sub CambiarLayoutUS()
-    Dim hkl As Long
-    hkl = LoadKeyboardLayout("00000409", 1)   ' US
-    ActivateKeyboardLayout hkl, 0
-End Sub
-
-Sub CambiarLayoutES()
-    Dim hkl As Long
-    hkl = LoadKeyboardLayout("0000040A", 1)   ' Español (España)
-    ActivateKeyboardLayout hkl, 0
-End Sub
-
-Sub RestaurarLayoutGlobal()
-    Dim hklEsp As Long
-    hklEsp = LoadKeyboardLayout("0001040A", 1) ' Español Internacional
-    SystemParametersInfo SPI_SETDEFAULTINPUTLANG, 0, hklEsp, SPIF_SENDCHANGE
-End Sub
-
+Public Function HwndFromPID(ByVal PID As Long) As Long
+    m_TargetPID = PID
+    m_FoundHwnd = 0
+    EnumWindows AddressOf EnumWindowsProc, 0
+    HwndFromPID = m_FoundHwnd
+End Function
 Public Function TomarFoco(ByVal hwnd As Long) As Long
 TomarFoco = SetFocus(hwnd)
 End Function

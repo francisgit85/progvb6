@@ -1,5 +1,5 @@
 [Meta]
-Count=6
+Count=7
 [Proyecto]
 CerrarAlFinalizar=0
 [Evento1]
@@ -29,7 +29,7 @@ ClickPosX=0
 ClickPosY=0
 ModoEnvioTexto=1
 IntervaloTecla=100
-TiempoEspera=1
+TiempoEspera=2
 [Evento3]
 Id=3
 Habilitado=1
@@ -41,7 +41,7 @@ Evento=5
 Texto=Hola! esto es una prueba de zinisoft windows handler!!! :)
 ClickPosX=0
 ClickPosY=0
-ModoEnvioTexto=2
+ModoEnvioTexto=1
 IntervaloTecla=50
 TiempoEspera=0
 [Evento4]
@@ -65,6 +65,20 @@ Ruta=
 Parametros=
 TextoVentana=
 TextoSubClase=
+Evento=8
+Texto=
+ClickPosX=0
+ClickPosY=0
+ModoEnvioTexto=0
+IntervaloTecla=0
+TiempoEspera=2
+[Evento6]
+Id=6
+Habilitado=1
+Ruta=
+Parametros=
+TextoVentana=
+TextoSubClase=
 Evento=5
 Texto=()
 ClickPosX=0
@@ -72,10 +86,13 @@ ClickPosY=0
 ModoEnvioTexto=2
 IntervaloTecla=100
 TiempoEspera=0
-[Evento6]
-Id=6
+[Evento7]
+Id=7
 Habilitado=1
 Ruta=C:\Windows\System32\notepad.exe
+Parametros=
+TextoVentana=
+TextoSubClase=
 Evento=5
 Texto=Otro texto!!!
 ClickPosX=0

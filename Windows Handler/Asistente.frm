@@ -861,7 +861,7 @@ Option Explicit
 '  CONSTANTES Y TIPOS
 ' ====================================================
 Private Const MAX_RECIENTES   As Long = 8
-Private Const TIMEOUT_VENTANA As Long = 5000
+Private Const TIMEOUT_VENTANA As Long = 2500
 Private Const MAX_EVENTOS     As Long = 500
 Private Const SEC_META        As String = "Meta"
 Private Const SEC_EVENTO      As String = "Evento"
@@ -901,7 +901,7 @@ End Enum
 
 Private Type TEvento
     Id             As Long
-    habilitado     As Boolean
+    Habilitado     As Boolean
     Ruta           As String
     parametros     As String
     TextoVentana   As String
@@ -934,11 +934,16 @@ Private UltCol     As Long
 Const FILE_INI = "config.ini"
 Public IsByParam As Boolean
 Public g_GrabarLog As Boolean
+Public g_BorrarLog As Boolean
+Public g_MostrarTimoutVentana As Boolean
+Private HayCambios As Boolean
 Private m_EventosOriginal() As TEvento
+Private LayoutOriginal As String
 
 Private Const LOG_FILE As String = "WindowsHandler.log"
 
 Private Sub EscribirLog(ByVal accion As String, Optional ByVal parametros As String = "")
+    On Error Resume Next   ' evita que un error en el log dispare ErrHandler
     If Not g_GrabarLog Then Exit Sub  ' si está desactivado, no hace nada
     
     Dim f As Integer
@@ -948,6 +953,7 @@ Private Sub EscribirLog(ByVal accion As String, Optional ByVal parametros As Str
     Print #f, Format$(Now, "yyyy-mm-dd hh:nn:ss") & " | " & accion & _
               IIf(parametros <> "", " | " & parametros, "")
     Close #f
+    On Error GoTo 0
 End Sub
 
 
@@ -965,7 +971,7 @@ Private Function AppendEvento() As Long
     ReDim Preserve m_Eventos(1 To m_Count)
     With m_Eventos(m_Count)
         .Id = m_Count
-        .habilitado = True
+        .Habilitado = True
         .Evento = evClickIzquierdo
         .ModoEnvioTexto = 0
     End With
@@ -998,7 +1004,7 @@ Private Sub InsertEvento(ByVal pos As Long)
     Next i
     Dim nuevo As TEvento
     nuevo.Id = pos
-    nuevo.habilitado = True
+    nuevo.Habilitado = True
     nuevo.Evento = evClickIzquierdo
     nuevo.ModoEnvioTexto = 0
     m_Eventos(pos) = nuevo
@@ -1063,8 +1069,8 @@ Private Sub SeleccionarEventoEnCombo(ByVal ev As Long)
     m_CargandoFila = False
 End Sub
 
-Private Function TextoHabilitado(ByVal habilitado As Boolean) As String
-    If habilitado Then TextoHabilitado = Chr$(252) Else TextoHabilitado = ""
+Private Function TextoHabilitado(ByVal Habilitado As Boolean) As String
+    If Habilitado Then TextoHabilitado = Chr$(252) Else TextoHabilitado = ""
 End Function
 
 Private Sub InicializarComboEventos()
@@ -1162,7 +1168,7 @@ Private Sub MostrarEditorCheckbox(ByVal fila As Long)
     If fila < 1 Or fila > m_Count Then Exit Sub
     OcultarEditores
     m_CargandoFila = True
-    chkEditor.Value = IIf(m_Eventos(fila).habilitado, vbChecked, vbUnchecked)
+    chkEditor.Value = IIf(m_Eventos(fila).Habilitado, vbChecked, vbUnchecked)
     m_CargandoFila = False
     PosicionarControlSobreCelda chkEditor, fila, COL_HABILITADO, 18, 18
     chkEditor.SetFocus
@@ -1220,7 +1226,7 @@ Private Sub RefrescarCeldaHabilitado(ByVal fila As Long)
     DgEventos.col = COL_HABILITADO
     DgEventos.CellFontName = "Wingdings"
 
-    If m_Eventos(fila).habilitado Then
+    If m_Eventos(fila).Habilitado Then
 
         DgEventos.TextMatrix(fila, COL_HABILITADO) = "ü"   ' tilde
         'DgEventos.CellForeColor = vbGreen
@@ -1232,7 +1238,7 @@ End Sub
 
 Private Sub AlternarHabilitado(ByVal fila As Long)
     If fila < 1 Or fila > m_Count Then Exit Sub
-    m_Eventos(fila).habilitado = Not m_Eventos(fila).habilitado
+    m_Eventos(fila).Habilitado = Not m_Eventos(fila).Habilitado
     DgEventos.Row = fila
     DgEventos.col = COL_HABILITADO
     RefrescarCeldaHabilitado fila
@@ -1295,7 +1301,7 @@ Private Sub CargarDesdeArchivo(ByVal Archivo As String)
         sec = SEC_EVENTO & CStr(i)
         With m_Eventos(i)
             .Id = CLng(Val(LeeINI(Archivo, sec, "Id", CStr(i))))
-            .habilitado = (CLng(Val(LeeINI(Archivo, sec, "Habilitado", "1"))) <> 0)
+            .Habilitado = (CLng(Val(LeeINI(Archivo, sec, "Habilitado", "1"))) <> 0)
             .Ruta = LeeINI(Archivo, sec, "Ruta", "")
             .parametros = LeeINI(Archivo, sec, "Parametros", "")
             .TextoVentana = LeeINI(Archivo, sec, "TextoVentana", "")
@@ -1328,7 +1334,7 @@ Private Sub GuardarEnArchivo(ByVal Archivo As String)
         sec = SEC_EVENTO & CStr(i)
         With m_Eventos(i)
             GrabaINI Archivo, sec, "Id", CStr(.Id)
-            GrabaINI Archivo, sec, "Habilitado", IIf(.habilitado, "1", "0")
+            GrabaINI Archivo, sec, "Habilitado", IIf(.Habilitado, "1", "0")
             GrabaINI Archivo, sec, "Ruta", .Ruta
             GrabaINI Archivo, sec, "Parametros", .parametros
             GrabaINI Archivo, sec, "TextoVentana", .TextoVentana
@@ -1344,16 +1350,6 @@ Private Sub GuardarEnArchivo(ByVal Archivo As String)
     Next i
 End Sub
 
-' ====================================================
-'  FORM LOAD / UNLOAD
-' ====================================================
-Public Sub LoadForm()
-    EscribirLog "LoadForm"
-    IsByParam = True
-    Timer1.Enabled = False
-    Call Form_Load
-End Sub
-
 Private Sub cboModoEnvio_Click()
     Dim fila As Long
     fila = DgEventos.Row
@@ -1362,15 +1358,29 @@ Private Sub cboModoEnvio_Click()
     DgEventos.TextMatrix(fila, COL_MODO_ENVIO) = cboModoEnvio.Text
 End Sub
 
+Public Sub InicializarPorParametros()
+    EscribirLog "IsByParam"
+    IsByParam = True
+    Timer1.Enabled = False
+End Sub
+
 Private Sub Form_Load()
     CargarConfiguracionGeneral
+    
+    If CargadoPorParametros = True Then
+        Me.InicializarPorParametros
+    End If
+   
+    LayoutOriginal = LayoutActualKLID
+    EscribirLog "Cargado Layout Teclado [" & LayoutOriginal & "]"
+   
     EscribirLog "Form_Load"
     Set m_EnumWin = New clsEnum
     InicializarArray
     InicializarComboEventos
     ConfigurarFlexGrid
-    CargarRecientes
-    AjustarColumnas
+    If Not IsByParam Then CargarRecientes
+    If Not IsByParam Then AjustarColumnas
     fraModoTexto.Visible = False
     Me.Caption = Me.Tag
     mnuGP.Enabled = True
@@ -1389,8 +1399,9 @@ Private Sub Form_Resize()
 End Sub
 
 Private Sub Form_Terminate()
-    On Error Resume Next
-    RestaurarLayoutVentana
+'    On Error Resume Next
+'    EscribirLog "RestaurarLayoutVentana: Terminate()"
+'    RestaurarLayoutVentana
 End Sub
 
 ' ====================================================
@@ -1400,8 +1411,10 @@ Private Sub CargarConfiguracionProyecto()
    EscribirLog "CargarConfiguracionProyecto"
     If m_Archivo <> "" Then
         chkCerrarApp.Value = CInt(LeeINI(m_Archivo, "Proyecto", "CerrarAlFinalizar", "0"))
+        g_MostrarTimoutVentana = CInt(LeeINI(m_Archivo, "Proyecto", "MostrarVentanaTimeOut", "0"))
     Else
         chkCerrarApp.Value = vbUnchecked
+        g_MostrarTimoutVentana = False
     End If
 End Sub
 
@@ -1424,10 +1437,20 @@ End Sub
 '  CARGAR CONFIGURACION GENERAL DEL PROGRAMA
 ' ====================================================
 Private Sub CargarConfiguracionGeneral()
-    EscribirLog "CargarConfiguracionGeneral"
     Dim valor As String
-    valor = LeeINI(App.Path & "\" & FILE_INI, "General", "GrabarLog", 0)
-    g_GrabarLog = CBool(valor)
+    
+    valor = LeeINI(App.Path & "\" & FILE_INI, "General", "GrabarLog", "1")
+    g_GrabarLog = (valor = "1")
+    
+    valor = LeeINI(App.Path & "\" & FILE_INI, "General", "BorrarLog", "0")
+    g_BorrarLog = (valor = "1")
+    
+    ' Si está activado borrar log y también grabar log
+    If g_GrabarLog And g_BorrarLog Then
+        On Error Resume Next
+        Kill App.Path & "\" & LOG_FILE
+        On Error GoTo 0
+    End If
 End Sub
 
 Private Sub AgregarMenuReciente(ByVal Archivo As String)
@@ -1602,7 +1625,7 @@ Private Sub CargarEventosDesdeArray()
 
             DgEventos.AddItem _
                 CStr(.Id) & vbTab & _
-                TextoHabilitado(.habilitado) & vbTab & _
+                TextoHabilitado(.Habilitado) & vbTab & _
                 .Ruta & vbTab & _
                 .parametros & vbTab & _
                 .TextoVentana & vbTab & _
@@ -1723,7 +1746,7 @@ Private Sub MostrarEvento(ByVal fila As Long)
                     m_Eventos(fila).ModoEnvioTexto = MODO_PULSAR_TECLA
                 End If
                 optPulsarTecla.Value = True
-                optPulsarTecla.Caption = "Pulsar tecla cada:"
+                optPulsarTecla.Caption = "Pulsar tecla"
                 txtIntervaloTecla.Text = ev.IntervaloTecla
                 txtIntervaloTecla.Visible = True
                 lblIntervaloTecla.Visible = True
@@ -1772,7 +1795,7 @@ Private Sub ActualizarCelda(ByVal fila As Long, ByVal col As Long, ByVal valor A
     With m_Eventos(fila)
         Select Case col
             Case COL_ID:             .Id = CLng(Val(valor))
-            Case COL_HABILITADO:     .habilitado = (Trim$(valor) <> "")
+            Case COL_HABILITADO:     .Habilitado = (Trim$(valor) <> "")
             Case COL_RUTA:           .Ruta = valor
             Case COL_PARAMETROS:     .parametros = valor
             Case COL_TEXTO_VENTANA:  .TextoVentana = valor
@@ -1885,7 +1908,7 @@ Private Sub optPulsarTecla_Click()
     If fila < 1 Or fila > m_Count Then Exit Sub
     m_Eventos(fila).ModoEnvioTexto = MODO_PULSAR_TECLA
     RefrescarCeldaModoEnvio fila
-    optPulsarTecla.Caption = "Pulsar tecla cada:"
+    optPulsarTecla.Caption = "Pulsar tecla"
     txtIntervaloTecla.Visible = True
     lblIntervaloTecla.Visible = True
 End Sub
@@ -1982,7 +2005,7 @@ Private Sub MostrarEditor(ByVal fila As Long, ByVal col As Long)
     Select Case col
         Case COL_HABILITADO
             ' Checkbox
-            chkEditor.Value = IIf(m_Eventos(fila).habilitado, vbChecked, vbUnchecked)
+            chkEditor.Value = IIf(m_Eventos(fila).Habilitado, vbChecked, vbUnchecked)
             PosicionarControlSobreCelda chkEditor, fila, col, 18, 18
             chkEditor.SetFocus
 
@@ -2067,7 +2090,7 @@ Private Sub chkEditor_Click()
     Dim fila As Long
     fila = DgEventos.Row
     If fila < 1 Or fila > m_Count Then Exit Sub
-    m_Eventos(fila).habilitado = (chkEditor.Value = vbChecked)
+    m_Eventos(fila).Habilitado = (chkEditor.Value = vbChecked)
     RefrescarCeldaHabilitado fila
     DgEventos.Row = fila
     DgEventos.col = COL_HABILITADO
@@ -2228,6 +2251,7 @@ Private Sub GuardarProyecto()
     On Error GoTo ErrHandler
     If Trim$(m_Archivo) = "" Then Exit Sub
     GuardarEnArchivo m_Archivo
+    HayCambios = False
     Exit Sub
 ErrHandler:
     MsgBox Err.Description, vbCritical
@@ -2250,7 +2274,7 @@ Private Function VerificarRutas() As Boolean
     If m_Count = 0 Then Exit Function
     Dim i As Long
     For i = 1 To m_Count
-        If Not m_Eventos(i).habilitado Then GoTo Siguiente
+        If Not m_Eventos(i).Habilitado Then GoTo Siguiente
         If Trim$(m_Eventos(i).Ruta) <> "" Then
             If Dir$(m_Eventos(i).Ruta) = "" Then
                 MsgBox "No existe:" & vbCrLf & m_Eventos(i).Ruta, vbCritical
@@ -2266,96 +2290,167 @@ End Function
 ' ====================================================
 '  EJECUTAR SECUENCIA
 ' ====================================================
-Private Sub cmdSec_Click()
+Public Sub CmdSecClick()
     If m_Count = 0 Then Exit Sub
     If Not VerificarRutas Then Exit Sub
     ForzarMinusculas
+   
+' 1. Cambiar a Inglés para tipear los símbolos
+    CambiarTecladoForzado HKL_ENG_US
+    DoEvents
+    Sleep 100
+    
+' 2.
     EjecutarSecuencia
-    If chkCerrarApp.Value Then KillProcessByPID ObtenerPID(Me.hwnd)
+    
+' 3. IMPORTANTE: Restaurar a Español ANTES de salir de la consola
+    CambiarTecladoForzado LayoutOriginal
+    DoEvents
+    Sleep 100
+    
+    If chkCerrarApp.Value Then KillProcessByPID ObtenerPID(Me.hwnd) 'Unload Me
+End Sub
+
+Private Sub CambiarEstadoControles(Habilitado As Boolean)
+    CmdSec.Enabled = Habilitado
+    CmdNuevo.Enabled = Habilitado
+    CmdInsertar.Enabled = Habilitado
+    CmdEliminar.Enabled = Habilitado
+    Frame1.Enabled = Habilitado
+    Frame2.Enabled = Habilitado
+    DgEventos.Enabled = Habilitado
+    mnuArchivo.Enabled = Habilitado
+End Sub
+
+Private Sub cmdSec_Click()
+    CambiarEstadoControles False
+    Call CmdSecClick
+    CambiarEstadoControles True
 End Sub
 
 Public Sub EjecutarSecuencia()
-    Dim hwndVentana As Long, TiempoInicio As Long, i As Long
+    Dim hwndVentana As Long, i As Long
     On Error GoTo ErrHandler
     EscribirLog "EjecutarSecuencia_Inicio", "TotalEventos=" & m_Count
 
     Screen.MousePointer = vbHourglass
     BlockInput m_Bloquear
 
-    ' Guardar layout original de tu aplicación
-    GuardarLayoutVentana Me.hwnd
-
+    Dim timeoutGlobal As Long
+    timeoutGlobal = CalcularTimeoutGlobal()
+   
     i = 1
     Do While i <= m_Count
-
-        If Not m_Eventos(i).habilitado Then
+    
+        If Not m_Eventos(i).Habilitado Then
             EscribirLog "EjecutarSecuencia_SkipEvento", "Evento=" & i
             GoTo ContinuarLoop
         End If
-
+    
         m_FilaActual = i
         EscribirLog "EjecutarSecuencia_Evento", "FilaActual=" & m_FilaActual & ", TipoEvento=" & m_Eventos(i).Evento
-
+    
         Select Case m_Eventos(i).Evento
             Case evEnter, evTab, evCerrarVentana, evClickIzquierdo, evClickDerecho, evDobleClick
- 
                 ' Eventos directos
                 EjecutarAccion hwndVentana
-
+ 
             Case evTiempoEspera
                 EscribirLog "EjecutarSecuencia_TiempoEspera", "Segundos=" & m_Eventos(i).tiempoEspera
                 Sleep m_Eventos(i).tiempoEspera * 1000
-
+    
             Case Else
+            
                 ' Eventos que requieren ventana
                 EjecutarAplicacionActual
-                TiempoInicio = GetTickCount
-                Do
-                    hwndVentana = BuscarVentanaActual
-                    ' Poner foco en la ventana y cambiar layout
-                    SetForegroundWindow hwndVentana
-                    CambiarLayoutVentana hwndVentana
-                    If hwndVentana <> 0 Then
-                        EjecutarAccion hwndVentana
-                        Exit Do
-                    End If
-                    DoEvents
-
-                    If GetTickCount - TiempoInicio > TIMEOUT_VENTANA Then
-                        EscribirLog "EjecutarSecuencia_Timeout", "Evento=" & i
+                 
+                If i < UBound(m_Eventos) Then
+                    hwndVentana = EsperarVentana(timeoutGlobal)
+                Else
+                    ' Último evento: no esperar más
+                    hwndVentana = hwndVentana
+                End If
+                  
+  
+                If hwndVentana = 0 Then
+                    
+                    If g_MostrarTimoutVentana = True Then
                         MsgBox "Timeout esperando ventana", vbExclamation
-                        Exit Do
+                        Exit Sub
+                    Else
+                        'Registrar en log pero no interrumpir con cartel
+                        EscribirLog "Timeout", "No se encontró ventana en " & timeoutGlobal & " ms"
+                        If chkCerrarApp.Value Then
+                            'Mato proceso para liberar recursos -> no me quedo esperando mas ventana ni acciones
+                            End
+                        End If
                     End If
-                Loop
-        End Select
+                
+                Else
+                
+                    ' Solo si se encontró la ventana
+                    EjecutarAccion hwndVentana
+                                    
+                End If
 
+        End Select
+    
 ContinuarLoop:
         i = i + 1
     Loop
 
-    ' Al terminar toda la secuencia: restaurar layout original y devolver foco
-    Me.SetFocus
-    RestaurarLayoutVentana
-    SetForegroundWindow Me.hwnd
-
 salir:
     BlockInput False
     Screen.MousePointer = vbDefault
+
     EscribirLog "EjecutarSecuencia_Fin"
     Exit Sub
 
 ErrHandler:
     EscribirLog "EjecutarSecuencia_Error", "Error=" & Err.Description
-    MsgBox Err.Description, vbCritical
+    'MsgBox Err.Description, vbCritical
     Resume salir
 End Sub
 
+Private Function EsperarVentana(ByVal TimeoutMs As Long) As Long
+    Dim tInicio As Long, hwndActual As Long
+    Static SeCambioLayout As Boolean
+        
+    tInicio = GetTickCount
+    Do
+        hwndActual = BuscarVentanaActual()
+                    
+        If hwndActual <> 0 Then
+            EsperarVentana = hwndActual
+            Exit Do
+        End If
+        
+        If GetTickCount - tInicio >= TimeoutMs Then
+            EsperarVentana = 0
+            Exit Do
+        End If
+
+        DoEvents
+    Loop
+End Function
+
+Private Function CalcularTimeoutGlobal() As Long
+    Dim i As Long, total As Long
+    
+    total = 0
+    For i = 1 To UBound(m_Eventos)
+        total = total + m_Eventos(i).tiempoEspera * 1000  ' convertir a ms
+    Next i
+    
+    ' margen extra de seguridad
+    CalcularTimeoutGlobal = total + TIMEOUT_VENTANA
+End Function
 
 ' ====================================================
 '  EJECUTAR ACCIÓN
 ' ====================================================
 Private Sub EjecutarAccion(ByVal hwndObjetivo As Long)
-    If m_FilaActual < 1 Or m_FilaActual > m_Count Then Exit Sub
+    If m_FilaActual < 1 Or m_FilaActual > m_Count Or hwndObjetivo = 0 Then Exit Sub
     Dim ev As TEvento
     ev = m_Eventos(m_FilaActual)
  
@@ -2365,7 +2460,7 @@ Private Sub EjecutarAccion(ByVal hwndObjetivo As Long)
         ", ModoEnvioTexto=" & ev.ModoEnvioTexto
 
     If hwndObjetivo <> 0 Then m_EnumWin.SetActiveWindows hwndObjetivo
-
+  
     Select Case ev.Evento
         Case evClickIzquierdo: EjecutarClick hwndObjetivo, eLeftClick
         Case evClickDerecho:   EjecutarClick hwndObjetivo, eRightClick
@@ -2376,6 +2471,7 @@ Private Sub EjecutarAccion(ByVal hwndObjetivo As Long)
     End Select
 
     If ev.Evento = evTexto And Trim$(ev.Texto) <> "" Then
+    
         Select Case ev.ModoEnvioTexto
             Case MODO_PULSAR_TECLA:
                 PegarTexto hwndObjetivo, ev.Texto, ev.IntervaloTecla
@@ -2383,6 +2479,7 @@ Private Sub EjecutarAccion(ByVal hwndObjetivo As Long)
                 CopiarAlPortapapeles ev.Texto
                 SimularCtrlV
         End Select
+
     End If
 End Sub
 
@@ -2486,7 +2583,7 @@ End Sub
 Private Function CompararEvento(ev1 As TEvento, ev2 As TEvento) As Boolean
     CompararEvento = _
        (ev1.Id = ev2.Id) And _
-       (ev1.habilitado = ev2.habilitado) And _
+       (ev1.Habilitado = ev2.Habilitado) And _
        (ev1.Ruta = ev2.Ruta) And _
        (ev1.parametros = ev2.parametros) And _
        (ev1.TextoVentana = ev2.TextoVentana) And _
@@ -2500,7 +2597,7 @@ Private Function CompararEvento(ev1 As TEvento, ev2 As TEvento) As Boolean
        (ev1.tiempoEspera = ev2.tiempoEspera)
 End Function
 
-Private Function HayCambios() As Boolean
+Private Function VerificarCambios() As Boolean
     Dim i As Long
     On Error GoTo salir
     If m_Count <> UBound(m_EventosOriginal) Then
@@ -2511,6 +2608,13 @@ Private Function HayCambios() As Boolean
             HayCambios = True: Exit Function
         End If
     Next i
+    
+    ' Comparar configuración global del proyecto (Cerrar al finalizar)
+    If chkCerrarApp.Value <> CInt(LeeINI(m_Archivo, "Proyecto", "CerrarAlFinalizar", "0")) Then
+        HayCambios = True
+        Exit Function
+    End If
+    
     HayCambios = False
 salir:
     Exit Function
@@ -2518,9 +2622,11 @@ End Function
 
 Private Sub Form_Unload(Cancel As Integer)
     EscribirLog "Form_Unload", "Cancel=" & Cancel
-
+    
+    VerificarCambios
+    
     ' Verificar si hubo cambios
-    If HayCambios() Then
+    If HayCambios Then
         Dim resp As VbMsgBoxResult
         resp = MsgBox("¿Desea guardar los cambios antes de salir?", vbYesNoCancel + vbQuestion, "Confirmar salida")
         Select Case resp
@@ -2536,10 +2642,18 @@ Private Sub Form_Unload(Cancel As Integer)
 
     ' Limpieza normal
     On Error Resume Next
-    RestaurarLayoutVentana
+    Timer1.Enabled = False
     VBHotKey1.StopHotkey
     Set DgEventos.DataSource = Nothing
     Set m_EnumWin = Nothing
+    
+    EscribirLog "RestaurarLayoutVentana: Unload() [" & LayoutOriginal & "]"
+    CambiarTecladoForzado LayoutOriginal
+    DoEvents
+    Sleep 100
+        
+    'Terminar proceso completo
+    End
 End Sub
 
 

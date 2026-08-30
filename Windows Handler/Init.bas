@@ -3,8 +3,8 @@ Option Explicit
 
 Private Declare Function ShowWindow Lib "user32" (ByVal hwnd As Long, ByVal nCmdShow As Long) As Long
 Private Const SW_SHOWMINIMIZED = 2
-
 Private Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+Global CargadoPorParametros As Boolean
 
 Public Sub Main()
     Dim args() As String
@@ -44,16 +44,16 @@ Public Sub Main()
     ' Ejecutar secuencia N veces
     If LCase$(Right$(sFile, 4)) = ".sca" Then
         
-        Dim frmPrincipal As New Form1
-        frmPrincipal.Show
-        
+        CargadoPorParametros = True
+        Load Form1
+
         ' Mostrar minimizado
-        ShowWindow frmPrincipal.hwnd, SW_SHOWMINIMIZED
+        ShowWindow Form1.hwnd, SW_SHOWMINIMIZED
     
-        frmPrincipal.AbrirProyecto App.Path & "\" & sFile
+        Form1.AbrirProyecto App.Path & "\" & sFile
         
         For i = 1 To nVeces
-            frmPrincipal.EjecutarSecuencia
+            Form1.CmdSecClick
             
             ' Esperar entre ejecuciones si corresponde
             If tiempoEspera > 0 And i < nVeces Then
