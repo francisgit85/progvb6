@@ -13,6 +13,7 @@ Module=Funciones_API; Funciones.bas
 Class=clsEnum; clsEnum.cls
 Module=Init; Init.bas
 Module=ModLayout; ModLayout.bas
+Module=modAutomation; modAutomation.bas
 IconForm="Form1"
 Startup="Sub Main"
 HelpFile=""

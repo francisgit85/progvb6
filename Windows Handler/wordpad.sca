@@ -1,7 +1,7 @@
 [Meta]
 Count=7
 [Proyecto]
-CerrarAlFinalizar=0
+CerrarAlFinalizar=1
 [Evento1]
 Id=1
 Habilitado=1
